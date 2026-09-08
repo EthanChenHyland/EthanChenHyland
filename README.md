@@ -1,7 +1,7 @@
 <!-- hero:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/ascii-dark.svg">
-  <img src="generated/ascii.svg" width="620" alt="A tree frog resting on a leaf, reconstructed from Ethan&#x27;s supplied photograph in fine monochrome ASCII. Its round eye and folded front toes form the focal point.">
+  <img src="generated/ascii.svg" width="620" alt="A frog facing right, reconstructed from the supplied photograph in monochrome ASCII. A large round eye, arched back, folded legs, and long toes define its silhouette.">
 </picture>
 
 <!-- hero:end -->

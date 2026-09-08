@@ -28,7 +28,7 @@ used exclusively for the image conversion and its tests.
 frog photograph. The original pixels are preserved in that source file.
 `assets/source/hero.json` stores its crop, character density, tone curve,
 accessible description, and a hand-traced, softly feathered silhouette matte.
-The matte removes the green background and leaf; it does not synthesize pixels.
+The matte removes the background and floor shadow; it does not synthesize pixels.
 
 ```sh
 python scripts/make_ascii.py assets/source/hero.png
