@@ -1,0 +1,2 @@
+# Only needed to reconstruct the uploaded hero. Data generation is stdlib-only.
+Pillow==11.3.0
