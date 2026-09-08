@@ -247,12 +247,12 @@ def render(data, out):
         body += text(0,55,'No public projects to show yet.',12,'muted')
     write_pair(out,'recent','Recent work',' '.join(summaries) or 'No public projects.',max(100, 34+114*len(recent)),body)
 
-    for i, (name, title) in enumerate((('about','ABOUT'),('recent','RECENT WORK'),('stack','STACK'),('stats','STATS'),('colophon','ABOUT THIS PAGE')),1):
+    for i, (name, title) in enumerate((('about','ABOUT'),('recent','RECENT WORK'),('stack','STACK'),('stats','STATS')),1):
         body = text(0,31,f'{i:02d}',10,'muted') + text(30,31,title,11) + line(50+len(title)*7,27,620,27)
         write_pair(out,'hd-'+name,title,title,58,body)
-    body = text(0,21,'ETHAN CHEN',22,extra='letter-spacing="3"') + text(0,49,'@'+data['login'],12,'muted')
+    body = text(0,21,'ETHAN B. CHEN',22,extra='letter-spacing="3"') + text(0,49,'@'+data['login'],12,'muted')
     body += text(620,49,'CODE / EXPERIMENTS / SYSTEMS',9,'muted','end')
-    write_pair(out,'identity','Ethan Chen','Ethan Chen, @'+data['login'],78,body)
+    write_pair(out,'identity','Ethan B. Chen','Ethan B. Chen, @'+data['login'],78,body)
     return description, streak_desc, lang_desc, recent
 
 

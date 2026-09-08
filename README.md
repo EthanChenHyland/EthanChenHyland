@@ -8,7 +8,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/identity-dark.svg">
-  <img src="generated/identity.svg" width="620" alt="Ethan Chen · @EthanChenHyland · Code, experiments, systems">
+  <img src="generated/identity.svg" width="620" alt="Ethan B. Chen · @EthanChenHyland · Code, experiments, systems">
 </picture>
 
 <picture>
@@ -85,14 +85,3 @@ HTML: 3,831,364 bytes (49.4%), 2 repositories; Python: 1,388,247 bytes (17.9%), 
 [Daily contribution data](generated/activity.json)
 
 </details>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="generated/hd-colophon-dark.svg">
-  <img src="generated/hd-colophon.svg" width="620" alt="05 / About this page">
-</picture>
-
-Drawn here, from GitHub data. Local Python scripts generate every graphic;<br>
-[a daily Action](.github/workflows/profile.yml) keeps them current. No badge servers.<br>
-The frog reconstructs once with native SVG animation; everything else stays still.
-
-[Source & methodology](docs/maintenance.md) · [IBM Plex Mono](assets/fonts/OFL.txt)
