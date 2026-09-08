@@ -35,10 +35,14 @@ python scripts/make_ascii.py assets/source/hero.png
 ```
 
 This inserts the hero into its README marker and creates both SVG themes. The
-pipeline adjusts tonal contrast, sharpens at character resolution, and corrects
+pipeline adjusts tonal contrast, smooths isolated noise, sharpens at character resolution, and corrects
 for monospace aspect ratio. Edit the JSON for art direction; the generator,
 workflow, and reproducibility check all read the same settings. For a different
 source, replace the PNG and update/remove the image-specific matte and crop.
+
+Light and dark themes use opposite ink-density mappings, keeping the pupil
+dark and the lit throat bright on either background. The background matte stays
+transparent in both versions. No extra imaging dependencies are required.
 
 The SVG reveal runs once over 1.6 seconds using native SMIL, with no JavaScript.
 Its underlying clip is fully open, so unsupported animation shows the finished
@@ -91,8 +95,11 @@ backgrounds; grayscale ink; 1px rules; consistent type and numbered sections.
 Separate `-dark.svg` variants selected by GitHub-supported `<picture>` elements
 avoid depending only on a viewer's operating-system theme inside an SVG.
 Each SVG has a title and description; README images have alt text and the
-activity has a native text equivalent. Repository links stay in Markdown,
-since SVG links are not interactive when the graphic is loaded as an image.
+activity has a native text equivalent. The composition is centered with GitHub-supported HTML alignment. Native
+section links jump to work, languages, and activity. Each `work-N.svg` pair is
+wrapped in an HTML link, making the whole card keyboard-accessible and clickable.
+The frog links to the source photo; activity details expand with native HTML.
+No click handlers or external scripts are embedded in SVG images.
 
 `python scripts/preview.py` builds local light, dark, and narrow previews in
 `.preview/`. Serve the repository with `python -m http.server 8765` and visit

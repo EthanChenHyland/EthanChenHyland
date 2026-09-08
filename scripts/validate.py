@@ -33,7 +33,11 @@ def main():
     readme = (ROOT/'README.md').read_text()
     for name in re.findall(r'(?:src|srcset)="([^"]+)"',readme):
         assert (ROOT/name).is_file(), f'Missing image {name}'
-    for name in re.findall(r'\]\(([^)]+)\)', readme):
+    anchors = set(re.findall(r'<a (?:name|id)="([^"]+)"',readme))
+    links = re.findall(r'\]\(([^)]+)\)',readme) + re.findall(r'href="([^"]+)"',readme)
+    for name in links:
+        if name.startswith('#'):
+            assert name[1:] in anchors, f'Missing section anchor {name}'
         if not name.startswith(('https://','http://','#')):
             assert (ROOT/name).exists(), f'Missing link {name}'
     with tempfile.TemporaryDirectory() as temp:

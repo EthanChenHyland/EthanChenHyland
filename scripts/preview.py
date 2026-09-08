@@ -10,7 +10,7 @@ def main():
     content = re.sub(r'<!--[\s\S]*?-->', '', content)
     content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', content)
     content = content.replace('src="generated/', 'src="../generated/').replace('srcset="generated/', 'srcset="../generated/')
-    content = re.sub(r'href="(?!https?://)([^"]+)"',r'href="../\1"',content)
+    content = re.sub(r'href="(?!https?://|#)([^"]+)"',r'href="../\1"',content)
     # Use native README HTML plus paragraph wrappers, without a markdown dependency.
     content = '\n'.join('<p>'+block+'</p>' if not block.lstrip().startswith('<') else block for block in content.split('\n\n'))
     def themed(theme):
@@ -20,7 +20,7 @@ def main():
         return result
     html = '''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ethan B. Chen / profile proof</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#dce1e6;font:14px/1.7 -apple-system,BlinkMacSystemFont,Arial,sans-serif}header{padding:20px 32px;font:12px monospace;color:#454d56}main{display:flex;align-items:flex-start;gap:24px;padding:0 24px 40px;flex-wrap:wrap}.sheet{width:684px;padding:32px;background:#fff;color:#1f2328;overflow:hidden}.dark{background:#0d1117;color:#e6edf3}.narrow{width:375px;padding:20px}.sheet img{max-width:100%;height:auto;display:block}p{margin:0 0 18px}picture{display:block;margin:0 0 16px}a{color:inherit;text-underline-offset:3px}details{font-size:12px;margin:18px 0}summary{cursor:pointer;color:#76818d}.label{font:10px monospace;letter-spacing:2px;margin:0 0 32px;color:#76818d}
+*{box-sizing:border-box}body{margin:0;background:#dce1e6;font:14px/1.7 -apple-system,BlinkMacSystemFont,Arial,sans-serif}header{padding:20px 32px;font:12px monospace;color:#454d56}main{display:flex;align-items:flex-start;gap:24px;padding:0 24px 40px;flex-wrap:wrap}.sheet{width:684px;padding:32px;background:#fff;color:#1f2328;overflow:hidden}.dark{background:#0d1117;color:#e6edf3}.narrow{width:375px;padding:20px}.sheet img{max-width:100%;height:auto;display:block;margin-inline:auto}p{margin:0 0 18px}picture{display:block;margin:0 0 16px}a{color:inherit;text-underline-offset:3px}details{font-size:12px;margin:18px 0}summary{cursor:pointer;color:#76818d}.label{font:10px monospace;letter-spacing:2px;margin:0 0 32px;color:#76818d}
 </style><header>ETHAN B. CHEN / README PROOF · LIGHT / DARK / 375PX</header><main>'''
     for label,cls,theme in [('LIGHT','sheet','light'),('DARK','sheet dark','dark'),('MOBILE','sheet narrow','light')]:
         html += f'<article class="{cls}"><div class="label">{label}</div>{themed(theme)}</article>'

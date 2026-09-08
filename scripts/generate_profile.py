@@ -179,7 +179,7 @@ def render(data, out):
         body += text(x, 16, title, 10, 'muted') + text(x, 67, len(run), 42)
         body += text(x + 83, 66, 'day' if len(run) == 1 else 'days', 12, 'muted') + text(x, 97, range_label(run), 10, 'muted')
     body += line(310, 0, 310, 106) + text(0, 128, 'UTC days · today may still be in progress', 10, 'muted')
-    streak_desc = f'Current: {len(current)} days ({range_label(current)}). Longest within the last 365 days: {len(longest)} days ({range_label(longest)}).'
+    streak_desc = f'Current: {len(current)} {"day" if len(current) == 1 else "days"} ({range_label(current)}). Longest within the last 365 days: {len(longest)} days ({range_label(longest)}).'
     write_pair(out, 'streak', 'Consistency', streak_desc, 149, body)
 
     sizes, counts = language_totals(repos)
@@ -234,6 +234,7 @@ def render(data, out):
     body = text(0,16,'LATEST PUBLIC PUSHES',10,'muted') + text(620,16,'REPOSITORY / LANGUAGE',10,'muted','end')
     summaries = []
     for i, repo in enumerate(recent):
+        card_start = len(body)
         y = 52 + i * 114
         body += text(0, y, f'{i+1:02d}', 11, 'muted') + text(30, y, textwrap.shorten(repo['name'], width=38, placeholder='…'), 15)
         body += text(620,y,repo['primary'],10,'muted','end')
@@ -243,6 +244,9 @@ def render(data, out):
             body += text(30, y+24+j*17,content,11,'muted')
         body += text(30, y+66, 'PUSHED ' + repo['pushed'],9,'muted') + line(30,y+84,620,y+84)
         summaries.append(f'{repo["name"]} ({repo["primary"]}), pushed {repo["pushed"]}. {desc}')
+        card = f'<g transform="translate(0,{-28-i*114})">{body[card_start:]}</g>'
+        card += text(620,90,'OPEN REPOSITORY →',9,'muted','end')
+        write_pair(out,f'work-{i+1}',repo['name'],summaries[-1],116,card)
     if not recent:
         body += text(0,55,'No public projects to show yet.',12,'muted')
     write_pair(out,'recent','Recent work',' '.join(summaries) or 'No public projects.',max(100, 34+114*len(recent)),body)
@@ -250,17 +254,18 @@ def render(data, out):
     for i, (name, title) in enumerate((('about','ABOUT'),('recent','RECENT WORK'),('stack','STACK'),('stats','STATS')),1):
         body = text(0,31,f'{i:02d}',10,'muted') + text(30,31,title,11) + line(50+len(title)*7,27,620,27)
         write_pair(out,'hd-'+name,title,title,58,body)
-    body = text(0,21,'ETHAN B. CHEN',22,extra='letter-spacing="3"') + text(0,49,'@'+data['login'],12,'muted')
-    body += text(620,49,'CODE / EXPERIMENTS / SYSTEMS',9,'muted','end')
-    write_pair(out,'identity','Ethan B. Chen','Ethan B. Chen, @'+data['login'],78,body)
+    body = text(310,26,'ETHAN B. CHEN',26,anchor='middle',extra='letter-spacing="3"') + text(310,53,'@'+data['login'],12,'muted','middle')
+    body += text(310,78,'CODE / EXPERIMENTS / SYSTEMS',9,'muted','middle')
+    write_pair(out,'identity','Ethan B. Chen','Ethan B. Chen, @'+data['login'],102,body)
     return description, streak_desc, lang_desc, recent
 
 
 def update_readme(path, summary, streak, langs, recent):
     content = path.read_text()
+    language_list = '\n'.join('- '+item for item in langs.split('; '))
     recent_text = '\n\n'.join(f'**{r["name"]}** ({r["primary"]}), pushed {r["pushed"]}. {repository_description(r)}' for r in recent)
-    links = ' · '.join(f'[{r["name"]}]({r["url"]})' for r in recent)
-    for name, replacement in (('recent-links', links), ('activity-text', f'{summary}\n\n{streak}\n\n{langs}\n\n{recent_text}')):
+    links = '\n\n'.join(f'<a href="{esc(r["url"])}" title="Open {esc(r["name"])}">\n'+picture(f'work-{i+1}',f'{r["name"]}: {repository_description(r)} — open repository')+'\n</a>' for i,r in enumerate(recent))
+    for name, replacement in (('recent-links', links), ('activity-text', f'{summary}\n\n{streak}\n\n**Languages**\n\n{language_list}\n\n**Recent work**\n\n{recent_text}')):
         pattern = rf'(<!-- {name}:start -->).*?(<!-- {name}:end -->)'
         content, count = re.subn(pattern, lambda m: m[1]+'\n'+replacement+'\n'+m[2], content, flags=re.S)
         if count != 1:

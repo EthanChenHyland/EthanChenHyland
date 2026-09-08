@@ -84,6 +84,21 @@ class AsciiTests(unittest.TestCase):
                 animate = root.find('.//{http://www.w3.org/2000/svg}animate')
                 self.assertEqual(animate.attrib['repeatCount'],'1')
 
+    def test_dark_tones_preserve_pupil_and_transparency(self):
+        image = Image.new('RGBA',(200,100),(255,255,255,255))
+        for x in range(100):
+            for y in range(100):
+                image.putpixel((x,y),(0,0,0,255))
+        for x in range(180,200):
+            for y in range(100):
+                image.putpixel((x,y),(255,255,255,0))
+        light = prepare(image,crop=(0,0,200,100),columns=100,theme='light')
+        dark = prepare(image,crop=(0,0,200,100),columns=100,theme='dark')
+        self.assertEqual(light[10][20],'@')
+        self.assertEqual(dark[10][20],' ')
+        self.assertEqual(dark[10][70],'@')
+        self.assertEqual(dark[10][97],' ')
+
     def test_transparent_image_and_invalid_crop_rejected(self):
         with self.assertRaises(ValueError):
             prepare(Image.new('RGBA',(10,10),(0,0,0,0)))

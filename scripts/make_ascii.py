@@ -11,13 +11,13 @@ from pathlib import Path
 import re
 
 from PIL import Image, ImageChops, ImageFilter, ImageOps, ImageDraw
-from svg import ROOT, esc, text, write_pair
+from svg import ROOT, esc, text, write_pair, document
 from generate_profile import picture
 
 RAMP = ' .,:;irsXA253hMHGS#9B&@'
 
 
-def prepare(source, crop=None, columns=124, gamma=0.85, matte=None, matte_feather=1.1):
+def prepare(source, crop=None, columns=124, gamma=0.85, matte=None, matte_feather=1.1, theme='light'):
     image = ImageOps.exif_transpose(source).convert('RGBA')
     if matte:
         mask = Image.new('L', image.size, 0)
@@ -37,6 +37,7 @@ def prepare(source, crop=None, columns=124, gamma=0.85, matte=None, matte_feathe
     background = Image.new('RGBA',image.size,'white')
     background.alpha_composite(image)
     gray = ImageOps.grayscale(background)
+    alpha = image.getchannel('A')
     # Trim only near-uniform light borders, never assume a face or crop the center.
     if not crop:
         corners = [gray.getpixel(p) for p in ((0,0),(gray.width-1,0),(0,gray.height-1),(gray.width-1,gray.height-1))]
@@ -45,7 +46,9 @@ def prepare(source, crop=None, columns=124, gamma=0.85, matte=None, matte_feathe
             box = diff.point(lambda p: 255 if p > 22 else 0).getbbox()
             if box:
                 pad = max(4,round(min(gray.size)*0.035))
-                gray = gray.crop((max(0,box[0]-pad),max(0,box[1]-pad),min(gray.width,box[2]+pad),min(gray.height,box[3]+pad)))
+                trim = (max(0,box[0]-pad),max(0,box[1]-pad),min(gray.width,box[2]+pad),min(gray.height,box[3]+pad))
+                gray = gray.crop(trim)
+                alpha = alpha.crop(trim)
     # 0.60-em glyph width / 1.15-em line height maintains the source aspect ratio.
     rows = max(1,round(gray.height/gray.width*columns*0.60/1.15))
     if rows > 88:
@@ -53,13 +56,20 @@ def prepare(source, crop=None, columns=124, gamma=0.85, matte=None, matte_feathe
         rows = 88
     gray = ImageOps.autocontrast(gray,cutoff=0.5)
     gray = gray.resize((columns,rows),Image.Resampling.LANCZOS)
-    gray = gray.filter(ImageFilter.UnsharpMask(radius=1,percent=105,threshold=3))
+    gray = gray.filter(ImageFilter.MedianFilter(3))
+    gray = gray.filter(ImageFilter.UnsharpMask(radius=1,percent=140,threshold=4))
     table = [round(255*(i/255)**gamma) for i in range(256)]
     gray = gray.point(table)
-    return [''.join(RAMP[round((255-gray.getpixel((x,y)))/255*(len(RAMP)-1))] for x in range(columns)) for y in range(rows)]
+    alpha = alpha.resize((columns,rows),Image.Resampling.LANCZOS)
+    def glyph(x,y):
+        value = gray.getpixel((x,y))/255
+        opacity = alpha.getpixel((x,y))/255
+        density = (1-value) if theme == 'light' else max(0,value-(1-opacity))
+        return RAMP[round(density*(len(RAMP)-1))]
+    return [''.join(glyph(x,y) for x in range(columns)) for y in range(rows)]
 
 
-def render_ascii(rows,out,alt):
+def render_ascii(rows,out,alt,theme=None):
     fontsize = min(7.8, 580/(len(rows[0])*0.6))
     leading = fontsize*1.15
     left = (620-len(rows[0])*fontsize*0.6)/2
@@ -72,7 +82,12 @@ def render_ascii(rows,out,alt):
     defs = (f'<clipPath id="reveal"><rect width="620" height="{height}">'
             f'<animate attributeName="height" from="0" to="{height}" dur="1.6s" begin="0s" repeatCount="1" fill="freeze"/>'
             '</rect></clipPath>')
-    write_pair(out,'ascii','ASCII reconstruction',alt,height,body,defs)
+    if theme is None:
+        write_pair(out,'ascii','ASCII reconstruction',alt,height,body,defs)
+    else:
+        Path(out).mkdir(parents=True,exist_ok=True)
+        suffix = '-dark' if theme == 'dark' else ''
+        (Path(out)/f'ascii{suffix}.svg').write_text(document('ASCII reconstruction',alt,height,body,theme,defs))
 
 
 def main():
@@ -96,10 +111,11 @@ def main():
     if args.crop and len(args.crop) != 4:
         parser.error('Crop needs four comma-separated coordinates')
     with Image.open(args.source) as source:
-        rows = prepare(source,args.crop,args.columns,args.gamma,config.get('matte'),config.get('matte_feather',1.1))
-    render_ascii(rows,args.output,args.alt)
+        for theme in ('light','dark'):
+            rows = prepare(source,args.crop,args.columns,args.gamma,config.get('matte'),config.get('matte_feather',1.1),theme)
+            render_ascii(rows,args.output,args.alt,theme)
     content,count = re.subn(r'(<!-- hero:start -->).*?(<!-- hero:end -->)',
-        lambda m: m[1]+'\n'+picture('ascii',args.alt)+'\n\n'+m[2],args.readme.read_text(),flags=re.S)
+        lambda m: m[1]+'\n<a href="assets/source/hero.png" title="View the original photograph">\n'+picture('ascii',args.alt).replace('width="620"','width="540"')+'\n</a>\n\n'+m[2],args.readme.read_text(),flags=re.S)
     if count != 1:
         raise ValueError('README must contain one hero marker pair')
     args.readme.write_text(content)
