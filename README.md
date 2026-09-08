@@ -17,7 +17,7 @@
   <img src="generated/identity.svg" width="620" alt="Ethan B. Chen · @EthanChenHyland · Code, experiments, systems">
 </picture>
 
-<p><samp><a href="#work">WORK</a> · <a href="#languages">LANGUAGES</a> · <a href="#activity">ACTIVITY</a></samp></p>
+<p><samp><a href="#user-content-work">WORK</a> · <a href="#user-content-languages">LANGUAGES</a> · <a href="#user-content-activity">ACTIVITY</a></samp></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/stats-dark.svg">

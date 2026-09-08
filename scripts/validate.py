@@ -37,7 +37,7 @@ def main():
     links = re.findall(r'\]\(([^)]+)\)',readme) + re.findall(r'href="([^"]+)"',readme)
     for name in links:
         if name.startswith('#'):
-            assert name[1:] in anchors, f'Missing section anchor {name}'
+            assert name[1:].removeprefix('user-content-') in anchors, f'Missing section anchor {name}'
         if not name.startswith(('https://','http://','#')):
             assert (ROOT/name).exists(), f'Missing link {name}'
     with tempfile.TemporaryDirectory() as temp:

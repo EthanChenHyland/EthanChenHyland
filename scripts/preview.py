@@ -7,6 +7,7 @@ from svg import ROOT
 
 def main():
     content = (ROOT/'README.md').read_text()
+    content = re.sub(r'<a name="([^"]+)"',r'<a name="user-content-\1"',content)
     content = re.sub(r'<!--[\s\S]*?-->', '', content)
     content = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', content)
     content = content.replace('src="generated/', 'src="../generated/').replace('srcset="generated/', 'srcset="../generated/')
