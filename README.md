@@ -28,6 +28,15 @@
 <p>I’m Ethan. My public projects span machine learning, music analysis,<br>
 and tools for the web. This page follows the work as it changes.</p>
 
+<!-- discovery:start -->
+<details>
+<summary><samp>THE FROG PICKED A PROJECT FOR YOU</samp></summary>
+<p><b><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">PianoMirRustPublic</a></b></p>
+<p>Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo.</p>
+<p><sub>A rotating daily spotlight · 2026-09-09 UTC</sub></p>
+</details>
+<!-- discovery:end -->
+
 <a name="work"></a>
 
 <picture>
@@ -122,6 +131,26 @@ and tools for the web. This page follows the work as it changes.</p>
   <img src="generated/langs.svg" width="620" alt="Languages by approximate code size and number of public non-fork repositories. Text data below.">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="generated/atlas-dark.svg">
+  <img src="generated/atlas.svg" width="620" alt="Project atlas: connections between repositories and their languages. Expand the comparison below for all languages.">
+</picture>
+
+<!-- comparison:start -->
+<details>
+<summary><samp>COMPARE THE PROJECTS</samp></summary>
+<table>
+<tr><th>Project</th><th>Languages by code size</th><th>Last push · UTC</th><th>Status</th></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/FunChessEngine">FunChessEngine</a></td><td>JavaScript · Python · HTML · CSS · Makefile · Shell</td><td>2026-09-04</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/kitcoscraper">kitcoscraper</a></td><td>JavaScript</td><td>2026-08-30</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">PianoMirRustPublic</a></td><td>Rust · Python</td><td>2026-08-30</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/the-great-prompt-off">the-great-prompt-off</a></td><td>TypeScript · PLpgSQL · JavaScript · CSS</td><td>2026-08-30</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/TowerLogic">TowerLogic</a></td><td>Python · Shell</td><td>2026-08-31</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/wifi-concierge-site">wifi-concierge-site</a></td><td>HTML</td><td>2026-08-30</td><td>Open</td></tr>
+</table>
+</details>
+<!-- comparison:end -->
+
 <a name="activity"></a>
 
 <picture>
@@ -144,6 +173,11 @@ and tools for the web. This page follows the work as it changes.</p>
   <img src="generated/year.svg" width="620" alt="A year of contributions as ASCII: each column is a week, Sunday through Saturday. Denser characters mean more contributions.">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="generated/milestones-dark.svg">
+  <img src="generated/milestones.svg" width="620" alt="Next contribution, active-day and language checkpoints. Activity uses the last 365 days; text values below.">
+</picture>
+
 <details>
 <summary><samp>EXPLORE THE NUMBERS</samp></summary>
 
@@ -155,6 +189,8 @@ and tools for the web. This page follows the work as it changes.</p>
 Current: 1 day (2026-09-08 / 2026-09-08). Longest within the last 365 days: 6 days (2026-08-29 / 2026-09-03).
 
 Last 7 UTC days: 33 contributions; previous 7 days: 70; last 30 days: 133 contributions over 12 active days. Includes today, which is unfinished.
+
+contributions: 247, next checkpoint 300; active days: 22, next checkpoint 25; languages: 9, next checkpoint 10. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
 
 **Languages**
 

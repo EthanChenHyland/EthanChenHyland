@@ -18,6 +18,7 @@ import urllib.request
 
 from svg import ROOT, esc, line, rect, text, write_pair
 from features import draw_pulse, project_notes, project_index
+from observatory import draw_atlas, draw_milestones, comparison, discovery
 
 REPOS = '''query($login:String!, $cursor:String) {
  user(login:$login) { repositories(first:100,after:$cursor,privacy:PUBLIC,
@@ -269,15 +270,17 @@ def render(data, out):
     body = text(310,26,'ETHAN B. CHEN',26,anchor='middle',extra='letter-spacing="3"') + text(310,53,'@'+data['login'],12,'muted','middle')
     body += text(310,78,'CODE / EXPERIMENTS / SYSTEMS',9,'muted','middle')
     write_pair(out,'identity','Ethan B. Chen','Ethan B. Chen, @'+data['login'],102,body)
-    return description, streak_desc, lang_desc, recent, repos, draw_pulse(days,out)
+    draw_atlas(repos,out)
+    checkpoints = draw_milestones(days,repos,out)
+    return description, streak_desc, lang_desc, recent, repos, draw_pulse(days,out), checkpoints, discovery(data,repository_description)
 
 
-def update_readme(path, summary, streak, langs, recent, repos, pulse):
+def update_readme(path, summary, streak, langs, recent, repos, pulse, checkpoints, discovery_html):
     content = path.read_text()
     language_list = '\n'.join('- '+item for item in langs.split('; '))
     recent_text = '\n\n'.join(f'**{r["name"]}** ({r["primary"]}), pushed {r["pushed"]}. {repository_description(r)}' for r in recent)
     links = '\n\n'.join(f'<a href="{esc(r["url"])}" title="Open {esc(r["name"])}">\n'+picture(f'work-{i+1}',f'{r["name"]}: {repository_description(r)} — open repository')+'\n</a>\n\n'+project_notes(r,repository_description(r)) for i,r in enumerate(recent))
-    for name, replacement in (('recent-links', links), ('project-index',project_index(repos)), ('activity-text', f'{summary}\n\n{streak}\n\n{pulse}\n\n**Languages**\n\n{language_list}\n\n**Recent work**\n\n{recent_text}')):
+    for name, replacement in (('discovery',discovery_html), ('comparison',comparison(repos)), ('recent-links', links), ('project-index',project_index(repos)), ('activity-text', f'{summary}\n\n{streak}\n\n{pulse}\n\n{checkpoints}\n\n**Languages**\n\n{language_list}\n\n**Recent work**\n\n{recent_text}')):
         pattern = rf'(<!-- {name}:start -->).*?(<!-- {name}:end -->)'
         content, count = re.subn(pattern, lambda m: m[1]+'\n'+replacement+'\n'+m[2], content, flags=re.S)
         if count != 1:

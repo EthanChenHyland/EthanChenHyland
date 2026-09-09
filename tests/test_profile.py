@@ -59,7 +59,7 @@ class ActivityTests(unittest.TestCase):
             data = {'as_of':days([0]*365)[-1]['date'],'login':'Example','days':days([0]*365),'repositories':[]}
             render(data,tmp)
             data['repositories']=[{'name':'A&B<repo>','primary':'Python','description':'<script> & "quoted"\x01',
-                                   'pushed':'2026-01-01','archived':False,'languages':{'Python':1}}]
+                                   'url':'https://github.com/Example/example','pushed':'2026-01-01','archived':False,'languages':{'Python':1}}]
             render(data,tmp)
             for path in Path(tmp).glob('*.svg'):
                 ET.parse(path)
