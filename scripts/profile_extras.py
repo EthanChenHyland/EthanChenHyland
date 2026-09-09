@@ -5,6 +5,7 @@ from svg import ROOT, text, write_pair, esc
 from field_guide import field_guide
 from profile_arcade import arcade
 from profile_explorer import explorer
+from replay_book import replay_book, logic_corner
 
 
 def extras(data, out):
@@ -56,4 +57,6 @@ def extras(data, out):
 </details>
 {field_guide(data)}
 {arcade(data,out)}
-{explorer(data)}'''
+{explorer(data)}
+{replay_book(out)}
+{logic_corner()}'''

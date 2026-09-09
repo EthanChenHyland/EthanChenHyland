@@ -288,6 +288,59 @@ and tools for the web. This page follows the work as it changes.</p>
 <p>0 active days across 21 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-09-10 through 2025-09-30 UTC.</sub></p>
 </details>
 </details>
+<details>
+<summary><samp>THE REPLAY BOOK · A CHESS GAME IN SIX CHAPTERS</samp></summary>
+<p>Read the captured FunChessEngine self-play at your own pace. Open chapters in order, or compare boards by leaving multiple chapters expanded. This is a 24-half-move excerpt, not a completed game.</p><details>
+<summary><samp>HOW TO READ THE REPLAY</samp></summary>
+<p>Each chapter covers two full turns. The diagram shows the position at the end of that chapter; the highlighted square is the last move’s destination.</p><p>N = knight, B = bishop, R = rook, Q = queen, K = king. A move without a piece letter is a pawn move; x means capture, + means check, and # means checkmate.</p><p>A half-move is one player’s turn. Nodes count positions searched; depth is the reported search depth. Zero nodes means no search was recorded for that move.</p>
+</details>
+<details>
+<summary><samp>CHAPTER 1 · MOVES 1–2</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/replay-page-1-dark.svg"><img src="generated/replay-page-1.svg" width="620" alt="Recorded board after 4 half-moves. Last move Nf6, from g8 to f6."></picture><table><tr><th>Turn</th><th>Played</th><th>Recorded search</th></tr><tr><td>1. White</td><td>c4</td><td>No search recorded</td></tr><tr><td>1… Black</td><td>e5</td><td>No search recorded</td></tr><tr><td>2. White</td><td>Nc3</td><td>No search recorded</td></tr><tr><td>2… Black</td><td>Nf6</td><td>No search recorded</td></tr></table>
+</details>
+<details>
+<summary><samp>CHAPTER 2 · MOVES 3–4</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/replay-page-2-dark.svg"><img src="generated/replay-page-2.svg" width="620" alt="Recorded board after 8 half-moves. Last move Nxd5, from f6 to d5."></picture><table><tr><th>Turn</th><th>Played</th><th>Recorded search</th></tr><tr><td>3. White</td><td>g3</td><td>No search recorded</td></tr><tr><td>3… Black</td><td>d5</td><td>No search recorded</td></tr><tr><td>4. White</td><td>cxd5</td><td>No search recorded</td></tr><tr><td>4… Black</td><td>Nxd5</td><td>No search recorded</td></tr></table>
+</details>
+<details>
+<summary><samp>CHAPTER 3 · MOVES 5–6</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/replay-page-3-dark.svg"><img src="generated/replay-page-3.svg" width="620" alt="Recorded board after 12 half-moves. Last move Nc6, from b8 to c6."></picture><table><tr><th>Turn</th><th>Played</th><th>Recorded search</th></tr><tr><td>5. White</td><td>Bg2</td><td>No search recorded</td></tr><tr><td>5… Black</td><td>Nb6</td><td>No search recorded</td></tr><tr><td>6. White</td><td>Qb3</td><td>4,087 nodes · depth 3</td></tr><tr><td>6… Black</td><td>Nc6</td><td>138 nodes · depth 2</td></tr></table>
+</details>
+<details>
+<summary><samp>CHAPTER 4 · MOVES 7–8</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/replay-page-4-dark.svg"><img src="generated/replay-page-4.svg" width="620" alt="Recorded board after 16 half-moves. Last move Bc5, from f8 to c5."></picture><table><tr><th>Turn</th><th>Played</th><th>Recorded search</th></tr><tr><td>7. White</td><td>Bxc6+</td><td>3,787 nodes · depth 3</td></tr><tr><td>7… Black</td><td>bxc6</td><td>2,403 nodes · depth 4</td></tr><tr><td>8. White</td><td>Qc2</td><td>1,358 nodes · depth 3</td></tr><tr><td>8… Black</td><td>Bc5</td><td>577 nodes · depth 3</td></tr></table>
+</details>
+<details>
+<summary><samp>CHAPTER 5 · MOVES 9–10</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/replay-page-5-dark.svg"><img src="generated/replay-page-5.svg" width="620" alt="Recorded board after 20 half-moves. Last move Nd7, from b6 to d7."></picture><table><tr><th>Turn</th><th>Played</th><th>Recorded search</th></tr><tr><td>9. White</td><td>Qe4</td><td>142 nodes · depth 3</td></tr><tr><td>9… Black</td><td>Qd6</td><td>734 nodes · depth 2</td></tr><tr><td>10. White</td><td>Nf3</td><td>130 nodes · depth 2</td></tr><tr><td>10… Black</td><td>Nd7</td><td>188 nodes · depth 2</td></tr></table>
+</details>
+<details>
+<summary><samp>CHAPTER 6 · MOVES 11–12</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/replay-page-6-dark.svg"><img src="generated/replay-page-6.svg" width="620" alt="Recorded board after 24 half-moves. Last move Qg6, from d6 to g6."></picture><table><tr><th>Turn</th><th>Played</th><th>Recorded search</th></tr><tr><td>11. White</td><td>d4</td><td>738 nodes · depth 2</td></tr><tr><td>11… Black</td><td>Bb6</td><td>152 nodes · depth 2</td></tr><tr><td>12. White</td><td>dxe5</td><td>156 nodes · depth 2</td></tr><tr><td>12… Black</td><td>Qg6</td><td>333 nodes · depth 2</td></tr></table>
+</details><p><sub>Recorded source revision: daa903d73659.</sub></p>
+</details>
+<details>
+<summary><samp>THE LOGIC LILY PAD · THREE SMALL BRAINTEASERS</samp></summary>
+<p>Think through a puzzle, then open its explanation.</p><details>
+<summary><samp>01 · HOW MANY WAYS ACROSS THE POND?</samp></summary>
+<p>A frog starts on pad 0 and wants to reach pad 4. It can hop forward by one or two pads. How many distinct sequences of hops reach pad 4 exactly?</p><details>
+<summary><samp>REVEAL THE REASONING</samp></summary>
+<p><b>Five:</b> 1+1+1+1, 1+1+2, 1+2+1, 2+1+1, and 2+2.</p><p>Every route ends with a one-pad or two-pad hop, so ways(n) = ways(n−1) + ways(n−2). Start with ways(0) = 1 and ways(1) = 1.</p>
+</details>
+</details><details>
+<summary><samp>02 · THE FIREFLY MESSAGE</samp></summary>
+<p>Three fireflies can each be on or off. How many distinct patterns can they display, including all off?</p><details>
+<summary><samp>REVEAL THE REASONING</samp></summary>
+<p><b>Eight.</b> Each light doubles the possibilities: 2 × 2 × 2. In binary: 000, 001, 010, 011, 100, 101, 110, 111.</p><p>Add one more firefly and there are 16 patterns.</p>
+</details>
+</details><details>
+<summary><samp>03 · FIND THE HEAVIER PEBBLE</samp></summary>
+<p>Eight pebbles look identical. Exactly one is heavier. With a balance scale, can you always find it in two weighings?</p><details>
+<summary><samp>REVEAL THE REASONING</samp></summary>
+<p><b>Yes.</b> Weigh three against three. If they balance, weigh the two remaining pebbles against each other. Otherwise, take the heavier group of three and weigh one against another: the heavier one wins, or a balance identifies the third.</p><p>The three possible outcomes of a balance comparison let you narrow the candidates faster than a yes/no question.</p>
+</details>
+</details>
+</details>
 <!-- profile-extras:end -->
 
 <a name="work"></a>
