@@ -2,6 +2,7 @@
 import json
 from datetime import date
 from svg import ROOT, text, write_pair, esc
+from field_guide import field_guide
 
 
 def extras(data, out):
@@ -38,6 +39,10 @@ def extras(data, out):
   <img src="generated/puzzle.svg" width="620" alt="{esc(description)}">
 </picture>
 <details>
+<summary><samp>NEED A HINT?</samp></summary>
+<p>The queen delivers mate on rank <b>{move[3]}</b>. Look for a square that checks the king and removes its escape squares.</p>
+</details>
+<details>
 <summary><samp>REVEAL THE MOVE</samp></summary>
 <p><b>{esc(solution['san'])}</b> — move the queen from <b>{move[:2]}</b> to <b>{move[2:]}</b>. The black king is in check with no legal escape.</p>
 <p><sub>One of 16 verified practice positions, rotating daily. # means checkmate.</sub></p>
@@ -46,4 +51,5 @@ def extras(data, out):
 <summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · {total} CONTRIBUTIONS</samp></summary>
 <table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody>{rows}</tbody></table>
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
-</details>'''
+</details>
+{field_guide(data)}'''

@@ -13,7 +13,7 @@
   <img src="generated/identity.svg" width="620" alt="Ethan B. Chen · @EthanChenHyland · Code, experiments, systems">
 </picture>
 
-<p><samp><a href="#user-content-work">WORK</a> · <a href="#user-content-puzzle">DAILY PUZZLE</a> · <a href="#user-content-languages">LANGUAGES</a> · <a href="#user-content-activity">ACTIVITY</a></samp></p>
+<p><samp><a href="#user-content-work">WORK</a> · <a href="#user-content-puzzle">DAILY PUZZLE</a> · <a href="#user-content-field-guide">FIELD GUIDE</a> · <a href="#user-content-languages">LANGUAGES</a> · <a href="#user-content-activity">ACTIVITY</a></samp></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/stats-dark.svg">
@@ -53,6 +53,10 @@ and tools for the web. This page follows the work as it changes.</p>
   <img src="generated/puzzle.svg" width="620" alt="White queen on a7; White king on d3; Black king on e1. White to move, mate in one.">
 </picture>
 <details>
+<summary><samp>NEED A HINT?</samp></summary>
+<p>The queen delivers mate on rank <b>1</b>. Look for a square that checks the king and removes its escape squares.</p>
+</details>
+<details>
 <summary><samp>REVEAL THE MOVE</samp></summary>
 <p><b>Qg1#</b> — move the queen from <b>a7</b> to <b>g1</b>. The black king is in check with no legal escape.</p>
 <p><sub>One of 16 verified practice positions, rotating daily. # means checkmate.</sub></p>
@@ -61,6 +65,39 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 36 CONTRIBUTIONS</samp></summary>
 <table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-09</td><td>0</td></tr><tr><td>2026-09-08</td><td>10</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr><tr><td>2026-09-05</td><td>0</td></tr><tr><td>2026-09-04</td><td>0</td></tr><tr><td>2026-09-03</td><td>26</td></tr></tbody></table>
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
+</details>
+<a name="field-guide"></a>
+<p><samp>THE FIELD GUIDE · OPEN SOMETHING THAT INTERESTS YOU</samp></p>
+<details>
+<summary><samp>CHOOSE YOUR PATH</samp></summary>
+<p>Pick an interest to find a starting point in my work.</p>
+<details>
+<summary><samp>I LIKE GAMES &amp; SEARCH</samp></summary>
+<p><b>FunChessEngine</b></p><p>Follow a position from legal moves to search to evaluation. The recorded self-play demo below shows the engine choosing for both sides.</p><p><sub>JavaScript · Python · HTML · CSS · Makefile · Shell · latest push 2026-09-04</sub></p>
+</details>
+<details>
+<summary><samp>I LIKE MUSIC &amp; SIGNALS</samp></summary>
+<p><b>PianoMirRustPublic</b></p><p>Follow audio through pitch evidence and alignment with a known score. Open the lab results below to see what the captured example actually measured.</p><p><sub>Rust · Python · latest push 2026-08-30</sub></p>
+</details>
+<details>
+<summary><samp>I LIKE DATA &amp; AUTOMATION</samp></summary>
+<p><b>kitcoscraper</b></p><p>Explore the path from a web source to extracted data. The project notes show its latest public change.</p><p><sub>JavaScript · latest push 2026-08-30</sub></p>
+</details>
+<details>
+<summary><samp>I LIKE AI EXPERIMENTS</samp></summary>
+<p><b>the-great-prompt-off</b></p><p>Explore a project organized around comparing prompts. The project browser below contains its current languages and latest public activity.</p><p><sub>TypeScript · PLpgSQL · JavaScript · CSS · latest push 2026-08-30</sub></p>
+</details>
+</details>
+<details>
+<summary><samp>OPEN THE MUSIC ANALYSIS LAB</samp></summary>
+<p>One captured experiment: a 12-second synthesized Minuet excerpt compared with its source score.</p><table><tr><th>Measurement</th><th>Result</th><th>Meaning</th></tr><tr><td>Score-aligned verification</td><td>94.78 / 100</td><td>Overall evidence that this audio matches its known score.</td></tr><tr><td>Note score</td><td>99.86</td><td>Note matching component of this captured run.</td></tr><tr><td>Timing score</td><td>96.01</td><td>Timing alignment component.</td></tr><tr><td>Chroma score</td><td>66.95</td><td>Pitch-class evidence component.</td></tr><tr><td>Missing notes</td><td>0</td><td>Missing notes reported by this run.</td></tr></table><details>
+<summary><samp>WHAT DOES 94.78 ACTUALLY MEAN?</samp></summary>
+<p>The system was given the score. It checks whether the audio agrees with that score. These component scores are separate measurements, not percentages to add together.</p><p>This result does not measure a pianist’s skill or prove that the system can transcribe unfamiliar music. The input is synthesized, with no human performance.</p>
+</details>
+</details>
+<details>
+<summary><samp>THIS WEEK IN NUMBERS</samp></summary>
+<p><b>36 contributions</b> across 2 active days.</p><p>-34 contributions compared with the preceding seven days (70).</p><p>Busiest day: 2026-09-03 (26 contributions).</p><p><sub>2026-09-03 through 2026-09-09 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
 </details>
 <!-- profile-extras:end -->
 
