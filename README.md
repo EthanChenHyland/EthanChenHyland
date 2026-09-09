@@ -13,7 +13,7 @@
   <img src="generated/identity.svg" width="620" alt="Ethan B. Chen · @EthanChenHyland · Code, experiments, systems">
 </picture>
 
-<p><samp><a href="#user-content-work">WORK</a> · <a href="#user-content-languages">LANGUAGES</a> · <a href="#user-content-activity">ACTIVITY</a></samp></p>
+<p><samp><a href="#user-content-work">WORK</a> · <a href="#user-content-puzzle">DAILY PUZZLE</a> · <a href="#user-content-languages">LANGUAGES</a> · <a href="#user-content-activity">ACTIVITY</a></samp></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/stats-dark.svg">
@@ -45,6 +45,24 @@ and tools for the web. This page follows the work as it changes.</p>
 </a>
 
 <p><samp><a href="https://ethan-chen-frog-pond.anshulzhu.chatgpt.site">ENTER THE POND ↗ · PLAY / TERMINAL / DEMOS</a></samp></p>
+
+<!-- profile-extras:start -->
+<a name="puzzle"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="generated/puzzle-dark.svg">
+  <img src="generated/puzzle.svg" width="620" alt="White queen on a7; White king on d3; Black king on e1. White to move, mate in one.">
+</picture>
+<details>
+<summary><samp>REVEAL THE MOVE</samp></summary>
+<p><b>Qg1#</b> — move the queen from <b>a7</b> to <b>g1</b>. The black king is in check with no legal escape.</p>
+<p><sub>One of 16 verified practice positions, rotating daily. # means checkmate.</sub></p>
+</details>
+<details>
+<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 35 CONTRIBUTIONS</samp></summary>
+<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-09</td><td>0</td></tr><tr><td>2026-09-08</td><td>9</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr><tr><td>2026-09-05</td><td>0</td></tr><tr><td>2026-09-04</td><td>0</td></tr><tr><td>2026-09-03</td><td>26</td></tr></tbody></table>
+<p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
+</details>
+<!-- profile-extras:end -->
 
 <a name="work"></a>
 
