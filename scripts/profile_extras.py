@@ -3,6 +3,7 @@ import json
 from datetime import date
 from svg import ROOT, text, write_pair, esc
 from field_guide import field_guide
+from profile_arcade import arcade
 
 
 def extras(data, out):
@@ -52,4 +53,5 @@ def extras(data, out):
 <table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody>{rows}</tbody></table>
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
 </details>
-{field_guide(data)}'''
+{field_guide(data)}
+{arcade(data,out)}'''

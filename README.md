@@ -99,6 +99,77 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>THIS WEEK IN NUMBERS</samp></summary>
 <p><b>38 contributions</b> across 3 active days.</p><p>-32 contributions compared with the preceding seven days (70).</p><p>Busiest day: 2026-09-03 (26 contributions).</p><p><sub>2026-09-03 through 2026-09-09 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
 </details>
+<details>
+<summary><samp>THE CHESS CORNER · FOUR MORE CHALLENGES</samp></summary>
+<p>Four fixed practice positions from the verified puzzle collection. White to move, mate in one. Open a board, solve it, then check your answer.</p>
+<details>
+<summary><samp>CHALLENGE 01</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-1-dark.svg"><img src="generated/challenge-1.svg" width="620" alt="White king on a3; White queen on g2; Black king on b1. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the b-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qb2#</b> — queen from g2 to b2. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 02</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-2-dark.svg"><img src="generated/challenge-2.svg" width="620" alt="Black king on a7; White king on c7; White queen on h5. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the a-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qa5#</b> — queen from h5 to a5. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 03</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-3-dark.svg"><img src="generated/challenge-3.svg" width="620" alt="White queen on b4; White king on c3; Black king on a2. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the b-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qb2#</b> — queen from b4 to b2. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 04</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-4-dark.svg"><img src="generated/challenge-4.svg" width="620" alt="White queen on b5; White king on e3; Black king on d1. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the b-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qb1#</b> — queen from b5 to b1. The king is checked and has no legal reply.</p>
+</details>
+</details>
+</details>
+<details>
+<summary><samp>THE BUILD LOG · LATEST CHANGE IN EACH PROJECT</samp></summary>
+<p>A daily snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-04</td><td>FunChessEngine</td><td>Harden desktop preference recovery</td></tr><tr><td>2026-08-31</td><td>TowerLogic</td><td>Fix stuck on Menu Issue</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
+</details>
+<details>
+<summary><samp>THREE THINGS THE DEMOS DO NOT TELL YOU</samp></summary>
+<p>Make a prediction before opening each answer.</p><details>
+<summary><samp>01 · DOES A HIGH MUSIC MATCH SCORE MEAN GREAT PLAYING?</samp></summary>
+<p>No. This example measures agreement with a known score on synthesized audio. It does not grade a human performance.</p>
+</details>
+<details>
+<summary><samp>02 · DOES MORE CODE IN A LANGUAGE MEAN MORE EXPERTISE?</samp></summary>
+<p>No. The language charts measure bytes in public repositories. They describe the codebase, not proficiency.</p>
+</details>
+<details>
+<summary><samp>03 · DOES SEARCHING MORE CHESS POSITIONS GUARANTEE A BETTER MOVE?</samp></summary>
+<p>No. Search depth, evaluation quality, move ordering, and the position itself all matter. A node count alone does not measure move quality.</p>
+</details>
+</details>
 <!-- profile-extras:end -->
 
 <a name="work"></a>
