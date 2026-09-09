@@ -1134,7 +1134,7 @@
       "date": "2026-06-18"
     },
     {
-      "count": 0,
+      "count": 1,
       "date": "2026-06-19"
     },
     {
@@ -1418,11 +1418,11 @@
       "date": "2026-08-28"
     },
     {
-      "count": 10,
+      "count": 13,
       "date": "2026-08-29"
     },
     {
-      "count": 18,
+      "count": 15,
       "date": "2026-08-30"
     },
     {
@@ -1430,7 +1430,7 @@
       "date": "2026-08-31"
     },
     {
-      "count": 18,
+      "count": 19,
       "date": "2026-09-01"
     },
     {
@@ -1458,7 +1458,7 @@
       "date": "2026-09-07"
     },
     {
-      "count": 5,
+      "count": 6,
       "date": "2026-09-08"
     }
   ],
@@ -1466,7 +1466,9 @@
   "repositories": [
     {
       "archived": false,
+      "branch": "main",
       "description": "",
+      "issues_enabled": true,
       "languages": {
         "CSS": 95411,
         "HTML": 100984,
@@ -1475,75 +1477,121 @@
         "Python": 561140,
         "Shell": 1007
       },
+      "latest_commit": {
+        "date": "2026-09-04",
+        "headline": "Harden desktop preference recovery",
+        "url": "https://github.com/EthanChenHyland/FunChessEngine/commit/daa903d736592c49f0e861ad4cc3fb7ece826933"
+      },
       "name": "FunChessEngine",
       "primary": "JavaScript",
       "pushed": "2026-09-04",
       "pushed_at": "2026-09-04T01:55:12Z",
+      "release": null,
       "url": "https://github.com/EthanChenHyland/FunChessEngine"
     },
     {
       "archived": false,
+      "branch": "main",
       "description": "Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting.",
+      "issues_enabled": true,
       "languages": {
         "JavaScript": 7259
+      },
+      "latest_commit": {
+        "date": "2026-08-30",
+        "headline": "Revise README for clarity and detail",
+        "url": "https://github.com/EthanChenHyland/kitcoscraper/commit/09bf8caa781ae8a2df8e5cbb87110b7aa5577b99"
       },
       "name": "kitcoscraper",
       "primary": "JavaScript",
       "pushed": "2026-08-30",
       "pushed_at": "2026-08-30T03:30:58Z",
+      "release": null,
       "url": "https://github.com/EthanChenHyland/kitcoscraper"
     },
     {
       "archived": false,
+      "branch": "main",
       "description": "Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo.",
+      "issues_enabled": true,
       "languages": {
         "Python": 29672,
         "Rust": 1124399
+      },
+      "latest_commit": {
+        "date": "2026-08-30",
+        "headline": "Correct typo in README.md",
+        "url": "https://github.com/EthanChenHyland/PianoMirRustPublic/commit/a4cedc91875f4ccb697f366cea6e1c4664ec36d1"
       },
       "name": "PianoMirRustPublic",
       "primary": "Rust",
       "pushed": "2026-08-30",
       "pushed_at": "2026-08-30T01:20:25Z",
+      "release": null,
       "url": "https://github.com/EthanChenHyland/PianoMirRustPublic"
     },
     {
       "archived": false,
+      "branch": "main",
       "description": "Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges.",
+      "issues_enabled": true,
       "languages": {
         "CSS": 425,
         "JavaScript": 559,
         "PLpgSQL": 33322,
         "TypeScript": 691058
       },
+      "latest_commit": {
+        "date": "2026-08-30",
+        "headline": "Comprehensive passthrough of README and MIT license",
+        "url": "https://github.com/EthanChenHyland/the-great-prompt-off/commit/02b472c7a15143398f089dbd99fbf69cbb947f0c"
+      },
       "name": "the-great-prompt-off",
       "primary": "TypeScript",
       "pushed": "2026-08-30",
       "pushed_at": "2026-08-30T17:37:59Z",
+      "release": null,
       "url": "https://github.com/EthanChenHyland/the-great-prompt-off"
     },
     {
       "archived": false,
+      "branch": "main",
       "description": "Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic. ",
+      "issues_enabled": true,
       "languages": {
         "Python": 797435,
         "Shell": 328
+      },
+      "latest_commit": {
+        "date": "2026-08-31",
+        "headline": "Fix stuck on Menu Issue",
+        "url": "https://github.com/EthanChenHyland/TowerLogic/commit/33ed84c8ba47a0a407af763c917128cfbc4a8e29"
       },
       "name": "TowerLogic",
       "primary": "Python",
       "pushed": "2026-08-31",
       "pushed_at": "2026-08-31T02:57:56Z",
+      "release": null,
       "url": "https://github.com/EthanChenHyland/TowerLogic"
     },
     {
       "archived": false,
+      "branch": "main",
       "description": "Public website for Wifi Concierge, a social-impact initiative focused on digital access, device integration, and community technology support.",
+      "issues_enabled": true,
       "languages": {
         "HTML": 3730380
+      },
+      "latest_commit": {
+        "date": "2026-08-30",
+        "headline": "Remove image section from README",
+        "url": "https://github.com/EthanChenHyland/wifi-concierge-site/commit/db09840c482bafa96387f952b8d6e77e04be4136"
       },
       "name": "wifi-concierge-site",
       "primary": "HTML",
       "pushed": "2026-08-30",
       "pushed_at": "2026-08-30T02:31:49Z",
+      "release": null,
       "url": "https://github.com/EthanChenHyland/wifi-concierge-site"
     }
   ],

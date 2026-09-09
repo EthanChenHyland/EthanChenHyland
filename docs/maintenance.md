@@ -98,7 +98,14 @@ Each SVG has a title and description; README images have alt text and the
 activity has a native text equivalent. The composition is centered with GitHub-supported HTML alignment. Native
 section links jump to work, languages, and activity. Each `work-N.svg` pair is
 wrapped in an HTML link, making the whole card keyboard-accessible and clickable.
-The frog links to the source photo; activity details expand with native HTML.
+The frog is decorative and has no link to the source photo. Each project has
+an expandable panel with language information, its latest default-branch commit,
+and shortcuts to code, commits, releases, and enabled issues. Published release
+metadata appears when available. A collapsible index includes all public
+non-fork projects, grouped by primary language. The recent-activity panel shows
+7-day and 30-day totals, a comparison to the immediately preceding 7 days,
+and the number of active days in the past 30; all include the current UTC day.
+Activity details expand with native HTML.
 No click handlers or external scripts are embedded in SVG images.
 
 `python scripts/preview.py` builds local light, dark, and narrow previews in

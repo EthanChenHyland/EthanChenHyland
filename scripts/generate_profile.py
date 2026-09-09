@@ -17,12 +17,16 @@ import urllib.error
 import urllib.request
 
 from svg import ROOT, esc, line, rect, text, write_pair
+from features import draw_pulse, project_notes, project_index
 
 REPOS = '''query($login:String!, $cursor:String) {
  user(login:$login) { repositories(first:100,after:$cursor,privacy:PUBLIC,
  isFork:false,ownerAffiliations:OWNER,orderBy:{field:PUSHED_AT,direction:DESC}) {
  pageInfo {hasNextPage endCursor}
  nodes {name description url pushedAt isArchived isEmpty primaryLanguage{name}
+ hasIssuesEnabled
+ latestRelease {tagName url publishedAt isDraft}
+ defaultBranchRef {name target {... on Commit {messageHeadline committedDate url}}}
  languages(first:100) {pageInfo{hasNextPage endCursor} edges{size node{name}}}}
  }}}'''
 CALENDAR = '''query($login:String!, $from:DateTime!, $to:DateTime!) {
@@ -78,10 +82,18 @@ def fetch(login, today, token):
                 languages = graphql(LANGUAGES, {'login': login, 'name': repo['name'],
                     'cursor': languages['pageInfo']['endCursor']}, token)['repository']['languages']
                 edges.extend(languages['edges'])
+            branch = repo.get('defaultBranchRef') or {}
+            commit = branch.get('target') or {}
+            release = repo.get('latestRelease')
+            if release and release.get('isDraft'):
+                release = None
             repos.append({'name': repo['name'], 'description': repo['description'] or '',
                 'url': repo['url'], 'pushed': (repo['pushedAt'] or '')[:10],
                 'archived': repo['isArchived'], 'pushed_at': repo['pushedAt'] or '',
                 'primary': (repo['primaryLanguage'] or {}).get('name', 'Unclassified'),
+                'branch': branch.get('name'), 'issues_enabled': repo['hasIssuesEnabled'],
+                'latest_commit': {'headline':commit['messageHeadline'], 'date':commit['committedDate'][:10], 'url':commit['url']} if commit.get('messageHeadline') else None,
+                'release': {'tag':release['tagName'],'date':release['publishedAt'][:10],'url':release['url']} if release else None,
                 'languages': {e['node']['name']: e['size'] for e in edges}})
         if not connection['pageInfo']['hasNextPage']:
             break
@@ -257,15 +269,15 @@ def render(data, out):
     body = text(310,26,'ETHAN B. CHEN',26,anchor='middle',extra='letter-spacing="3"') + text(310,53,'@'+data['login'],12,'muted','middle')
     body += text(310,78,'CODE / EXPERIMENTS / SYSTEMS',9,'muted','middle')
     write_pair(out,'identity','Ethan B. Chen','Ethan B. Chen, @'+data['login'],102,body)
-    return description, streak_desc, lang_desc, recent
+    return description, streak_desc, lang_desc, recent, repos, draw_pulse(days,out)
 
 
-def update_readme(path, summary, streak, langs, recent):
+def update_readme(path, summary, streak, langs, recent, repos, pulse):
     content = path.read_text()
     language_list = '\n'.join('- '+item for item in langs.split('; '))
     recent_text = '\n\n'.join(f'**{r["name"]}** ({r["primary"]}), pushed {r["pushed"]}. {repository_description(r)}' for r in recent)
-    links = '\n\n'.join(f'<a href="{esc(r["url"])}" title="Open {esc(r["name"])}">\n'+picture(f'work-{i+1}',f'{r["name"]}: {repository_description(r)} — open repository')+'\n</a>' for i,r in enumerate(recent))
-    for name, replacement in (('recent-links', links), ('activity-text', f'{summary}\n\n{streak}\n\n**Languages**\n\n{language_list}\n\n**Recent work**\n\n{recent_text}')):
+    links = '\n\n'.join(f'<a href="{esc(r["url"])}" title="Open {esc(r["name"])}">\n'+picture(f'work-{i+1}',f'{r["name"]}: {repository_description(r)} — open repository')+'\n</a>\n\n'+project_notes(r,repository_description(r)) for i,r in enumerate(recent))
+    for name, replacement in (('recent-links', links), ('project-index',project_index(repos)), ('activity-text', f'{summary}\n\n{streak}\n\n{pulse}\n\n**Languages**\n\n{language_list}\n\n**Recent work**\n\n{recent_text}')):
         pattern = rf'(<!-- {name}:start -->).*?(<!-- {name}:end -->)'
         content, count = re.subn(pattern, lambda m: m[1]+'\n'+replacement+'\n'+m[2], content, flags=re.S)
         if count != 1:

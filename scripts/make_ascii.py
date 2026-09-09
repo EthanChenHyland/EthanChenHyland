@@ -115,7 +115,7 @@ def main():
             rows = prepare(source,args.crop,args.columns,args.gamma,config.get('matte'),config.get('matte_feather',1.1),theme)
             render_ascii(rows,args.output,args.alt,theme)
     content,count = re.subn(r'(<!-- hero:start -->).*?(<!-- hero:end -->)',
-        lambda m: m[1]+'\n<a href="assets/source/hero.png" title="View the original photograph">\n'+picture('ascii',args.alt).replace('width="620"','width="540"')+'\n</a>\n\n'+m[2],args.readme.read_text(),flags=re.S)
+        lambda m: m[1]+'\n'+picture('ascii',args.alt).replace('width="620"','width="540"')+'\n\n'+m[2],args.readme.read_text(),flags=re.S)
     if count != 1:
         raise ValueError('README must contain one hero marker pair')
     args.readme.write_text(content)
