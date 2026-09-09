@@ -62,8 +62,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <p><sub>One of 16 verified practice positions, rotating daily. # means checkmate.</sub></p>
 </details>
 <details>
-<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 40 CONTRIBUTIONS</samp></summary>
-<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-09</td><td>4</td></tr><tr><td>2026-09-08</td><td>10</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr><tr><td>2026-09-05</td><td>0</td></tr><tr><td>2026-09-04</td><td>0</td></tr><tr><td>2026-09-03</td><td>26</td></tr></tbody></table>
+<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 41 CONTRIBUTIONS</samp></summary>
+<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-09</td><td>5</td></tr><tr><td>2026-09-08</td><td>10</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr><tr><td>2026-09-05</td><td>0</td></tr><tr><td>2026-09-04</td><td>0</td></tr><tr><td>2026-09-03</td><td>26</td></tr></tbody></table>
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
 </details>
 <a name="field-guide"></a>
@@ -97,7 +97,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THIS WEEK IN NUMBERS</samp></summary>
-<p><b>40 contributions</b> across 3 active days.</p><p>-30 contributions compared with the preceding seven days (70).</p><p>Busiest day: 2026-09-03 (26 contributions).</p><p><sub>2026-09-03 through 2026-09-09 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
+<p><b>41 contributions</b> across 3 active days.</p><p>-29 contributions compared with the preceding seven days (70).</p><p>Busiest day: 2026-09-03 (26 contributions).</p><p><sub>2026-09-03 through 2026-09-09 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
 </details>
 <details>
 <summary><samp>THE CHESS CORNER · FOUR MORE CHALLENGES</samp></summary>
@@ -236,7 +236,7 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>THE YEAR, MONTH BY MONTH</samp></summary>
 <p>Open a month to see its activity and three busiest dates. Boundary months cover only the dates included in the rolling 365-day snapshot; today may be incomplete.</p>
 <details>
-<summary><samp>SEPTEMBER 2026 · 65 CONTRIBUTIONS</samp></summary>
+<summary><samp>SEPTEMBER 2026 · 66 CONTRIBUTIONS</samp></summary>
 <p>5 active days across 9 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-03</td><td>26</td></tr><tr><td>2026-09-01</td><td>18</td></tr><tr><td>2026-09-08</td><td>10</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-09 UTC.</sub></p>
 </details>
 <details>
@@ -507,13 +507,13 @@ and tools for the web. This page follows the work as it changes.</p>
 <div align="left">
 
 <!-- activity-text:start -->
-254 contributions across 23 active days. Best Sunday–Saturday week: 86 contributions. 2025-09-10 through 2026-09-09, UTC.
+255 contributions across 23 active days. Best Sunday–Saturday week: 86 contributions. 2025-09-10 through 2026-09-09, UTC.
 
 Current: 2 days (2026-09-08 / 2026-09-09). Longest within the last 365 days: 6 days (2026-08-29 / 2026-09-03).
 
-Last 7 UTC days: 40 contributions; previous 7 days: 70; last 30 days: 140 contributions over 13 active days. Includes today, which is unfinished.
+Last 7 UTC days: 41 contributions; previous 7 days: 70; last 30 days: 141 contributions over 13 active days. Includes today, which is unfinished.
 
-contributions: 254, next checkpoint 300; active days: 23, next checkpoint 25; languages: 9, next checkpoint 10. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
+contributions: 255, next checkpoint 300; active days: 23, next checkpoint 25; languages: 9, next checkpoint 10. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
 
 **Languages**
 
