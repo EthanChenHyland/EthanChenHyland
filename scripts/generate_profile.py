@@ -18,6 +18,8 @@ import urllib.request
 
 from svg import ROOT, esc, line, rect, text, write_pair
 from features import draw_pulse, project_notes, project_index
+from pond import draw_pond
+from demos import draw_demos
 from observatory import draw_atlas, draw_milestones, comparison, discovery
 
 REPOS = '''query($login:String!, $cursor:String) {
@@ -270,6 +272,8 @@ def render(data, out):
     body = text(310,26,'ETHAN B. CHEN',26,anchor='middle',extra='letter-spacing="3"') + text(310,53,'@'+data['login'],12,'muted','middle')
     body += text(310,78,'CODE / EXPERIMENTS / SYSTEMS',9,'muted','middle')
     write_pair(out,'identity','Ethan B. Chen','Ethan B. Chen, @'+data['login'],102,body)
+    draw_pond(days,out)
+    draw_demos(out)
     draw_atlas(repos,out)
     checkpoints = draw_milestones(days,repos,out)
     return description, streak_desc, lang_desc, recent, repos, draw_pulse(days,out), checkpoints, discovery(data,repository_description)

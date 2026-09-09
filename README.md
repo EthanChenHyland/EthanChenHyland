@@ -37,6 +37,15 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <!-- discovery:end -->
 
+<a href="https://ethan-chen-frog-pond.fizzy-pika-5580.chatgpt.site">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="generated/pond-dark.svg">
+  <img src="generated/pond.svg" width="620" alt="A frog hops through real contribution days. Open the playable pond and frog terminal.">
+</picture>
+</a>
+
+<p><samp><a href="https://ethan-chen-frog-pond.fizzy-pika-5580.chatgpt.site">ENTER THE POND ↗ · PLAY / TERMINAL / DEMOS</a></samp></p>
+
 <a name="work"></a>
 
 <picture>
@@ -118,6 +127,23 @@ and tools for the web. This page follows the work as it changes.</p>
 </div>
 </details>
 <!-- project-index:end -->
+
+<details>
+<summary><samp>WATCH THE PROJECTS IN MOTION</samp></summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="generated/demo-chess-dark.svg">
+  <img src="generated/demo-chess.svg" width="620" alt="Actual FunChessEngine self-play with search depth and node counts.">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="generated/demo-piano-dark.svg">
+  <img src="generated/demo-piano.svg" width="620" alt="Actual Piano MIR pitch evidence from a controlled synthetic Minuet analysis.">
+</picture>
+
+<p><a href="https://ethan-chen-frog-pond.fizzy-pika-5580.chatgpt.site/#demos">Play, pause, listen, and explore the demos ↗</a></p>
+
+</details>
 
 <a name="languages"></a>
 
