@@ -6,6 +6,7 @@ from field_guide import field_guide
 from profile_arcade import arcade
 from profile_explorer import explorer
 from replay_book import replay_book, logic_corner
+from sound_microscope import microscope
 
 
 def extras(data, out):
@@ -59,4 +60,5 @@ def extras(data, out):
 {arcade(data,out)}
 {explorer(data)}
 {replay_book(out)}
-{logic_corner()}'''
+{logic_corner()}
+{microscope(out)}'''

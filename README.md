@@ -341,6 +341,53 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 </details>
 </details>
+<details>
+<summary><samp>THE SOUND MICROSCOPE · SCORE VS AUDIO</samp></summary>
+<p>Zoom into four moments of the captured Minuet analysis. Compare patterns, make a prediction, then reveal the answer or inspect all twelve values.</p><details>
+<summary><samp>WHAT AM I LOOKING AT?</samp></summary>
+<p>Chroma groups pitches into the twelve pitch classes, ignoring octave. The left column comes from the known score; the right comes from analysis of the synthesized audio.</p><p>Longer bars mean stronger normalized evidence within that representation. They are not probabilities, loudness readings, or performance grades. The score and audio columns use their respective recorded normalizations.</p><p>These four frames are sampled near 0, 3, 6, and 9 seconds. They are individual snapshots, not averages across each three-second interval.</p>
+</details>
+<details>
+<summary><samp>SNAPSHOT 1 · 0.00 SECONDS</samp></summary>
+<p>Which pitch class has the longest bar on the audio side? How closely does its pattern resemble the known score?</p><picture><source media="(prefers-color-scheme: dark)" srcset="generated/sound-frame-1-dark.svg"><img src="generated/sound-frame-1.svg" width="620" alt="Known-score and detected-audio pitch-class evidence at 0.00 seconds, from the captured synthesized Minuet analysis."></picture><details>
+<summary><samp>REVEAL THE STRONGEST PITCH CLASS</samp></summary>
+<p><b>D has the strongest recorded evidence.</b></p><p>This is a pitch class, not a single note or octave. Several notes can share a pitch class, and harmonics can also contribute evidence.</p>
+</details><details>
+<summary><samp>INSPECT THE NUMBERS</samp></summary>
+<table><tr><th>Pitch class</th><th>Score evidence</th><th>Audio evidence</th></tr><tr><td>C</td><td>0.000</td><td>0.000</td></tr><tr><td>C#</td><td>0.000</td><td>0.000</td></tr><tr><td>D</td><td>1.000</td><td>1.000</td></tr><tr><td>D#</td><td>0.000</td><td>0.000</td></tr><tr><td>E</td><td>0.000</td><td>0.000</td></tr><tr><td>F</td><td>0.000</td><td>0.000</td></tr><tr><td>F#</td><td>0.000</td><td>0.000</td></tr><tr><td>G</td><td>1.000</td><td>0.388</td></tr><tr><td>G#</td><td>0.000</td><td>0.000</td></tr><tr><td>A</td><td>0.000</td><td>0.000</td></tr><tr><td>A#</td><td>0.000</td><td>0.000</td></tr><tr><td>B</td><td>1.000</td><td>0.014</td></tr></table>
+</details>
+</details>
+<details>
+<summary><samp>SNAPSHOT 2 · 3.00 SECONDS</samp></summary>
+<p>Which pitch class has the longest bar on the audio side? How closely does its pattern resemble the known score?</p><picture><source media="(prefers-color-scheme: dark)" srcset="generated/sound-frame-2-dark.svg"><img src="generated/sound-frame-2.svg" width="620" alt="Known-score and detected-audio pitch-class evidence at 3.00 seconds, from the captured synthesized Minuet analysis."></picture><details>
+<summary><samp>REVEAL THE STRONGEST PITCH CLASS</samp></summary>
+<p><b>D has the strongest recorded evidence.</b></p><p>This is a pitch class, not a single note or octave. Several notes can share a pitch class, and harmonics can also contribute evidence.</p>
+</details><details>
+<summary><samp>INSPECT THE NUMBERS</samp></summary>
+<table><tr><th>Pitch class</th><th>Score evidence</th><th>Audio evidence</th></tr><tr><td>C</td><td>1.000</td><td>0.646</td></tr><tr><td>C#</td><td>0.000</td><td>0.000</td></tr><tr><td>D</td><td>1.000</td><td>1.000</td></tr><tr><td>D#</td><td>0.000</td><td>0.000</td></tr><tr><td>E</td><td>0.000</td><td>0.000</td></tr><tr><td>F</td><td>0.000</td><td>0.000</td></tr><tr><td>F#</td><td>0.000</td><td>0.000</td></tr><tr><td>G</td><td>0.000</td><td>0.000</td></tr><tr><td>G#</td><td>0.000</td><td>0.000</td></tr><tr><td>A</td><td>0.000</td><td>0.000</td></tr><tr><td>A#</td><td>0.000</td><td>0.000</td></tr><tr><td>B</td><td>0.000</td><td>0.000</td></tr></table>
+</details>
+</details>
+<details>
+<summary><samp>SNAPSHOT 3 · 5.99 SECONDS</samp></summary>
+<p>Which pitch class has the longest bar on the audio side? How closely does its pattern resemble the known score?</p><picture><source media="(prefers-color-scheme: dark)" srcset="generated/sound-frame-3-dark.svg"><img src="generated/sound-frame-3.svg" width="620" alt="Known-score and detected-audio pitch-class evidence at 5.99 seconds, from the captured synthesized Minuet analysis."></picture><details>
+<summary><samp>REVEAL THE STRONGEST PITCH CLASS</samp></summary>
+<p><b>G has the strongest recorded evidence.</b></p><p>This is a pitch class, not a single note or octave. Several notes can share a pitch class, and harmonics can also contribute evidence.</p>
+</details><details>
+<summary><samp>INSPECT THE NUMBERS</samp></summary>
+<table><tr><th>Pitch class</th><th>Score evidence</th><th>Audio evidence</th></tr><tr><td>C</td><td>0.000</td><td>0.000</td></tr><tr><td>C#</td><td>0.000</td><td>0.000</td></tr><tr><td>D</td><td>0.000</td><td>0.000</td></tr><tr><td>D#</td><td>0.000</td><td>0.000</td></tr><tr><td>E</td><td>0.000</td><td>0.000</td></tr><tr><td>F</td><td>0.000</td><td>0.000</td></tr><tr><td>F#</td><td>0.000</td><td>0.000</td></tr><tr><td>G</td><td>1.000</td><td>1.000</td></tr><tr><td>G#</td><td>0.000</td><td>0.000</td></tr><tr><td>A</td><td>0.000</td><td>0.033</td></tr><tr><td>A#</td><td>0.000</td><td>0.000</td></tr><tr><td>B</td><td>1.000</td><td>0.018</td></tr></table>
+</details>
+</details>
+<details>
+<summary><samp>SNAPSHOT 4 · 9.01 SECONDS</samp></summary>
+<p>Which pitch class has the longest bar on the audio side? How closely does its pattern resemble the known score?</p><picture><source media="(prefers-color-scheme: dark)" srcset="generated/sound-frame-4-dark.svg"><img src="generated/sound-frame-4.svg" width="620" alt="Known-score and detected-audio pitch-class evidence at 9.01 seconds, from the captured synthesized Minuet analysis."></picture><details>
+<summary><samp>REVEAL THE STRONGEST PITCH CLASS</samp></summary>
+<p><b>C has the strongest recorded evidence.</b></p><p>This is a pitch class, not a single note or octave. Several notes can share a pitch class, and harmonics can also contribute evidence.</p>
+</details><details>
+<summary><samp>INSPECT THE NUMBERS</samp></summary>
+<table><tr><th>Pitch class</th><th>Score evidence</th><th>Audio evidence</th></tr><tr><td>C</td><td>1.000</td><td>1.000</td></tr><tr><td>C#</td><td>0.000</td><td>0.000</td></tr><tr><td>D</td><td>0.000</td><td>0.021</td></tr><tr><td>D#</td><td>0.000</td><td>0.000</td></tr><tr><td>E</td><td>0.000</td><td>0.000</td></tr><tr><td>F</td><td>0.000</td><td>0.000</td></tr><tr><td>F#</td><td>0.000</td><td>0.000</td></tr><tr><td>G</td><td>0.000</td><td>0.000</td></tr><tr><td>G#</td><td>0.000</td><td>0.000</td></tr><tr><td>A</td><td>1.000</td><td>0.342</td></tr><tr><td>A#</td><td>0.000</td><td>0.000</td></tr><tr><td>B</td><td>0.000</td><td>0.000</td></tr></table>
+</details>
+</details>
+</details>
 <!-- profile-extras:end -->
 
 <a name="work"></a>
