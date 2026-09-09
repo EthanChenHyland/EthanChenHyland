@@ -4,6 +4,7 @@ from datetime import date
 from svg import ROOT, text, write_pair, esc
 from field_guide import field_guide
 from profile_arcade import arcade
+from profile_explorer import explorer
 
 
 def extras(data, out):
@@ -54,4 +55,5 @@ def extras(data, out):
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
 </details>
 {field_guide(data)}
-{arcade(data,out)}'''
+{arcade(data,out)}
+{explorer(data)}'''

@@ -170,6 +170,124 @@ and tools for the web. This page follows the work as it changes.</p>
 <p>No. Search depth, evaluation quality, move ordering, and the position itself all matter. A node count alone does not measure move quality.</p>
 </details>
 </details>
+<details>
+<summary><samp>A TINY FROG ADVENTURE</samp></summary>
+<p>You arrive at the pond at dusk. A path forks between glowing reeds and a checkered stone. Open a choice, then choose again.</p><details>
+<summary><samp>FOLLOW THE FIREFLIES</samp></summary>
+<p>The lights blink in pairs. Beneath the reeds, a tiny frog is trying to debug the moon’s reflection.</p><details>
+<summary><samp>OFFER A RUBBER DUCK</samp></summary>
+<p>“It only breaks when I look at it,” says the frog. The duck says nothing. The frog solves it anyway.</p><p><b>Ending: honorary pond debugger.</b> 🦆</p>
+</details><details>
+<summary><samp>WAIT QUIETLY</samp></summary>
+<p>The water settles. The moon becomes round again. Some bugs are ripples.</p><p><b>Ending: a moment of peace.</b> 🌙</p>
+</details>
+</details><details>
+<summary><samp>INVESTIGATE THE CHECKERED STONE</samp></summary>
+<p>A beetle guards a tiny chessboard. “One move,” it says. “Then you may pass.”</p><details>
+<summary><samp>CHALLENGE THE BEETLE</samp></summary>
+<p>The beetle pushes a pawn sideways. You politely explain the rules. It insists this is a variant.</p><p><b>Ending: undefeated by technicality.</b> ♟</p>
+</details><details>
+<summary><samp>ASK FOR DIRECTIONS</samp></summary>
+<p>The beetle points toward the Chess Corner above. “Those positions have actually been checked.”</p><p><b>Ending: a sensible detour.</b> 🐸</p>
+</details>
+</details><p><sub>A little fictional detour. Close the choices to start again; nothing is saved.</sub></p>
+</details>
+<details>
+<summary><samp>FIND PROJECTS BY LANGUAGE</samp></summary>
+<p>Choose a language to see every matching public project. Percentages describe that language’s share of each repository’s detected language bytes.</p>
+<details>
+<summary><samp>CSS · 2 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>7.1%</td><td>2026-09-04</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
+</details>
+<details>
+<summary><samp>HTML · 2 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>7.5%</td><td>2026-09-04</td></tr><tr><td>wifi-concierge-site</td><td>100.0%</td><td>2026-08-30</td></tr></table>
+</details>
+<details>
+<summary><samp>JAVASCRIPT · 3 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>43.3%</td><td>2026-09-04</td></tr><tr><td>kitcoscraper</td><td>100.0%</td><td>2026-08-30</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
+</details>
+<details>
+<summary><samp>MAKEFILE · 1 PROJECT</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>0.2%</td><td>2026-09-04</td></tr></table>
+</details>
+<details>
+<summary><samp>PLPGSQL · 1 PROJECT</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>the-great-prompt-off</td><td>4.6%</td><td>2026-08-30</td></tr></table>
+</details>
+<details>
+<summary><samp>PYTHON · 3 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>41.8%</td><td>2026-09-04</td></tr><tr><td>PianoMirRustPublic</td><td>2.6%</td><td>2026-08-30</td></tr><tr><td>TowerLogic</td><td>100.0%</td><td>2026-08-31</td></tr></table>
+</details>
+<details>
+<summary><samp>RUST · 1 PROJECT</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>PianoMirRustPublic</td><td>97.4%</td><td>2026-08-30</td></tr></table>
+</details>
+<details>
+<summary><samp>SHELL · 2 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>0.1%</td><td>2026-09-04</td></tr><tr><td>TowerLogic</td><td>0.0%</td><td>2026-08-31</td></tr></table>
+</details>
+<details>
+<summary><samp>TYPESCRIPT · 1 PROJECT</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>the-great-prompt-off</td><td>95.3%</td><td>2026-08-30</td></tr></table>
+</details>
+</details>
+<details>
+<summary><samp>THE YEAR, MONTH BY MONTH</samp></summary>
+<p>Open a month to see its activity and three busiest dates. Boundary months cover only the dates included in the rolling 365-day snapshot; today may be incomplete.</p>
+<details>
+<summary><samp>SEPTEMBER 2026 · 63 CONTRIBUTIONS</samp></summary>
+<p>5 active days across 9 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-03</td><td>26</td></tr><tr><td>2026-09-01</td><td>18</td></tr><tr><td>2026-09-08</td><td>10</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-09 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>AUGUST 2026 · 75 CONTRIBUTIONS</samp></summary>
+<p>8 active days across 31 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-08-20</td><td>21</td></tr><tr><td>2026-08-30</td><td>18</td></tr><tr><td>2026-08-31</td><td>17</td></tr></table><p><sub>Coverage: 2026-08-01 through 2026-08-31 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>JULY 2026 · 21 CONTRIBUTIONS</samp></summary>
+<p>5 active days across 31 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-07-19</td><td>9</td></tr><tr><td>2026-07-05</td><td>6</td></tr><tr><td>2026-07-06</td><td>4</td></tr></table><p><sub>Coverage: 2026-07-01 through 2026-07-31 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>JUNE 2026 · 78 CONTRIBUTIONS</samp></summary>
+<p>4 active days across 30 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-06-17</td><td>33</td></tr><tr><td>2026-06-16</td><td>30</td></tr><tr><td>2026-06-18</td><td>11</td></tr></table><p><sub>Coverage: 2026-06-01 through 2026-06-30 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>MAY 2026 · 0 CONTRIBUTIONS</samp></summary>
+<p>0 active days across 31 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2026-05-01 through 2026-05-31 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>APRIL 2026 · 0 CONTRIBUTIONS</samp></summary>
+<p>0 active days across 30 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2026-04-01 through 2026-04-30 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>MARCH 2026 · 0 CONTRIBUTIONS</samp></summary>
+<p>0 active days across 31 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2026-03-01 through 2026-03-31 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>FEBRUARY 2026 · 0 CONTRIBUTIONS</samp></summary>
+<p>0 active days across 28 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2026-02-01 through 2026-02-28 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>JANUARY 2026 · 0 CONTRIBUTIONS</samp></summary>
+<p>0 active days across 31 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2026-01-01 through 2026-01-31 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>DECEMBER 2025 · 0 CONTRIBUTIONS</samp></summary>
+<p>0 active days across 31 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-12-01 through 2025-12-31 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>NOVEMBER 2025 · 0 CONTRIBUTIONS</samp></summary>
+<p>0 active days across 30 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-11-01 through 2025-11-30 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>OCTOBER 2025 · 15 CONTRIBUTIONS</samp></summary>
+<p>1 active days across 31 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2025-10-08</td><td>15</td></tr></table><p><sub>Coverage: 2025-10-01 through 2025-10-31 UTC.</sub></p>
+</details>
+<details>
+<summary><samp>SEPTEMBER 2025 · 0 CONTRIBUTIONS</samp></summary>
+<p>0 active days across 21 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-09-10 through 2025-09-30 UTC.</sub></p>
+</details>
+</details>
 <!-- profile-extras:end -->
 
 <a name="work"></a>
