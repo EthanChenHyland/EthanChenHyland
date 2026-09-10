@@ -51,6 +51,10 @@ def extras(data, out):
 <p><b>{esc(solution['san'])}</b> — move the queen from <b>{move[:2]}</b> to <b>{move[2:]}</b>. The black king is in check with no legal escape.</p>
 <p><sub>One of 16 verified practice positions, rotating daily. # means checkmate.</sub></p>
 </details>
+<a name="more-fun-stuff"></a>
+<details>
+<summary><samp>MORE FUN STUFF</samp></summary>
+
 <details>
 <summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · {total} CONTRIBUTIONS</samp></summary>
 <table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody>{rows}</tbody></table>
@@ -61,4 +65,5 @@ def extras(data, out):
 {explorer(data)}
 {replay_book(out)}
 {logic_corner()}
-{microscope(out)}'''
+{microscope(out)}
+</details>'''

@@ -13,7 +13,7 @@
   <img src="generated/identity.svg" width="620" alt="Ethan B. Chen · @EthanChenHyland · Code, experiments, systems">
 </picture>
 
-<p><samp><a href="#user-content-work">WORK</a> · <a href="#user-content-puzzle">DAILY PUZZLE</a> · <a href="#user-content-field-guide">FIELD GUIDE</a> · <a href="#user-content-languages">LANGUAGES</a> · <a href="#user-content-activity">ACTIVITY</a></samp></p>
+<p><samp><a href="#user-content-work">WORK</a> · <a href="#user-content-puzzle">DAILY PUZZLE</a> · <a href="#user-content-more-fun-stuff">MORE FUN STUFF</a> · <a href="#user-content-languages">LANGUAGES</a> · <a href="#user-content-activity">ACTIVITY</a></samp></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/stats-dark.svg">
@@ -61,6 +61,10 @@ and tools for the web. This page follows the work as it changes.</p>
 <p><b>Qg1#</b> — move the queen from <b>a7</b> to <b>g1</b>. The black king is in check with no legal escape.</p>
 <p><sub>One of 16 verified practice positions, rotating daily. # means checkmate.</sub></p>
 </details>
+<a name="more-fun-stuff"></a>
+<details>
+<summary><samp>MORE FUN STUFF</samp></summary>
+
 <details>
 <summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 42 CONTRIBUTIONS</samp></summary>
 <table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-09</td><td>6</td></tr><tr><td>2026-09-08</td><td>10</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr><tr><td>2026-09-05</td><td>0</td></tr><tr><td>2026-09-04</td><td>0</td></tr><tr><td>2026-09-03</td><td>26</td></tr></tbody></table>
@@ -385,6 +389,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details><details>
 <summary><samp>INSPECT THE NUMBERS</samp></summary>
 <table><tr><th>Pitch class</th><th>Score evidence</th><th>Audio evidence</th></tr><tr><td>C</td><td>1.000</td><td>1.000</td></tr><tr><td>C#</td><td>0.000</td><td>0.000</td></tr><tr><td>D</td><td>0.000</td><td>0.021</td></tr><tr><td>D#</td><td>0.000</td><td>0.000</td></tr><tr><td>E</td><td>0.000</td><td>0.000</td></tr><tr><td>F</td><td>0.000</td><td>0.000</td></tr><tr><td>F#</td><td>0.000</td><td>0.000</td></tr><tr><td>G</td><td>0.000</td><td>0.000</td></tr><tr><td>G#</td><td>0.000</td><td>0.000</td></tr><tr><td>A</td><td>1.000</td><td>0.342</td></tr><tr><td>A#</td><td>0.000</td><td>0.000</td></tr><tr><td>B</td><td>0.000</td><td>0.000</td></tr></table>
+</details>
 </details>
 </details>
 </details>
