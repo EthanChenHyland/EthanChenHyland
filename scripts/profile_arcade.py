@@ -7,7 +7,7 @@ from field_guide import panel
 def arcade(data, out):
     puzzles=json.loads((ROOT/'assets/demos/puzzles.json').read_text())
     challenges=[]
-    for number,puzzle in enumerate(puzzles[:4],1):
+    for number,puzzle in enumerate(puzzles,1):
         body=text(310,27,f'CHALLENGE {number:02d} / WHITE TO MOVE',13,anchor='middle')
         positions=[]
         for row,encoded in enumerate(puzzle['fen'].split()[0].split('/')):
@@ -30,7 +30,8 @@ def arcade(data, out):
         hint=panel('SHOW A HINT',f'<p>Look for a queen move to the {m["uci"][2]}-file.</p>')
         answer=panel('CHECK YOUR ANSWER',f'<p><b>{esc(m["san"])}</b> — queen from {m["uci"][:2]} to {m["uci"][2:]}. The king is checked and has no legal reply.</p>')
         challenges.append(panel(f'CHALLENGE {number:02d}',picture+'\n'+hint+'\n'+answer))
-    archive=panel('THE CHESS CORNER · FOUR MORE CHALLENGES','<p>Four fixed practice positions from the verified puzzle collection. White to move, mate in one. Open a board, solve it, then check your answer.</p>\n'+'\n'.join(challenges))
+    sets=[panel(f'PUZZLES {start+1:02d}–{min(start+4,len(challenges)):02d}', '\n'.join(challenges[start:start+4])) for start in range(0,len(challenges),4)]
+    archive=panel(f'THE CHESS CORNER · {len(challenges)} CHALLENGES','<p>Fixed practice positions from the verified puzzle collection, grouped in sets of four. White to move, mate in one. Open a board, solve it, then check your answer. Each position has exactly one mating move.</p>\n'+'\n'.join(sets))
     commits=sorted((r for r in data['repositories'] if r.get('latest_commit')),key=lambda r:(r['latest_commit']['date'],r['name']),reverse=True)
     rows=''.join(f'<tr><td>{esc(r["latest_commit"]["date"])}</td><td>{esc(r["name"])}</td><td>{esc(r["latest_commit"]["headline"])}</td></tr>' for r in commits)
     log=panel('THE BUILD LOG · LATEST CHANGE IN EACH PROJECT', '<p>A daily snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr>'+rows+'</table>' if commits else '<p>No default-branch commits in this snapshot.</p>')

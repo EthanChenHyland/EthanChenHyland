@@ -104,8 +104,10 @@ and tools for the web. This page follows the work as it changes.</p>
 <p><b>17 contributions</b> across 2 active days.</p><p>-79 contributions compared with the preceding seven days (96).</p><p>Busiest day: 2026-09-08 (10 contributions).</p><p><sub>2026-09-05 through 2026-09-11 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
 </details>
 <details>
-<summary><samp>THE CHESS CORNER · FOUR MORE CHALLENGES</samp></summary>
-<p>Four fixed practice positions from the verified puzzle collection. White to move, mate in one. Open a board, solve it, then check your answer.</p>
+<summary><samp>THE CHESS CORNER · 16 CHALLENGES</samp></summary>
+<p>Fixed practice positions from the verified puzzle collection, grouped in sets of four. White to move, mate in one. Open a board, solve it, then check your answer. Each position has exactly one mating move.</p>
+<details>
+<summary><samp>PUZZLES 01–04</samp></summary>
 <details>
 <summary><samp>CHALLENGE 01</samp></summary>
 <picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-1-dark.svg"><img src="generated/challenge-1.svg" width="620" alt="White king on a3; White queen on g2; Black king on b1. Find mate in one."></picture>
@@ -152,6 +154,160 @@ and tools for the web. This page follows the work as it changes.</p>
 <details>
 <summary><samp>CHECK YOUR ANSWER</samp></summary>
 <p><b>Qb1#</b> — queen from b5 to b1. The king is checked and has no legal reply.</p>
+</details>
+</details>
+</details>
+<details>
+<summary><samp>PUZZLES 05–08</samp></summary>
+<details>
+<summary><samp>CHALLENGE 05</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-5-dark.svg"><img src="generated/challenge-5.svg" width="620" alt="White king on d3; White queen on b2; Black king on e1. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the e-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qe2#</b> — queen from b2 to e2. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 06</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-6-dark.svg"><img src="generated/challenge-6.svg" width="620" alt="White queen on b3; White king on f2; Black king on h1. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the h-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qh3#</b> — queen from b3 to h3. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 07</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-7-dark.svg"><img src="generated/challenge-7.svg" width="620" alt="Black king on a8; White king on b6; White queen on b3. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the g-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qg8#</b> — queen from b3 to g8. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 08</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-8-dark.svg"><img src="generated/challenge-8.svg" width="620" alt="Black king on b8; White king on a6; White queen on h4. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the d-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qd8#</b> — queen from h4 to d8. The king is checked and has no legal reply.</p>
+</details>
+</details>
+</details>
+<details>
+<summary><samp>PUZZLES 09–12</samp></summary>
+<details>
+<summary><samp>CHALLENGE 09</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-9-dark.svg"><img src="generated/challenge-9.svg" width="620" alt="Black king on a5; White king on c5; White queen on e5. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the a-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qa1#</b> — queen from e5 to a1. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 10</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-10-dark.svg"><img src="generated/challenge-10.svg" width="620" alt="Black king on a1; White king on c1; White queen on d1. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the a-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qa4#</b> — queen from d1 to a4. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 11</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-11-dark.svg"><img src="generated/challenge-11.svg" width="620" alt="White king on c6; Black king on a5; White queen on b1. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the b-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qb5#</b> — queen from b1 to b5. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 12</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-12-dark.svg"><img src="generated/challenge-12.svg" width="620" alt="White king on c6; Black king on a5; White queen on f3. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the a-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qa3#</b> — queen from f3 to a3. The king is checked and has no legal reply.</p>
+</details>
+</details>
+</details>
+<details>
+<summary><samp>PUZZLES 13–16</samp></summary>
+<details>
+<summary><samp>CHALLENGE 13</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-13-dark.svg"><img src="generated/challenge-13.svg" width="620" alt="White queen on a7; White king on d3; Black king on e1. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the g-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qg1#</b> — queen from a7 to g1. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 14</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-14-dark.svg"><img src="generated/challenge-14.svg" width="620" alt="Black king on c8; White king on c6; White queen on g1. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the g-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qg8#</b> — queen from g1 to g8. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 15</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-15-dark.svg"><img src="generated/challenge-15.svg" width="620" alt="Black king on a8; White king on c7; White queen on f4. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the a-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qa4#</b> — queen from f4 to a4. The king is checked and has no legal reply.</p>
+</details>
+</details>
+<details>
+<summary><samp>CHALLENGE 16</samp></summary>
+<picture><source media="(prefers-color-scheme: dark)" srcset="generated/challenge-16-dark.svg"><img src="generated/challenge-16.svg" width="620" alt="White queen on g4; White king on a3; Black king on b1. Find mate in one."></picture>
+<details>
+<summary><samp>SHOW A HINT</samp></summary>
+<p>Look for a queen move to the d-file.</p>
+</details>
+<details>
+<summary><samp>CHECK YOUR ANSWER</samp></summary>
+<p><b>Qd1#</b> — queen from g4 to d1. The king is checked and has no legal reply.</p>
+</details>
 </details>
 </details>
 </details>
