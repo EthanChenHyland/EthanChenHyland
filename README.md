@@ -37,14 +37,14 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <!-- discovery:end -->
 
-<a href="https://ethan-chen-frog-pond.anshulzhu.chatgpt.site">
+<a href="https://www.ethanbchen.com/github">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/pond-dark.svg">
   <img src="generated/pond.svg" width="620" alt="A frog hops through real contribution days. Open the playable pond and frog terminal.">
 </picture>
 </a>
 
-<p><samp><a href="https://ethan-chen-frog-pond.anshulzhu.chatgpt.site">ENTER THE POND ↗ · PLAY / TERMINAL / DEMOS</a></samp></p>
+<p><samp><a href="https://www.ethanbchen.com/github">ENTER THE POND ↗ · PLAY / TERMINAL / DEMOS</a></samp></p>
 
 <!-- profile-extras:start -->
 <a name="puzzle"></a>
@@ -490,7 +490,7 @@ and tools for the web. This page follows the work as it changes.</p>
   <img src="generated/demo-piano.svg" width="620" alt="Actual Piano MIR pitch evidence from a controlled synthetic Minuet analysis.">
 </picture>
 
-<p><a href="https://ethan-chen-frog-pond.anshulzhu.chatgpt.site/#demos">Play, pause, listen, and explore the demos ↗</a></p>
+<p><a href="https://www.ethanbchen.com/github/#demos">Play, pause, listen, and explore the demos ↗</a></p>
 
 </details>
 
