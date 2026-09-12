@@ -1458,7 +1458,7 @@
       "date": "2026-09-11"
     },
     {
-      "count": 7,
+      "count": 8,
       "date": "2026-09-12"
     }
   ],
@@ -1507,6 +1507,28 @@
       "pushed_at": "2026-09-12T05:46:56Z",
       "release": null,
       "url": "https://github.com/EthanChenHyland/avoid.love-v1"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "Version 2 of the avoid.love website \u2014 an interactive attachment screening experience built with Next.js, React, and GSAP.",
+      "issues_enabled": true,
+      "languages": {
+        "CSS": 92759,
+        "JavaScript": 298,
+        "TypeScript": 33891
+      },
+      "latest_commit": {
+        "date": "2026-09-12",
+        "headline": "docs: introduce avoid.love v2 and document local development",
+        "url": "https://github.com/EthanChenHyland/avoid.love-v2/commit/b05228f0b2b6ed97dfeae548b3055a57da32c440"
+      },
+      "name": "avoid.love-v2",
+      "primary": "CSS",
+      "pushed": "2026-09-12",
+      "pushed_at": "2026-09-12T06:19:08Z",
+      "release": null,
+      "url": "https://github.com/EthanChenHyland/avoid.love-v2"
     },
     {
       "archived": false,
