@@ -31,9 +31,9 @@ and tools for the web. This page follows the work as it changes.</p>
 <!-- discovery:start -->
 <details>
 <summary><samp>THE FROG PICKED A PROJECT FOR YOU</samp></summary>
-<p><b><a href="https://github.com/EthanChenHyland/TowerLogic">TowerLogic</a></b></p>
-<p>Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic.</p>
-<p><sub>A rotating daily spotlight · 2026-09-11 UTC</sub></p>
+<p><b><a href="https://github.com/EthanChenHyland/avoid.love">avoid.love</a></b></p>
+<p>A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale.</p>
+<p><sub>A rotating daily spotlight · 2026-09-12 UTC</sub></p>
 </details>
 <!-- discovery:end -->
 
@@ -50,15 +50,15 @@ and tools for the web. This page follows the work as it changes.</p>
 <a name="puzzle"></a>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/puzzle-dark.svg">
-  <img src="generated/puzzle.svg" width="620" alt="Black king on a8; White king on c7; White queen on f4. White to move, mate in one.">
+  <img src="generated/puzzle.svg" width="620" alt="White queen on g4; White king on a3; Black king on b1. White to move, mate in one.">
 </picture>
 <details>
 <summary><samp>NEED A HINT?</samp></summary>
-<p>The queen delivers mate on rank <b>4</b>. Look for a square that checks the king and removes its escape squares.</p>
+<p>The queen delivers mate on rank <b>1</b>. Look for a square that checks the king and removes its escape squares.</p>
 </details>
 <details>
 <summary><samp>REVEAL THE MOVE</samp></summary>
-<p><b>Qa4#</b> — move the queen from <b>f4</b> to <b>a4</b>. The black king is in check with no legal escape.</p>
+<p><b>Qd1#</b> — move the queen from <b>g4</b> to <b>d1</b>. The black king is in check with no legal escape.</p>
 <p><sub>One of 16 verified practice positions, rotating daily. # means checkmate.</sub></p>
 </details>
 <a name="more-fun-stuff"></a>
@@ -66,8 +66,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>MORE FUN STUFF</samp></summary>
 
 <details>
-<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 19 CONTRIBUTIONS</samp></summary>
-<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-11</td><td>2</td></tr><tr><td>2026-09-10</td><td>0</td></tr><tr><td>2026-09-09</td><td>7</td></tr><tr><td>2026-09-08</td><td>10</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr><tr><td>2026-09-05</td><td>0</td></tr></tbody></table>
+<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 31 CONTRIBUTIONS</samp></summary>
+<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-12</td><td>5</td></tr><tr><td>2026-09-11</td><td>9</td></tr><tr><td>2026-09-10</td><td>0</td></tr><tr><td>2026-09-09</td><td>7</td></tr><tr><td>2026-09-08</td><td>10</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr></tbody></table>
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
 </details>
 <a name="field-guide"></a>
@@ -77,7 +77,7 @@ and tools for the web. This page follows the work as it changes.</p>
 <p>Pick an interest to find a starting point in my work.</p>
 <details>
 <summary><samp>I LIKE GAMES &amp; SEARCH</samp></summary>
-<p><b>FunChessEngine</b></p><p>Follow a position from legal moves to search to evaluation. The recorded self-play demo below shows the engine choosing for both sides.</p><p><sub>JavaScript · Python · HTML · CSS · Makefile · Shell · latest push 2026-09-04</sub></p>
+<p><b>FunChessEngine</b></p><p>Follow a position from legal moves to search to evaluation. The recorded self-play demo below shows the engine choosing for both sides.</p><p><sub>JavaScript · Python · HTML · CSS · Makefile · Shell · latest push 2026-09-11</sub></p>
 </details>
 <details>
 <summary><samp>I LIKE MUSIC &amp; SIGNALS</samp></summary>
@@ -85,7 +85,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>I LIKE DATA &amp; AUTOMATION</samp></summary>
-<p><b>kitcoscraper</b></p><p>Explore the path from a web source to extracted data. The project notes show its latest public change.</p><p><sub>JavaScript · latest push 2026-08-30</sub></p>
+<p><b>kitcoscraper</b></p><p>Explore the path from a web source to extracted data. The project notes show its latest public change.</p><p><sub>JavaScript · latest push 2026-09-11</sub></p>
 </details>
 <details>
 <summary><samp>I LIKE AI EXPERIMENTS</samp></summary>
@@ -101,7 +101,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THIS WEEK IN NUMBERS</samp></summary>
-<p><b>19 contributions</b> across 3 active days.</p><p>-77 contributions compared with the preceding seven days (96).</p><p>Busiest day: 2026-09-08 (10 contributions).</p><p><sub>2026-09-05 through 2026-09-11 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
+<p><b>31 contributions</b> across 4 active days.</p><p>-55 contributions compared with the preceding seven days (86).</p><p>Busiest day: 2026-09-08 (10 contributions).</p><p><sub>2026-09-06 through 2026-09-12 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
 </details>
 <details>
 <summary><samp>THE CHESS CORNER · 16 CHALLENGES</samp></summary>
@@ -313,7 +313,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THE BUILD LOG · LATEST CHANGE IN EACH PROJECT</samp></summary>
-<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-04</td><td>FunChessEngine</td><td>Harden desktop preference recovery</td></tr><tr><td>2026-08-31</td><td>TowerLogic</td><td>Fix stuck on Menu Issue</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
+<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-12</td><td>outlook-electron</td><td>Publish modernized Outlook Electron client with macOS build setup</td></tr><tr><td>2026-09-12</td><td>nitro-notes</td><td>Publish Nitro Notes desktop notes and tasks app</td></tr><tr><td>2026-09-12</td><td>grok-electron</td><td>Document downloadable macOS releases</td></tr><tr><td>2026-09-12</td><td>chatgpt-web</td><td>Initial release of ChatGPT Web for macOS</td></tr><tr><td>2026-09-12</td><td>avoid.love</td><td>Give the first Us photograph more scroll time</td></tr><tr><td>2026-09-11</td><td>FunChessEngine</td><td>Publish cross-platform tagged releases</td></tr><tr><td>2026-08-31</td><td>TowerLogic</td><td>Fix stuck on Menu Issue</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
 </details>
 <details>
 <summary><samp>THREE THINGS THE DEMOS DO NOT TELL YOU</samp></summary>
@@ -356,28 +356,28 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>FIND PROJECTS BY LANGUAGE</samp></summary>
 <p>Choose a language to see every matching public project. Percentages describe that language’s share of each repository’s detected language bytes.</p>
 <details>
-<summary><samp>CSS · 2 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>7.1%</td><td>2026-09-04</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
+<summary><samp>CSS · 3 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>4.5%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>7.1%</td><td>2026-09-11</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
-<summary><samp>HTML · 2 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>7.5%</td><td>2026-09-04</td></tr><tr><td>wifi-concierge-site</td><td>100.0%</td><td>2026-08-30</td></tr></table>
+<summary><samp>HTML · 4 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>7.3%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>7.5%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>20.5%</td><td>2026-09-12</td></tr><tr><td>wifi-concierge-site</td><td>100.0%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
-<summary><samp>JAVASCRIPT · 3 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>43.3%</td><td>2026-09-04</td></tr><tr><td>kitcoscraper</td><td>100.0%</td><td>2026-08-30</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
+<summary><samp>JAVASCRIPT · 8 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>83.0%</td><td>2026-09-12</td></tr><tr><td>chatgpt-web</td><td>79.5%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>43.3%</td><td>2026-09-11</td></tr><tr><td>grok-electron</td><td>83.2%</td><td>2026-09-12</td></tr><tr><td>kitcoscraper</td><td>100.0%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>76.9%</td><td>2026-09-12</td></tr><tr><td>outlook-electron</td><td>100.0%</td><td>2026-09-12</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
 <summary><samp>MAKEFILE · 1 PROJECT</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>0.2%</td><td>2026-09-04</td></tr></table>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>0.2%</td><td>2026-09-11</td></tr></table>
 </details>
 <details>
 <summary><samp>PLPGSQL · 1 PROJECT</samp></summary>
 <table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>the-great-prompt-off</td><td>4.6%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
-<summary><samp>PYTHON · 3 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>41.8%</td><td>2026-09-04</td></tr><tr><td>PianoMirRustPublic</td><td>2.6%</td><td>2026-08-30</td></tr><tr><td>TowerLogic</td><td>100.0%</td><td>2026-08-31</td></tr></table>
+<summary><samp>PYTHON · 5 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>5.2%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>41.8%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>2.6%</td><td>2026-09-12</td></tr><tr><td>PianoMirRustPublic</td><td>2.6%</td><td>2026-08-30</td></tr><tr><td>TowerLogic</td><td>100.0%</td><td>2026-08-31</td></tr></table>
 </details>
 <details>
 <summary><samp>RUST · 1 PROJECT</samp></summary>
@@ -385,7 +385,11 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>SHELL · 2 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>0.1%</td><td>2026-09-04</td></tr><tr><td>TowerLogic</td><td>0.0%</td><td>2026-08-31</td></tr></table>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>0.1%</td><td>2026-09-11</td></tr><tr><td>TowerLogic</td><td>0.0%</td><td>2026-08-31</td></tr></table>
+</details>
+<details>
+<summary><samp>SWIFT · 2 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>chatgpt-web</td><td>20.5%</td><td>2026-09-12</td></tr><tr><td>grok-electron</td><td>16.8%</td><td>2026-09-12</td></tr></table>
 </details>
 <details>
 <summary><samp>TYPESCRIPT · 1 PROJECT</samp></summary>
@@ -396,8 +400,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>THE YEAR, MONTH BY MONTH</samp></summary>
 <p>Open a month to see its activity and three busiest dates. Boundary months cover only the dates included in the rolling 365-day snapshot; today may be incomplete.</p>
 <details>
-<summary><samp>SEPTEMBER 2026 · 70 CONTRIBUTIONS</samp></summary>
-<p>6 active days across 11 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-03</td><td>26</td></tr><tr><td>2026-09-01</td><td>18</td></tr><tr><td>2026-09-08</td><td>10</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-11 UTC.</sub></p>
+<summary><samp>SEPTEMBER 2026 · 82 CONTRIBUTIONS</samp></summary>
+<p>7 active days across 12 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-03</td><td>26</td></tr><tr><td>2026-09-01</td><td>18</td></tr><tr><td>2026-09-08</td><td>10</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-12 UTC.</sub></p>
 </details>
 <details>
 <summary><samp>AUGUST 2026 · 75 CONTRIBUTIONS</samp></summary>
@@ -445,7 +449,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>SEPTEMBER 2025 · 0 CONTRIBUTIONS</samp></summary>
-<p>0 active days across 19 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-09-12 through 2025-09-30 UTC.</sub></p>
+<p>0 active days across 18 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-09-13 through 2025-09-30 UTC.</sub></p>
 </details>
 </details>
 <details>
@@ -559,72 +563,77 @@ and tools for the web. This page follows the work as it changes.</p>
 </picture>
 
 <!-- recent-links:start -->
-<a href="https://github.com/EthanChenHyland/FunChessEngine" title="Open FunChessEngine">
+<a href="https://github.com/EthanChenHyland/avoid.love" title="Open avoid.love">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-1-dark.svg">
-  <img src="generated/work-1.svg" width="620" alt="FunChessEngine: Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend. — open repository">
+  <img src="generated/work-1.svg" width="620" alt="avoid.love: A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale. — open repository">
 </picture>
 </a>
 
 <details>
-<summary><samp>EXPLORE FunChessEngine</samp></summary>
+<summary><samp>EXPLORE avoid.love</samp></summary>
 <div align="left">
-<p>Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend.</p><p><b>Languages:</b> JavaScript · Python · HTML · CSS · Makefile · Shell</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/FunChessEngine/commit/daa903d736592c49f0e861ad4cc3fb7ece826933">Harden desktop preference recovery</a><br><sub>2026-09-04 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/FunChessEngine">Code</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/issues">Issues</a></samp></p>
+<p>A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale.</p><p><b>Languages:</b> JavaScript · HTML · Python · CSS</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/avoid.love/commit/ec0364c380d9ebdb97bd20cf58476e4ce6f898cc">Give the first Us photograph more scroll time</a><br><sub>2026-09-12 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/avoid.love">Code</a> · <a href="https://github.com/EthanChenHyland/avoid.love/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/avoid.love/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/avoid.love/issues">Issues</a></samp></p>
 </div>
 </details>
 
-<a href="https://github.com/EthanChenHyland/TowerLogic" title="Open TowerLogic">
+<a href="https://github.com/EthanChenHyland/nitro-notes" title="Open nitro-notes">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-2-dark.svg">
-  <img src="generated/work-2.svg" width="620" alt="TowerLogic: Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic. — open repository">
+  <img src="generated/work-2.svg" width="620" alt="nitro-notes: Fast, offline desktop notes and tasks with checklists, search, and portable exports. — open repository">
 </picture>
 </a>
 
 <details>
-<summary><samp>EXPLORE TowerLogic</samp></summary>
+<summary><samp>EXPLORE nitro-notes</samp></summary>
 <div align="left">
-<p>Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic.</p><p><b>Languages:</b> Python · Shell</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/TowerLogic/commit/33ed84c8ba47a0a407af763c917128cfbc4a8e29">Fix stuck on Menu Issue</a><br><sub>2026-08-31 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/TowerLogic">Code</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/issues">Issues</a></samp></p>
+<p>Fast, offline desktop notes and tasks with checklists, search, and portable exports.</p><p><b>Languages:</b> JavaScript · HTML · Python</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/nitro-notes/commit/98b1197bc8910667439e21dcc5b9094b3bbef624">Publish Nitro Notes desktop notes and tasks app</a><br><sub>2026-09-12 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/nitro-notes/releases/tag/v1.1.0">v1.1.0</a> · 2026-09-12</p><p><samp><a href="https://github.com/EthanChenHyland/nitro-notes">Code</a> · <a href="https://github.com/EthanChenHyland/nitro-notes/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/nitro-notes/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/nitro-notes/issues">Issues</a></samp></p>
 </div>
 </details>
 
-<a href="https://github.com/EthanChenHyland/the-great-prompt-off" title="Open the-great-prompt-off">
+<a href="https://github.com/EthanChenHyland/chatgpt-web" title="Open chatgpt-web">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-3-dark.svg">
-  <img src="generated/work-3.svg" width="620" alt="the-great-prompt-off: Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges. — open repository">
+  <img src="generated/work-3.svg" width="620" alt="chatgpt-web: Unofficial macOS Electron wrapper for the official ChatGPT website — open repository">
 </picture>
 </a>
 
 <details>
-<summary><samp>EXPLORE the-great-prompt-off</samp></summary>
+<summary><samp>EXPLORE chatgpt-web</samp></summary>
 <div align="left">
-<p>Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges.</p><p><b>Languages:</b> TypeScript · PLpgSQL · JavaScript · CSS</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/the-great-prompt-off/commit/02b472c7a15143398f089dbd99fbf69cbb947f0c">Comprehensive passthrough of README and MIT license</a><br><sub>2026-08-30 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/the-great-prompt-off">Code</a> · <a href="https://github.com/EthanChenHyland/the-great-prompt-off/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/the-great-prompt-off/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/the-great-prompt-off/issues">Issues</a></samp></p>
+<p>Unofficial macOS Electron wrapper for the official ChatGPT website</p><p><b>Languages:</b> JavaScript · Swift</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/chatgpt-web/commit/b37d27e4c06453492a5afaf80406c932e6ebc0a2">Initial release of ChatGPT Web for macOS</a><br><sub>2026-09-12 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/chatgpt-web/releases/tag/v1.0.0">v1.0.0</a> · 2026-09-12</p><p><samp><a href="https://github.com/EthanChenHyland/chatgpt-web">Code</a> · <a href="https://github.com/EthanChenHyland/chatgpt-web/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/chatgpt-web/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/chatgpt-web/issues">Issues</a></samp></p>
 </div>
 </details>
 
-<a href="https://github.com/EthanChenHyland/kitcoscraper" title="Open kitcoscraper">
+<a href="https://github.com/EthanChenHyland/outlook-electron" title="Open outlook-electron">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-4-dark.svg">
-  <img src="generated/work-4.svg" width="620" alt="kitcoscraper: Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting. — open repository">
+  <img src="generated/work-4.svg" width="620" alt="outlook-electron: Unofficial Outlook web desktop client for macOS, modernized with Electron 44 — open repository">
 </picture>
 </a>
 
 <details>
-<summary><samp>EXPLORE kitcoscraper</samp></summary>
+<summary><samp>EXPLORE outlook-electron</samp></summary>
 <div align="left">
-<p>Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting.</p><p><b>Languages:</b> JavaScript</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/kitcoscraper/commit/09bf8caa781ae8a2df8e5cbb87110b7aa5577b99">Revise README for clarity and detail</a><br><sub>2026-08-30 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/kitcoscraper">Code</a> · <a href="https://github.com/EthanChenHyland/kitcoscraper/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/kitcoscraper/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/kitcoscraper/issues">Issues</a></samp></p>
+<p>Unofficial Outlook web desktop client for macOS, modernized with Electron 44</p><p><b>Languages:</b> JavaScript</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/outlook-electron/commit/ab5a6428a34320a1d4b66077862a2e69a3451c6e">Publish modernized Outlook Electron client with macOS build setup</a><br><sub>2026-09-12 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/outlook-electron/releases/tag/v2.0.0">v2.0.0</a> · 2026-09-12</p><p><samp><a href="https://github.com/EthanChenHyland/outlook-electron">Code</a> · <a href="https://github.com/EthanChenHyland/outlook-electron/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/outlook-electron/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/outlook-electron/issues">Issues</a></samp></p>
 </div>
 </details>
 <!-- recent-links:end -->
 
 <!-- project-index:start -->
 <details>
-<summary><samp>BROWSE ALL 6 PROJECTS</samp></summary>
+<summary><samp>BROWSE ALL 11 PROJECTS</samp></summary>
 <div align="left">
 <p>Public, non-fork projects, grouped by primary language.</p>
 <ul>
 <li><a href="https://github.com/EthanChenHyland/wifi-concierge-site">wifi-concierge-site</a> — HTML</li>
+<li><a href="https://github.com/EthanChenHyland/avoid.love">avoid.love</a> — JavaScript</li>
+<li><a href="https://github.com/EthanChenHyland/chatgpt-web">chatgpt-web</a> — JavaScript</li>
 <li><a href="https://github.com/EthanChenHyland/FunChessEngine">FunChessEngine</a> — JavaScript</li>
+<li><a href="https://github.com/EthanChenHyland/grok-electron">grok-electron</a> — JavaScript</li>
 <li><a href="https://github.com/EthanChenHyland/kitcoscraper">kitcoscraper</a> — JavaScript</li>
+<li><a href="https://github.com/EthanChenHyland/nitro-notes">nitro-notes</a> — JavaScript</li>
+<li><a href="https://github.com/EthanChenHyland/outlook-electron">outlook-electron</a> — JavaScript</li>
 <li><a href="https://github.com/EthanChenHyland/TowerLogic">TowerLogic</a> — Python</li>
 <li><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">PianoMirRustPublic</a> — Rust</li>
 <li><a href="https://github.com/EthanChenHyland/the-great-prompt-off">the-great-prompt-off</a> — TypeScript</li>
@@ -672,8 +681,13 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>COMPARE THE PROJECTS</samp></summary>
 <table>
 <tr><th>Project</th><th>Languages by code size</th><th>Last push · UTC</th><th>Status</th></tr>
-<tr><td><a href="https://github.com/EthanChenHyland/FunChessEngine">FunChessEngine</a></td><td>JavaScript · Python · HTML · CSS · Makefile · Shell</td><td>2026-09-04</td><td>Open</td></tr>
-<tr><td><a href="https://github.com/EthanChenHyland/kitcoscraper">kitcoscraper</a></td><td>JavaScript</td><td>2026-08-30</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/avoid.love">avoid.love</a></td><td>JavaScript · HTML · Python · CSS</td><td>2026-09-12</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/chatgpt-web">chatgpt-web</a></td><td>JavaScript · Swift</td><td>2026-09-12</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/FunChessEngine">FunChessEngine</a></td><td>JavaScript · Python · HTML · CSS · Makefile · Shell</td><td>2026-09-11</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/grok-electron">grok-electron</a></td><td>JavaScript · Swift</td><td>2026-09-12</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/kitcoscraper">kitcoscraper</a></td><td>JavaScript</td><td>2026-09-11</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/nitro-notes">nitro-notes</a></td><td>JavaScript · HTML · Python</td><td>2026-09-12</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/outlook-electron">outlook-electron</a></td><td>JavaScript</td><td>2026-09-12</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">PianoMirRustPublic</a></td><td>Rust · Python</td><td>2026-08-30</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/the-great-prompt-off">the-great-prompt-off</a></td><td>TypeScript · PLpgSQL · JavaScript · CSS</td><td>2026-08-30</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/TowerLogic">TowerLogic</a></td><td>Python · Shell</td><td>2026-08-31</td><td>Open</td></tr>
@@ -715,35 +729,36 @@ and tools for the web. This page follows the work as it changes.</p>
 <div align="left">
 
 <!-- activity-text:start -->
-259 contributions across 24 active days. Best Sunday–Saturday week: 86 contributions. 2025-09-12 through 2026-09-11, UTC.
+271 contributions across 25 active days. Best Sunday–Saturday week: 86 contributions. 2025-09-13 through 2026-09-12, UTC.
 
-Current: 1 day (2026-09-11 / 2026-09-11). Longest within the last 365 days: 6 days (2026-08-29 / 2026-09-03).
+Current: 2 days (2026-09-11 / 2026-09-12). Longest within the last 365 days: 6 days (2026-08-29 / 2026-09-03).
 
-Last 7 UTC days: 19 contributions; previous 7 days: 96; last 30 days: 145 contributions over 14 active days. Includes today, which is unfinished.
+Last 7 UTC days: 31 contributions; previous 7 days: 86; last 30 days: 157 contributions over 15 active days. Includes today, which is unfinished.
 
-contributions: 259, next checkpoint 300; active days: 24, next checkpoint 25; languages: 9, next checkpoint 10. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
+contributions: 271, next checkpoint 300; active days: 25, next checkpoint 50; languages: 10, next checkpoint 15. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
 
 **Languages**
 
-- HTML: 3,831,364 bytes (49.4%), 2 repositories
-- Python: 1,388,247 bytes (17.9%), 3 repositories
-- Rust: 1,124,399 bytes (14.5%), 1 repositories
-- TypeScript: 691,058 bytes (8.9%), 1 repositories
-- JavaScript: 588,755 bytes (7.6%), 3 repositories
-- CSS: 95,836 bytes (1.2%), 2 repositories
+- HTML: 3,853,377 bytes (47.9%), 4 repositories
+- Python: 1,401,494 bytes (17.4%), 5 repositories
+- Rust: 1,124,399 bytes (14.0%), 1 repositories
+- JavaScript: 831,559 bytes (10.3%), 8 repositories
+- TypeScript: 691,058 bytes (8.6%), 1 repositories
+- CSS: 106,588 bytes (1.3%), 3 repositories
 - PLpgSQL: 33,322 bytes (0.4%), 1 repositories
+- Swift: 3,742 bytes (0.0%), 2 repositories
 - Makefile: 2,330 bytes (0.0%), 1 repositories
 - Shell: 1,335 bytes (0.0%), 2 repositories
 
 **Recent work**
 
-**FunChessEngine** (JavaScript), pushed 2026-09-04. Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend.
+**avoid.love** (JavaScript), pushed 2026-09-12. A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale.
 
-**TowerLogic** (Python), pushed 2026-08-31. Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic.
+**nitro-notes** (JavaScript), pushed 2026-09-12. Fast, offline desktop notes and tasks with checklists, search, and portable exports.
 
-**the-great-prompt-off** (TypeScript), pushed 2026-08-30. Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges.
+**chatgpt-web** (JavaScript), pushed 2026-09-12. Unofficial macOS Electron wrapper for the official ChatGPT website
 
-**kitcoscraper** (JavaScript), pushed 2026-08-30. Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting.
+**outlook-electron** (JavaScript), pushed 2026-09-12. Unofficial Outlook web desktop client for macOS, modernized with Electron 44
 <!-- activity-text:end -->
 
 [Daily contribution data](generated/activity.json)

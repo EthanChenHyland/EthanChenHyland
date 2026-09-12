@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-09-11",
+  "as_of": "2026-09-12",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-09-12"
-    },
     {
       "count": 0,
       "date": "2025-09-13"
@@ -1458,12 +1454,64 @@
       "date": "2026-09-10"
     },
     {
-      "count": 2,
+      "count": 9,
       "date": "2026-09-11"
+    },
+    {
+      "count": 5,
+      "date": "2026-09-12"
     }
   ],
   "login": "EthanChenHyland",
   "repositories": [
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "A cinematic, interactive love story in 28 chapters \u2014 scroll-driven films, tactile details, and a living finale.",
+      "issues_enabled": true,
+      "languages": {
+        "CSS": 10752,
+        "HTML": 17528,
+        "JavaScript": 198997,
+        "Python": 12379
+      },
+      "latest_commit": {
+        "date": "2026-09-12",
+        "headline": "Give the first Us photograph more scroll time",
+        "url": "https://github.com/EthanChenHyland/avoid.love/commit/ec0364c380d9ebdb97bd20cf58476e4ce6f898cc"
+      },
+      "name": "avoid.love",
+      "primary": "JavaScript",
+      "pushed": "2026-09-12",
+      "pushed_at": "2026-09-12T03:28:18Z",
+      "release": null,
+      "url": "https://github.com/EthanChenHyland/avoid.love"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "Unofficial macOS Electron wrapper for the official ChatGPT website",
+      "issues_enabled": true,
+      "languages": {
+        "JavaScript": 8528,
+        "Swift": 2198
+      },
+      "latest_commit": {
+        "date": "2026-09-12",
+        "headline": "Initial release of ChatGPT Web for macOS",
+        "url": "https://github.com/EthanChenHyland/chatgpt-web/commit/b37d27e4c06453492a5afaf80406c932e6ebc0a2"
+      },
+      "name": "chatgpt-web",
+      "primary": "JavaScript",
+      "pushed": "2026-09-12",
+      "pushed_at": "2026-09-12T03:04:48Z",
+      "release": {
+        "date": "2026-09-12",
+        "tag": "v1.0.0",
+        "url": "https://github.com/EthanChenHyland/chatgpt-web/releases/tag/v1.0.0"
+      },
+      "url": "https://github.com/EthanChenHyland/chatgpt-web"
+    },
     {
       "archived": false,
       "branch": "main",
@@ -1472,22 +1520,51 @@
       "languages": {
         "CSS": 95411,
         "HTML": 100984,
-        "JavaScript": 580937,
+        "JavaScript": 581564,
         "Makefile": 2330,
-        "Python": 561140,
+        "Python": 561432,
         "Shell": 1007
       },
       "latest_commit": {
-        "date": "2026-09-04",
-        "headline": "Harden desktop preference recovery",
-        "url": "https://github.com/EthanChenHyland/FunChessEngine/commit/daa903d736592c49f0e861ad4cc3fb7ece826933"
+        "date": "2026-09-11",
+        "headline": "Publish cross-platform tagged releases",
+        "url": "https://github.com/EthanChenHyland/FunChessEngine/commit/7e994e4a7f44126cf2161a69d5b859772c02159b"
       },
       "name": "FunChessEngine",
       "primary": "JavaScript",
-      "pushed": "2026-09-04",
-      "pushed_at": "2026-09-04T01:55:12Z",
-      "release": null,
+      "pushed": "2026-09-11",
+      "pushed_at": "2026-09-11T19:53:15Z",
+      "release": {
+        "date": "2026-09-11",
+        "tag": "v1.1.0",
+        "url": "https://github.com/EthanChenHyland/FunChessEngine/releases/tag/v1.1.0"
+      },
       "url": "https://github.com/EthanChenHyland/FunChessEngine"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "Unofficial Grok Electron app for macOS with native window controls and a menu bar icon",
+      "issues_enabled": true,
+      "languages": {
+        "JavaScript": 7640,
+        "Swift": 1544
+      },
+      "latest_commit": {
+        "date": "2026-09-12",
+        "headline": "Document downloadable macOS releases",
+        "url": "https://github.com/EthanChenHyland/grok-electron/commit/55ed07b7afa70a7ed565b1ac3ef518b9dca435d2"
+      },
+      "name": "grok-electron",
+      "primary": "JavaScript",
+      "pushed": "2026-09-12",
+      "pushed_at": "2026-09-12T03:03:34Z",
+      "release": {
+        "date": "2026-09-12",
+        "tag": "v1.0.0",
+        "url": "https://github.com/EthanChenHyland/grok-electron/releases/tag/v1.0.0"
+      },
+      "url": "https://github.com/EthanChenHyland/grok-electron"
     },
     {
       "archived": false,
@@ -1504,10 +1581,64 @@
       },
       "name": "kitcoscraper",
       "primary": "JavaScript",
-      "pushed": "2026-08-30",
-      "pushed_at": "2026-08-30T03:30:58Z",
-      "release": null,
+      "pushed": "2026-09-11",
+      "pushed_at": "2026-09-11T19:51:07Z",
+      "release": {
+        "date": "2026-09-11",
+        "tag": "v1.0.0",
+        "url": "https://github.com/EthanChenHyland/kitcoscraper/releases/tag/v1.0.0"
+      },
       "url": "https://github.com/EthanChenHyland/kitcoscraper"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "Fast, offline desktop notes and tasks with checklists, search, and portable exports.",
+      "issues_enabled": true,
+      "languages": {
+        "HTML": 4485,
+        "JavaScript": 16854,
+        "Python": 576
+      },
+      "latest_commit": {
+        "date": "2026-09-12",
+        "headline": "Publish Nitro Notes desktop notes and tasks app",
+        "url": "https://github.com/EthanChenHyland/nitro-notes/commit/98b1197bc8910667439e21dcc5b9094b3bbef624"
+      },
+      "name": "nitro-notes",
+      "primary": "JavaScript",
+      "pushed": "2026-09-12",
+      "pushed_at": "2026-09-12T03:13:14Z",
+      "release": {
+        "date": "2026-09-12",
+        "tag": "v1.1.0",
+        "url": "https://github.com/EthanChenHyland/nitro-notes/releases/tag/v1.1.0"
+      },
+      "url": "https://github.com/EthanChenHyland/nitro-notes"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "Unofficial Outlook web desktop client for macOS, modernized with Electron 44",
+      "issues_enabled": true,
+      "languages": {
+        "JavaScript": 10158
+      },
+      "latest_commit": {
+        "date": "2026-09-12",
+        "headline": "Publish modernized Outlook Electron client with macOS build setup",
+        "url": "https://github.com/EthanChenHyland/outlook-electron/commit/ab5a6428a34320a1d4b66077862a2e69a3451c6e"
+      },
+      "name": "outlook-electron",
+      "primary": "JavaScript",
+      "pushed": "2026-09-12",
+      "pushed_at": "2026-09-12T03:03:51Z",
+      "release": {
+        "date": "2026-09-12",
+        "tag": "v2.0.0",
+        "url": "https://github.com/EthanChenHyland/outlook-electron/releases/tag/v2.0.0"
+      },
+      "url": "https://github.com/EthanChenHyland/outlook-electron"
     },
     {
       "archived": false,
