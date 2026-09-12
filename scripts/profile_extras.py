@@ -1,4 +1,4 @@
-"""Native README interactions, regenerated with the daily snapshot."""
+"""Native README interactions, regenerated with the activity snapshot."""
 import json
 from datetime import date
 from svg import ROOT, text, write_pair, esc

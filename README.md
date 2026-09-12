@@ -313,7 +313,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THE BUILD LOG · LATEST CHANGE IN EACH PROJECT</samp></summary>
-<p>A daily snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-04</td><td>FunChessEngine</td><td>Harden desktop preference recovery</td></tr><tr><td>2026-08-31</td><td>TowerLogic</td><td>Fix stuck on Menu Issue</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
+<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-04</td><td>FunChessEngine</td><td>Harden desktop preference recovery</td></tr><tr><td>2026-08-31</td><td>TowerLogic</td><td>Fix stuck on Menu Issue</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
 </details>
 <details>
 <summary><samp>THREE THINGS THE DEMOS DO NOT TELL YOU</samp></summary>
