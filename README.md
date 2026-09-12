@@ -31,8 +31,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <!-- discovery:start -->
 <details>
 <summary><samp>THE FROG PICKED A PROJECT FOR YOU</samp></summary>
-<p><b><a href="https://github.com/EthanChenHyland/avoid.love">avoid.love</a></b></p>
-<p>A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale.</p>
+<p><b><a href="https://github.com/EthanChenHyland/avoid.love-v3">avoid.love-v3</a></b></p>
+<p>V3 of avoid.love — an interactive browser-native love story about falling in love, trying to avoid it, and failing anyway.</p>
 <p><sub>A rotating daily spotlight · 2026-09-12 UTC</sub></p>
 </details>
 <!-- discovery:end -->
@@ -66,8 +66,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>MORE FUN STUFF</samp></summary>
 
 <details>
-<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 31 CONTRIBUTIONS</samp></summary>
-<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-12</td><td>5</td></tr><tr><td>2026-09-11</td><td>9</td></tr><tr><td>2026-09-10</td><td>0</td></tr><tr><td>2026-09-09</td><td>7</td></tr><tr><td>2026-09-08</td><td>10</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr></tbody></table>
+<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 33 CONTRIBUTIONS</samp></summary>
+<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-12</td><td>7</td></tr><tr><td>2026-09-11</td><td>9</td></tr><tr><td>2026-09-10</td><td>0</td></tr><tr><td>2026-09-09</td><td>7</td></tr><tr><td>2026-09-08</td><td>10</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr></tbody></table>
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
 </details>
 <a name="field-guide"></a>
@@ -101,7 +101,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THIS WEEK IN NUMBERS</samp></summary>
-<p><b>31 contributions</b> across 4 active days.</p><p>-55 contributions compared with the preceding seven days (86).</p><p>Busiest day: 2026-09-08 (10 contributions).</p><p><sub>2026-09-06 through 2026-09-12 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
+<p><b>33 contributions</b> across 4 active days.</p><p>-53 contributions compared with the preceding seven days (86).</p><p>Busiest day: 2026-09-08 (10 contributions).</p><p><sub>2026-09-06 through 2026-09-12 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
 </details>
 <details>
 <summary><samp>THE CHESS CORNER · 16 CHALLENGES</samp></summary>
@@ -313,7 +313,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THE BUILD LOG · LATEST CHANGE IN EACH PROJECT</samp></summary>
-<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-12</td><td>outlook-electron</td><td>Publish modernized Outlook Electron client with macOS build setup</td></tr><tr><td>2026-09-12</td><td>nitro-notes</td><td>Publish Nitro Notes desktop notes and tasks app</td></tr><tr><td>2026-09-12</td><td>grok-electron</td><td>Document downloadable macOS releases</td></tr><tr><td>2026-09-12</td><td>chatgpt-web</td><td>Initial release of ChatGPT Web for macOS</td></tr><tr><td>2026-09-12</td><td>avoid.love</td><td>Give the first Us photograph more scroll time</td></tr><tr><td>2026-09-11</td><td>FunChessEngine</td><td>Publish cross-platform tagged releases</td></tr><tr><td>2026-08-31</td><td>TowerLogic</td><td>Fix stuck on Menu Issue</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
+<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-12</td><td>outlook-electron</td><td>Publish modernized Outlook Electron client with macOS build setup</td></tr><tr><td>2026-09-12</td><td>nitro-notes</td><td>Publish Nitro Notes desktop notes and tasks app</td></tr><tr><td>2026-09-12</td><td>grok-electron</td><td>Document downloadable macOS releases</td></tr><tr><td>2026-09-12</td><td>chatgpt-web</td><td>Initial release of ChatGPT Web for macOS</td></tr><tr><td>2026-09-12</td><td>avoid.love-v3</td><td>correct project identity to avoid.love v3</td></tr><tr><td>2026-09-12</td><td>avoid.love-v1</td><td>docs: clarify v1 archive context</td></tr><tr><td>2026-09-12</td><td>avoid.love</td><td>Give the first Us photograph more scroll time</td></tr><tr><td>2026-09-11</td><td>FunChessEngine</td><td>Publish cross-platform tagged releases</td></tr><tr><td>2026-08-31</td><td>TowerLogic</td><td>Fix stuck on Menu Issue</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
 </details>
 <details>
 <summary><samp>THREE THINGS THE DEMOS DO NOT TELL YOU</samp></summary>
@@ -356,16 +356,16 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>FIND PROJECTS BY LANGUAGE</samp></summary>
 <p>Choose a language to see every matching public project. Percentages describe that language’s share of each repository’s detected language bytes.</p>
 <details>
-<summary><samp>CSS · 3 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>4.5%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>7.1%</td><td>2026-09-11</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
+<summary><samp>CSS · 4 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>4.5%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>56.5%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>7.1%</td><td>2026-09-11</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
 <summary><samp>HTML · 4 PROJECTS</samp></summary>
 <table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>7.3%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>7.5%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>20.5%</td><td>2026-09-12</td></tr><tr><td>wifi-concierge-site</td><td>100.0%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
-<summary><samp>JAVASCRIPT · 8 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>83.0%</td><td>2026-09-12</td></tr><tr><td>chatgpt-web</td><td>79.5%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>43.3%</td><td>2026-09-11</td></tr><tr><td>grok-electron</td><td>83.2%</td><td>2026-09-12</td></tr><tr><td>kitcoscraper</td><td>100.0%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>76.9%</td><td>2026-09-12</td></tr><tr><td>outlook-electron</td><td>100.0%</td><td>2026-09-12</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
+<summary><samp>JAVASCRIPT · 10 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>83.0%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v1</td><td>1.4%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>0.2%</td><td>2026-09-12</td></tr><tr><td>chatgpt-web</td><td>79.5%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>43.3%</td><td>2026-09-11</td></tr><tr><td>grok-electron</td><td>83.2%</td><td>2026-09-12</td></tr><tr><td>kitcoscraper</td><td>100.0%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>76.9%</td><td>2026-09-12</td></tr><tr><td>outlook-electron</td><td>100.0%</td><td>2026-09-12</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
 <summary><samp>MAKEFILE · 1 PROJECT</samp></summary>
@@ -376,8 +376,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>the-great-prompt-off</td><td>4.6%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
-<summary><samp>PYTHON · 5 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>5.2%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>41.8%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>2.6%</td><td>2026-09-12</td></tr><tr><td>PianoMirRustPublic</td><td>2.6%</td><td>2026-08-30</td></tr><tr><td>TowerLogic</td><td>100.0%</td><td>2026-08-31</td></tr></table>
+<summary><samp>PYTHON · 6 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>5.2%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>4.2%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>41.8%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>2.6%</td><td>2026-09-12</td></tr><tr><td>PianoMirRustPublic</td><td>2.6%</td><td>2026-08-30</td></tr><tr><td>TowerLogic</td><td>100.0%</td><td>2026-08-31</td></tr></table>
 </details>
 <details>
 <summary><samp>RUST · 1 PROJECT</samp></summary>
@@ -392,15 +392,15 @@ and tools for the web. This page follows the work as it changes.</p>
 <table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>chatgpt-web</td><td>20.5%</td><td>2026-09-12</td></tr><tr><td>grok-electron</td><td>16.8%</td><td>2026-09-12</td></tr></table>
 </details>
 <details>
-<summary><samp>TYPESCRIPT · 1 PROJECT</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>the-great-prompt-off</td><td>95.3%</td><td>2026-08-30</td></tr></table>
+<summary><samp>TYPESCRIPT · 3 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love-v1</td><td>98.6%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>39.1%</td><td>2026-09-12</td></tr><tr><td>the-great-prompt-off</td><td>95.3%</td><td>2026-08-30</td></tr></table>
 </details>
 </details>
 <details>
 <summary><samp>THE YEAR, MONTH BY MONTH</samp></summary>
 <p>Open a month to see its activity and three busiest dates. Boundary months cover only the dates included in the rolling 365-day snapshot; today may be incomplete.</p>
 <details>
-<summary><samp>SEPTEMBER 2026 · 82 CONTRIBUTIONS</samp></summary>
+<summary><samp>SEPTEMBER 2026 · 84 CONTRIBUTIONS</samp></summary>
 <p>7 active days across 12 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-03</td><td>26</td></tr><tr><td>2026-09-01</td><td>18</td></tr><tr><td>2026-09-08</td><td>10</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-12 UTC.</sub></p>
 </details>
 <details>
@@ -563,10 +563,38 @@ and tools for the web. This page follows the work as it changes.</p>
 </picture>
 
 <!-- recent-links:start -->
-<a href="https://github.com/EthanChenHyland/avoid.love" title="Open avoid.love">
+<a href="https://github.com/EthanChenHyland/avoid.love-v3" title="Open avoid.love-v3">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-1-dark.svg">
-  <img src="generated/work-1.svg" width="620" alt="avoid.love: A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale. — open repository">
+  <img src="generated/work-1.svg" width="620" alt="avoid.love-v3: V3 of avoid.love — an interactive browser-native love story about falling in love, trying to avoid it, and failing anyway. — open repository">
+</picture>
+</a>
+
+<details>
+<summary><samp>EXPLORE avoid.love-v3</samp></summary>
+<div align="left">
+<p>V3 of avoid.love — an interactive browser-native love story about falling in love, trying to avoid it, and failing anyway.</p><p><b>Languages:</b> CSS · TypeScript · Python · JavaScript</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/avoid.love-v3/commit/5089ca4e6f3b9c297b4d71fffaa9a5d51a546f8c">correct project identity to avoid.love v3</a><br><sub>2026-09-12 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/avoid.love-v3">Code</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v3/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v3/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v3/issues">Issues</a></samp></p>
+</div>
+</details>
+
+<a href="https://github.com/EthanChenHyland/avoid.love-v1" title="Open avoid.love-v1">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="generated/work-2-dark.svg">
+  <img src="generated/work-2.svg" width="620" alt="avoid.love-v1: An interactive anti-love protocol: a scroll-driven web art experience about avoidance, attachment, and the messages you never send. — open repository">
+</picture>
+</a>
+
+<details>
+<summary><samp>EXPLORE avoid.love-v1</samp></summary>
+<div align="left">
+<p>An interactive anti-love protocol: a scroll-driven web art experience about avoidance, attachment, and the messages you never send.</p><p><b>Languages:</b> TypeScript · JavaScript</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/avoid.love-v1/commit/c2f6601507c1f18e0f2eb423e1358c1006f8d282">docs: clarify v1 archive context</a><br><sub>2026-09-12 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/avoid.love-v1">Code</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v1/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v1/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v1/issues">Issues</a></samp></p>
+</div>
+</details>
+
+<a href="https://github.com/EthanChenHyland/avoid.love" title="Open avoid.love">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="generated/work-3-dark.svg">
+  <img src="generated/work-3.svg" width="620" alt="avoid.love: A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale. — open repository">
 </picture>
 </a>
 
@@ -579,8 +607,8 @@ and tools for the web. This page follows the work as it changes.</p>
 
 <a href="https://github.com/EthanChenHyland/nitro-notes" title="Open nitro-notes">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="generated/work-2-dark.svg">
-  <img src="generated/work-2.svg" width="620" alt="nitro-notes: Fast, offline desktop notes and tasks with checklists, search, and portable exports. — open repository">
+  <source media="(prefers-color-scheme: dark)" srcset="generated/work-4-dark.svg">
+  <img src="generated/work-4.svg" width="620" alt="nitro-notes: Fast, offline desktop notes and tasks with checklists, search, and portable exports. — open repository">
 </picture>
 </a>
 
@@ -590,42 +618,15 @@ and tools for the web. This page follows the work as it changes.</p>
 <p>Fast, offline desktop notes and tasks with checklists, search, and portable exports.</p><p><b>Languages:</b> JavaScript · HTML · Python</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/nitro-notes/commit/98b1197bc8910667439e21dcc5b9094b3bbef624">Publish Nitro Notes desktop notes and tasks app</a><br><sub>2026-09-12 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/nitro-notes/releases/tag/v1.1.0">v1.1.0</a> · 2026-09-12</p><p><samp><a href="https://github.com/EthanChenHyland/nitro-notes">Code</a> · <a href="https://github.com/EthanChenHyland/nitro-notes/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/nitro-notes/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/nitro-notes/issues">Issues</a></samp></p>
 </div>
 </details>
-
-<a href="https://github.com/EthanChenHyland/chatgpt-web" title="Open chatgpt-web">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="generated/work-3-dark.svg">
-  <img src="generated/work-3.svg" width="620" alt="chatgpt-web: Unofficial macOS Electron wrapper for the official ChatGPT website — open repository">
-</picture>
-</a>
-
-<details>
-<summary><samp>EXPLORE chatgpt-web</samp></summary>
-<div align="left">
-<p>Unofficial macOS Electron wrapper for the official ChatGPT website</p><p><b>Languages:</b> JavaScript · Swift</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/chatgpt-web/commit/b37d27e4c06453492a5afaf80406c932e6ebc0a2">Initial release of ChatGPT Web for macOS</a><br><sub>2026-09-12 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/chatgpt-web/releases/tag/v1.0.0">v1.0.0</a> · 2026-09-12</p><p><samp><a href="https://github.com/EthanChenHyland/chatgpt-web">Code</a> · <a href="https://github.com/EthanChenHyland/chatgpt-web/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/chatgpt-web/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/chatgpt-web/issues">Issues</a></samp></p>
-</div>
-</details>
-
-<a href="https://github.com/EthanChenHyland/outlook-electron" title="Open outlook-electron">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="generated/work-4-dark.svg">
-  <img src="generated/work-4.svg" width="620" alt="outlook-electron: Unofficial Outlook web desktop client for macOS, modernized with Electron 44 — open repository">
-</picture>
-</a>
-
-<details>
-<summary><samp>EXPLORE outlook-electron</samp></summary>
-<div align="left">
-<p>Unofficial Outlook web desktop client for macOS, modernized with Electron 44</p><p><b>Languages:</b> JavaScript</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/outlook-electron/commit/ab5a6428a34320a1d4b66077862a2e69a3451c6e">Publish modernized Outlook Electron client with macOS build setup</a><br><sub>2026-09-12 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/outlook-electron/releases/tag/v2.0.0">v2.0.0</a> · 2026-09-12</p><p><samp><a href="https://github.com/EthanChenHyland/outlook-electron">Code</a> · <a href="https://github.com/EthanChenHyland/outlook-electron/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/outlook-electron/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/outlook-electron/issues">Issues</a></samp></p>
-</div>
-</details>
 <!-- recent-links:end -->
 
 <!-- project-index:start -->
 <details>
-<summary><samp>BROWSE ALL 11 PROJECTS</samp></summary>
+<summary><samp>BROWSE ALL 13 PROJECTS</samp></summary>
 <div align="left">
 <p>Public, non-fork projects, grouped by primary language.</p>
 <ul>
+<li><a href="https://github.com/EthanChenHyland/avoid.love-v3">avoid.love-v3</a> — CSS</li>
 <li><a href="https://github.com/EthanChenHyland/wifi-concierge-site">wifi-concierge-site</a> — HTML</li>
 <li><a href="https://github.com/EthanChenHyland/avoid.love">avoid.love</a> — JavaScript</li>
 <li><a href="https://github.com/EthanChenHyland/chatgpt-web">chatgpt-web</a> — JavaScript</li>
@@ -636,6 +637,7 @@ and tools for the web. This page follows the work as it changes.</p>
 <li><a href="https://github.com/EthanChenHyland/outlook-electron">outlook-electron</a> — JavaScript</li>
 <li><a href="https://github.com/EthanChenHyland/TowerLogic">TowerLogic</a> — Python</li>
 <li><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">PianoMirRustPublic</a> — Rust</li>
+<li><a href="https://github.com/EthanChenHyland/avoid.love-v1">avoid.love-v1</a> — TypeScript</li>
 <li><a href="https://github.com/EthanChenHyland/the-great-prompt-off">the-great-prompt-off</a> — TypeScript</li>
 </ul>
 </div>
@@ -682,6 +684,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <table>
 <tr><th>Project</th><th>Languages by code size</th><th>Last push · UTC</th><th>Status</th></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/avoid.love">avoid.love</a></td><td>JavaScript · HTML · Python · CSS</td><td>2026-09-12</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/avoid.love-v1">avoid.love-v1</a></td><td>TypeScript · JavaScript</td><td>2026-09-12</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/avoid.love-v3">avoid.love-v3</a></td><td>CSS · TypeScript · Python · JavaScript</td><td>2026-09-12</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/chatgpt-web">chatgpt-web</a></td><td>JavaScript · Swift</td><td>2026-09-12</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/FunChessEngine">FunChessEngine</a></td><td>JavaScript · Python · HTML · CSS · Makefile · Shell</td><td>2026-09-11</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/grok-electron">grok-electron</a></td><td>JavaScript · Swift</td><td>2026-09-12</td><td>Open</td></tr>
@@ -729,22 +733,22 @@ and tools for the web. This page follows the work as it changes.</p>
 <div align="left">
 
 <!-- activity-text:start -->
-271 contributions across 25 active days. Best Sunday–Saturday week: 86 contributions. 2025-09-13 through 2026-09-12, UTC.
+273 contributions across 25 active days. Best Sunday–Saturday week: 86 contributions. 2025-09-13 through 2026-09-12, UTC.
 
 Current: 2 days (2026-09-11 / 2026-09-12). Longest within the last 365 days: 6 days (2026-08-29 / 2026-09-03).
 
-Last 7 UTC days: 31 contributions; previous 7 days: 86; last 30 days: 157 contributions over 15 active days. Includes today, which is unfinished.
+Last 7 UTC days: 33 contributions; previous 7 days: 86; last 30 days: 159 contributions over 15 active days. Includes today, which is unfinished.
 
-contributions: 271, next checkpoint 300; active days: 25, next checkpoint 50; languages: 10, next checkpoint 15. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
+contributions: 273, next checkpoint 300; active days: 25, next checkpoint 50; languages: 10, next checkpoint 15. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
 
 **Languages**
 
-- HTML: 3,853,377 bytes (47.9%), 4 repositories
-- Python: 1,401,494 bytes (17.4%), 5 repositories
-- Rust: 1,124,399 bytes (14.0%), 1 repositories
-- JavaScript: 831,559 bytes (10.3%), 8 repositories
-- TypeScript: 691,058 bytes (8.6%), 1 repositories
-- CSS: 106,588 bytes (1.3%), 3 repositories
+- HTML: 3,853,377 bytes (46.5%), 4 repositories
+- Python: 1,410,528 bytes (17.0%), 6 repositories
+- Rust: 1,124,399 bytes (13.6%), 1 repositories
+- JavaScript: 832,321 bytes (10.0%), 10 repositories
+- TypeScript: 797,739 bytes (9.6%), 3 repositories
+- CSS: 228,382 bytes (2.8%), 4 repositories
 - PLpgSQL: 33,322 bytes (0.4%), 1 repositories
 - Swift: 3,742 bytes (0.0%), 2 repositories
 - Makefile: 2,330 bytes (0.0%), 1 repositories
@@ -752,13 +756,13 @@ contributions: 271, next checkpoint 300; active days: 25, next checkpoint 50; la
 
 **Recent work**
 
+**avoid.love-v3** (CSS), pushed 2026-09-12. V3 of avoid.love — an interactive browser-native love story about falling in love, trying to avoid it, and failing anyway.
+
+**avoid.love-v1** (TypeScript), pushed 2026-09-12. An interactive anti-love protocol: a scroll-driven web art experience about avoidance, attachment, and the messages you never send.
+
 **avoid.love** (JavaScript), pushed 2026-09-12. A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale.
 
 **nitro-notes** (JavaScript), pushed 2026-09-12. Fast, offline desktop notes and tasks with checklists, search, and portable exports.
-
-**chatgpt-web** (JavaScript), pushed 2026-09-12. Unofficial macOS Electron wrapper for the official ChatGPT website
-
-**outlook-electron** (JavaScript), pushed 2026-09-12. Unofficial Outlook web desktop client for macOS, modernized with Electron 44
 <!-- activity-text:end -->
 
 [Daily contribution data](generated/activity.json)

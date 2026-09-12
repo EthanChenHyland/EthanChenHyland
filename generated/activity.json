@@ -1458,7 +1458,7 @@
       "date": "2026-09-11"
     },
     {
-      "count": 5,
+      "count": 7,
       "date": "2026-09-12"
     }
   ],
@@ -1486,6 +1486,50 @@
       "pushed_at": "2026-09-12T03:28:18Z",
       "release": null,
       "url": "https://github.com/EthanChenHyland/avoid.love"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "An interactive anti-love protocol: a scroll-driven web art experience about avoidance, attachment, and the messages you never send.",
+      "issues_enabled": true,
+      "languages": {
+        "JavaScript": 309,
+        "TypeScript": 22409
+      },
+      "latest_commit": {
+        "date": "2026-09-12",
+        "headline": "docs: clarify v1 archive context",
+        "url": "https://github.com/EthanChenHyland/avoid.love-v1/commit/c2f6601507c1f18e0f2eb423e1358c1006f8d282"
+      },
+      "name": "avoid.love-v1",
+      "primary": "TypeScript",
+      "pushed": "2026-09-12",
+      "pushed_at": "2026-09-12T05:46:56Z",
+      "release": null,
+      "url": "https://github.com/EthanChenHyland/avoid.love-v1"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "V3 of avoid.love \u2014 an interactive browser-native love story about falling in love, trying to avoid it, and failing anyway.",
+      "issues_enabled": true,
+      "languages": {
+        "CSS": 121794,
+        "JavaScript": 453,
+        "Python": 9034,
+        "TypeScript": 84272
+      },
+      "latest_commit": {
+        "date": "2026-09-12",
+        "headline": "correct project identity to avoid.love v3",
+        "url": "https://github.com/EthanChenHyland/avoid.love-v3/commit/5089ca4e6f3b9c297b4d71fffaa9a5d51a546f8c"
+      },
+      "name": "avoid.love-v3",
+      "primary": "CSS",
+      "pushed": "2026-09-12",
+      "pushed_at": "2026-09-12T06:04:44Z",
+      "release": null,
+      "url": "https://github.com/EthanChenHyland/avoid.love-v3"
     },
     {
       "archived": false,
