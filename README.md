@@ -605,17 +605,17 @@ and tools for the web. This page follows the work as it changes.</p>
 </div>
 </details>
 
-<a href="https://github.com/EthanChenHyland/kitcoscraper" title="Open kitcoscraper">
+<a href="https://github.com/EthanChenHyland/PianoMirRustPublic" title="Open PianoMirRustPublic">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-4-dark.svg">
-  <img src="generated/work-4.svg" width="620" alt="kitcoscraper: Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting. — open repository">
+  <img src="generated/work-4.svg" width="620" alt="PianoMirRustPublic: Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo. — open repository">
 </picture>
 </a>
 
 <details>
-<summary><samp>EXPLORE kitcoscraper</samp></summary>
+<summary><samp>EXPLORE PianoMirRustPublic</samp></summary>
 <div align="left">
-<p>Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting.</p><p><b>Languages:</b> JavaScript</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/kitcoscraper/commit/09bf8caa781ae8a2df8e5cbb87110b7aa5577b99">Revise README for clarity and detail</a><br><sub>2026-08-30 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/kitcoscraper/releases/tag/v1.0.0">v1.0.0</a> · 2026-09-11</p><p><samp><a href="https://github.com/EthanChenHyland/kitcoscraper">Code</a> · <a href="https://github.com/EthanChenHyland/kitcoscraper/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/kitcoscraper/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/kitcoscraper/issues">Issues</a></samp></p>
+<p>Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo.</p><p><b>Languages:</b> Rust · Python</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/PianoMirRustPublic/commit/a4cedc91875f4ccb697f366cea6e1c4664ec36d1">Correct typo in README.md</a><br><sub>2026-08-30 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">Code</a> · <a href="https://github.com/EthanChenHyland/PianoMirRustPublic/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/PianoMirRustPublic/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/PianoMirRustPublic/issues">Issues</a></samp></p>
 </div>
 </details>
 <!-- recent-links:end -->
@@ -764,7 +764,7 @@ contributions: 275, next checkpoint 300; active days: 25, next checkpoint 50; la
 
 **the-great-prompt-off** (TypeScript), pushed 2026-08-30. Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges.
 
-**kitcoscraper** (JavaScript), pushed 2026-09-11. Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting.
+**PianoMirRustPublic** (Rust), pushed 2026-08-30. Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo.
 <!-- activity-text:end -->
 
 [Daily contribution data](generated/activity.json)
