@@ -4,5 +4,11 @@
       "text": "Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend.",
       "source": "https://github.com/EthanChenHyland/FunChessEngine/blob/main/README.md"
     }
-  }
+  },
+  "featured_repositories": [
+    "FunChessEngine",
+    "TowerLogic",
+    "the-great-prompt-off",
+    "kitcoscraper"
+  ]
 }

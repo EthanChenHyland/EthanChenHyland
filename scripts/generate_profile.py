@@ -159,6 +159,20 @@ def recent_repos(repos):
     return sorted((r for r in repos if not r['archived']), key=lambda r: (r.get('pushed_at',r['pushed']), r['name']), reverse=True)[:4]
 
 
+def featured_repos(repos, names):
+    """Keep curated order; missing/private projects never expose cached details."""
+    by_name = {r['name'].casefold(): r for r in repos}
+    selected, seen = [], set()
+    for name in names:
+        key = name.casefold()
+        if key in by_name and key not in seen:
+            selected.append(by_name[key])
+            seen.add(key)
+        if len(selected) == 4:
+            break
+    return selected
+
+
 def repository_description(repo):
     if repo['description']:
         return repo['description'].strip()
@@ -246,8 +260,8 @@ def render(data, out):
     body += text(620, 216, 'UTC', 10, 'muted', 'end')
     write_pair(out, 'year', 'The year, in characters', description + ' Rows run Sunday to Saturday; columns run oldest to newest. Dot: zero; colon: 1–2; plus: 3–5; asterisk: 6–10; hash: 11 or more.', 234, body)
 
-    recent = recent_repos(repos)
-    body = text(0,16,'LATEST PUBLIC PUSHES',10,'muted') + text(620,16,'REPOSITORY / LANGUAGE',10,'muted','end')
+    recent = featured_repos(repos, json.loads((ROOT/'profile.json').read_text())['featured_repositories'])
+    body = text(0,16,'FEATURED PROJECTS',10,'muted') + text(620,16,'REPOSITORY / LANGUAGE',10,'muted','end')
     summaries = []
     for i, repo in enumerate(recent):
         card_start = len(body)
@@ -265,9 +279,9 @@ def render(data, out):
         write_pair(out,f'work-{i+1}',repo['name'],summaries[-1],116,card)
     if not recent:
         body += text(0,55,'No public projects to show yet.',12,'muted')
-    write_pair(out,'recent','Recent work',' '.join(summaries) or 'No public projects.',max(100, 34+114*len(recent)),body)
+    write_pair(out,'recent','Featured work',' '.join(summaries) or 'No public projects.',max(100, 34+114*len(recent)),body)
 
-    for i, (name, title) in enumerate((('about','ABOUT'),('recent','RECENT WORK'),('stack','STACK'),('stats','STATS')),1):
+    for i, (name, title) in enumerate((('about','ABOUT'),('recent','FEATURED WORK'),('stack','STACK'),('stats','STATS')),1):
         body = text(0,31,f'{i:02d}',10,'muted') + text(30,31,title,11) + line(50+len(title)*7,27,620,27)
         write_pair(out,'hd-'+name,title,title,58,body)
     body = text(310,26,'ETHAN B. CHEN',26,anchor='middle',extra='letter-spacing="3"') + text(310,53,'@'+data['login'],12,'muted','middle')
@@ -285,7 +299,7 @@ def update_readme(path, summary, streak, langs, recent, repos, pulse, checkpoint
     language_list = '\n'.join('- '+item for item in langs.split('; '))
     recent_text = '\n\n'.join(f'**{r["name"]}** ({r["primary"]}), pushed {r["pushed"]}. {repository_description(r)}' for r in recent)
     links = '\n\n'.join(f'<a href="{esc(r["url"])}" title="Open {esc(r["name"])}">\n'+picture(f'work-{i+1}',f'{r["name"]}: {repository_description(r)} — open repository')+'\n</a>\n\n'+project_notes(r,repository_description(r)) for i,r in enumerate(recent))
-    for name, replacement in (('profile-extras',extras_html), ('discovery',discovery_html), ('comparison',comparison(repos)), ('recent-links', links), ('project-index',project_index(repos)), ('activity-text', f'{summary}\n\n{streak}\n\n{pulse}\n\n{checkpoints}\n\n**Languages**\n\n{language_list}\n\n**Recent work**\n\n{recent_text}')):
+    for name, replacement in (('profile-extras',extras_html), ('discovery',discovery_html), ('comparison',comparison(repos)), ('recent-links', links), ('project-index',project_index(repos)), ('activity-text', f'{summary}\n\n{streak}\n\n{pulse}\n\n{checkpoints}\n\n**Languages**\n\n{language_list}\n\n**Featured work**\n\n{recent_text}')):
         pattern = rf'(<!-- {name}:start -->).*?(<!-- {name}:end -->)'
         content, count = re.subn(pattern, lambda m: m[1]+'\n'+replacement+'\n'+m[2], content, flags=re.S)
         if count != 1:

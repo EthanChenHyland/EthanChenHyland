@@ -559,63 +559,63 @@ and tools for the web. This page follows the work as it changes.</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/hd-recent-dark.svg">
-  <img src="generated/hd-recent.svg" width="620" alt="02 / Recent work">
+  <img src="generated/hd-recent.svg" width="620" alt="02 / Featured work">
 </picture>
 
 <!-- recent-links:start -->
-<a href="https://github.com/EthanChenHyland/avoid.love-v2" title="Open avoid.love-v2">
+<a href="https://github.com/EthanChenHyland/FunChessEngine" title="Open FunChessEngine">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-1-dark.svg">
-  <img src="generated/work-1.svg" width="620" alt="avoid.love-v2: Version 2 of the avoid.love website — an interactive attachment screening experience built with Next.js, React, and GSAP. — open repository">
+  <img src="generated/work-1.svg" width="620" alt="FunChessEngine: Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend. — open repository">
 </picture>
 </a>
 
 <details>
-<summary><samp>EXPLORE avoid.love-v2</samp></summary>
+<summary><samp>EXPLORE FunChessEngine</samp></summary>
 <div align="left">
-<p>Version 2 of the avoid.love website — an interactive attachment screening experience built with Next.js, React, and GSAP.</p><p><b>Languages:</b> CSS · TypeScript · JavaScript</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/avoid.love-v2/commit/b05228f0b2b6ed97dfeae548b3055a57da32c440">docs: introduce avoid.love v2 and document local development</a><br><sub>2026-09-12 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/avoid.love-v2">Code</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v2/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v2/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v2/issues">Issues</a></samp></p>
+<p>Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend.</p><p><b>Languages:</b> JavaScript · Python · HTML · CSS · Makefile · Shell</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/FunChessEngine/commit/7e994e4a7f44126cf2161a69d5b859772c02159b">Publish cross-platform tagged releases</a><br><sub>2026-09-11 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/FunChessEngine/releases/tag/v1.1.0">v1.1.0</a> · 2026-09-11</p><p><samp><a href="https://github.com/EthanChenHyland/FunChessEngine">Code</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/issues">Issues</a></samp></p>
 </div>
 </details>
 
-<a href="https://github.com/EthanChenHyland/avoid.love-v3" title="Open avoid.love-v3">
+<a href="https://github.com/EthanChenHyland/TowerLogic" title="Open TowerLogic">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-2-dark.svg">
-  <img src="generated/work-2.svg" width="620" alt="avoid.love-v3: V3 of avoid.love — an interactive browser-native love story about falling in love, trying to avoid it, and failing anyway. — open repository">
+  <img src="generated/work-2.svg" width="620" alt="TowerLogic: Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic. — open repository">
 </picture>
 </a>
 
 <details>
-<summary><samp>EXPLORE avoid.love-v3</samp></summary>
+<summary><samp>EXPLORE TowerLogic</samp></summary>
 <div align="left">
-<p>V3 of avoid.love — an interactive browser-native love story about falling in love, trying to avoid it, and failing anyway.</p><p><b>Languages:</b> CSS · TypeScript · Python · JavaScript</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/avoid.love-v3/commit/5089ca4e6f3b9c297b4d71fffaa9a5d51a546f8c">correct project identity to avoid.love v3</a><br><sub>2026-09-12 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/avoid.love-v3">Code</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v3/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v3/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v3/issues">Issues</a></samp></p>
+<p>Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic.</p><p><b>Languages:</b> Python · Shell</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/TowerLogic/commit/33ed84c8ba47a0a407af763c917128cfbc4a8e29">Fix stuck on Menu Issue</a><br><sub>2026-08-31 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/TowerLogic">Code</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/issues">Issues</a></samp></p>
 </div>
 </details>
 
-<a href="https://github.com/EthanChenHyland/avoid.love-v1" title="Open avoid.love-v1">
+<a href="https://github.com/EthanChenHyland/the-great-prompt-off" title="Open the-great-prompt-off">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-3-dark.svg">
-  <img src="generated/work-3.svg" width="620" alt="avoid.love-v1: An interactive anti-love protocol: a scroll-driven web art experience about avoidance, attachment, and the messages you never send. — open repository">
+  <img src="generated/work-3.svg" width="620" alt="the-great-prompt-off: Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges. — open repository">
 </picture>
 </a>
 
 <details>
-<summary><samp>EXPLORE avoid.love-v1</samp></summary>
+<summary><samp>EXPLORE the-great-prompt-off</samp></summary>
 <div align="left">
-<p>An interactive anti-love protocol: a scroll-driven web art experience about avoidance, attachment, and the messages you never send.</p><p><b>Languages:</b> TypeScript · JavaScript</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/avoid.love-v1/commit/c2f6601507c1f18e0f2eb423e1358c1006f8d282">docs: clarify v1 archive context</a><br><sub>2026-09-12 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/avoid.love-v1">Code</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v1/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v1/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/avoid.love-v1/issues">Issues</a></samp></p>
+<p>Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges.</p><p><b>Languages:</b> TypeScript · PLpgSQL · JavaScript · CSS</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/the-great-prompt-off/commit/02b472c7a15143398f089dbd99fbf69cbb947f0c">Comprehensive passthrough of README and MIT license</a><br><sub>2026-08-30 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/the-great-prompt-off">Code</a> · <a href="https://github.com/EthanChenHyland/the-great-prompt-off/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/the-great-prompt-off/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/the-great-prompt-off/issues">Issues</a></samp></p>
 </div>
 </details>
 
-<a href="https://github.com/EthanChenHyland/avoid.love" title="Open avoid.love">
+<a href="https://github.com/EthanChenHyland/kitcoscraper" title="Open kitcoscraper">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-4-dark.svg">
-  <img src="generated/work-4.svg" width="620" alt="avoid.love: A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale. — open repository">
+  <img src="generated/work-4.svg" width="620" alt="kitcoscraper: Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting. — open repository">
 </picture>
 </a>
 
 <details>
-<summary><samp>EXPLORE avoid.love</samp></summary>
+<summary><samp>EXPLORE kitcoscraper</samp></summary>
 <div align="left">
-<p>A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale.</p><p><b>Languages:</b> JavaScript · HTML · Python · CSS</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/avoid.love/commit/ec0364c380d9ebdb97bd20cf58476e4ce6f898cc">Give the first Us photograph more scroll time</a><br><sub>2026-09-12 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/avoid.love">Code</a> · <a href="https://github.com/EthanChenHyland/avoid.love/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/avoid.love/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/avoid.love/issues">Issues</a></samp></p>
+<p>Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting.</p><p><b>Languages:</b> JavaScript</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/kitcoscraper/commit/09bf8caa781ae8a2df8e5cbb87110b7aa5577b99">Revise README for clarity and detail</a><br><sub>2026-08-30 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/kitcoscraper/releases/tag/v1.0.0">v1.0.0</a> · 2026-09-11</p><p><samp><a href="https://github.com/EthanChenHyland/kitcoscraper">Code</a> · <a href="https://github.com/EthanChenHyland/kitcoscraper/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/kitcoscraper/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/kitcoscraper/issues">Issues</a></samp></p>
 </div>
 </details>
 <!-- recent-links:end -->
@@ -756,15 +756,15 @@ contributions: 274, next checkpoint 300; active days: 25, next checkpoint 50; la
 - Makefile: 2,330 bytes (0.0%), 1 repositories
 - Shell: 1,335 bytes (0.0%), 2 repositories
 
-**Recent work**
+**Featured work**
 
-**avoid.love-v2** (CSS), pushed 2026-09-12. Version 2 of the avoid.love website — an interactive attachment screening experience built with Next.js, React, and GSAP.
+**FunChessEngine** (JavaScript), pushed 2026-09-11. Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend.
 
-**avoid.love-v3** (CSS), pushed 2026-09-12. V3 of avoid.love — an interactive browser-native love story about falling in love, trying to avoid it, and failing anyway.
+**TowerLogic** (Python), pushed 2026-08-31. Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic.
 
-**avoid.love-v1** (TypeScript), pushed 2026-09-12. An interactive anti-love protocol: a scroll-driven web art experience about avoidance, attachment, and the messages you never send.
+**the-great-prompt-off** (TypeScript), pushed 2026-08-30. Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges.
 
-**avoid.love** (JavaScript), pushed 2026-09-12. A cinematic, interactive love story in 28 chapters — scroll-driven films, tactile details, and a living finale.
+**kitcoscraper** (JavaScript), pushed 2026-09-11. Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting.
 <!-- activity-text:end -->
 
 [Daily contribution data](generated/activity.json)

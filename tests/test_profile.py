@@ -6,7 +6,7 @@ import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from generate_profile import language_totals, render, recent_repos, streaks, validate_data, weekly
+from generate_profile import featured_repos, language_totals, render, recent_repos, streaks, validate_data, weekly
 from make_ascii import prepare, render_ascii
 from PIL import Image
 
@@ -40,6 +40,14 @@ class ActivityTests(unittest.TestCase):
         self.assertEqual(dict(sizes),{'Python':30,'Rust':5})
         self.assertEqual(dict(counts),{'Python':2,'Rust':1})
 
+    def test_featured_order_survives_new_repositories(self):
+        repos = [{'name': 'New'}, {'name': 'B'}, {'name': 'A'}]
+        self.assertEqual([r['name'] for r in featured_repos(repos, ['A', 'B'])], ['A', 'B'])
+
+    def test_featured_missing_and_duplicate_names_do_not_get_replacements(self):
+        repos = [{'name': 'A'}, {'name': 'New'}]
+        self.assertEqual([r['name'] for r in featured_repos(repos, ['Missing', 'a', 'A'])], ['A'])
+
     def test_recent_pushes_keep_time_of_day(self):
         repos = [dict(name='Z',pushed='2026-01-01',pushed_at='2026-01-01T01:00:00Z',archived=False),
                  dict(name='A',pushed='2026-01-01',pushed_at='2026-01-01T23:00:00Z',archived=False)]
@@ -60,6 +68,7 @@ class ActivityTests(unittest.TestCase):
             render(data,tmp)
             data['repositories']=[{'name':'A&B<repo>','primary':'Python','description':'<script> & "quoted"\x01',
                                    'url':'https://github.com/Example/example','pushed':'2026-01-01','archived':False,'languages':{'Python':1}}]
+            data['repositories'].append(dict(data['repositories'][0], name='FunChessEngine'))
             render(data,tmp)
             for path in Path(tmp).glob('*.svg'):
                 ET.parse(path)

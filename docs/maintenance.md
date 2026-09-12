@@ -139,3 +139,7 @@ at 12); one firefly represents five contributions in the latest 7 days (rounded
 up, capped at 20). The frog consumes the visible dots in date order and resets
 at the end of each loop. It never changes account activity. Reduced-motion viewers
 get a static view. Project replay provenance is documented in `assets/demos/README.md`.
+
+## Featured work
+
+`profile.json` → `featured_repositories` sets the four featured projects and their display order. New repositories still appear in the full browser and statistics, but never displace these selections. Missing or private repositories are omitted. Hourly refreshes update their metadata. GitHub native profile pins are configured separately with “Customize your pins.”
