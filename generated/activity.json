@@ -1458,7 +1458,7 @@
       "date": "2026-09-11"
     },
     {
-      "count": 11,
+      "count": 13,
       "date": "2026-09-12"
     }
   ],
@@ -1581,7 +1581,7 @@
     {
       "archived": false,
       "branch": "main",
-      "description": "",
+      "description": "Original Python chess engine and fully local ChessBase-style desktop workstation for play, analysis, PGN libraries, studies, training, tournaments, and engine development.",
       "issues_enabled": true,
       "languages": {
         "CSS": 95411,
@@ -1722,9 +1722,13 @@
       },
       "name": "PianoMirRustPublic",
       "primary": "Rust",
-      "pushed": "2026-08-30",
-      "pushed_at": "2026-08-30T01:20:25Z",
-      "release": null,
+      "pushed": "2026-09-12",
+      "pushed_at": "2026-09-12T11:33:28Z",
+      "release": {
+        "date": "2026-09-12",
+        "tag": "v0.1.0",
+        "url": "https://github.com/EthanChenHyland/PianoMirRustPublic/releases/tag/v0.1.0"
+      },
       "url": "https://github.com/EthanChenHyland/PianoMirRustPublic"
     },
     {
@@ -1756,19 +1760,23 @@
       "description": "Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic. ",
       "issues_enabled": true,
       "languages": {
-        "Python": 797435,
+        "Python": 802923,
         "Shell": 328
       },
       "latest_commit": {
-        "date": "2026-08-31",
-        "headline": "Fix stuck on Menu Issue",
-        "url": "https://github.com/EthanChenHyland/TowerLogic/commit/33ed84c8ba47a0a407af763c917128cfbc4a8e29"
+        "date": "2026-09-12",
+        "headline": "Use Pillow-compatible ttkbootstrap version for release builds",
+        "url": "https://github.com/EthanChenHyland/TowerLogic/commit/666c34c1c3becb48a0f75159b4e9895d3571b084"
       },
       "name": "TowerLogic",
       "primary": "Python",
-      "pushed": "2026-08-31",
-      "pushed_at": "2026-08-31T02:57:56Z",
-      "release": null,
+      "pushed": "2026-09-12",
+      "pushed_at": "2026-09-12T11:28:17Z",
+      "release": {
+        "date": "2026-09-12",
+        "tag": "v0.1.0",
+        "url": "https://github.com/EthanChenHyland/TowerLogic/releases/tag/v0.1.0"
+      },
       "url": "https://github.com/EthanChenHyland/TowerLogic"
     },
     {

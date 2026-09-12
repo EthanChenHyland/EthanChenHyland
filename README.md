@@ -66,8 +66,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>MORE FUN STUFF</samp></summary>
 
 <details>
-<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 37 CONTRIBUTIONS</samp></summary>
-<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-12</td><td>11</td></tr><tr><td>2026-09-11</td><td>9</td></tr><tr><td>2026-09-10</td><td>0</td></tr><tr><td>2026-09-09</td><td>7</td></tr><tr><td>2026-09-08</td><td>10</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr></tbody></table>
+<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 39 CONTRIBUTIONS</samp></summary>
+<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-12</td><td>13</td></tr><tr><td>2026-09-11</td><td>9</td></tr><tr><td>2026-09-10</td><td>0</td></tr><tr><td>2026-09-09</td><td>7</td></tr><tr><td>2026-09-08</td><td>10</td></tr><tr><td>2026-09-07</td><td>0</td></tr><tr><td>2026-09-06</td><td>0</td></tr></tbody></table>
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
 </details>
 <a name="field-guide"></a>
@@ -81,7 +81,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>I LIKE MUSIC &amp; SIGNALS</samp></summary>
-<p><b>PianoMirRustPublic</b></p><p>Follow audio through pitch evidence and alignment with a known score. Open the lab results below to see what the captured example actually measured.</p><p><sub>Rust · Python · latest push 2026-08-30</sub></p>
+<p><b>PianoMirRustPublic</b></p><p>Follow audio through pitch evidence and alignment with a known score. Open the lab results below to see what the captured example actually measured.</p><p><sub>Rust · Python · latest push 2026-09-12</sub></p>
 </details>
 <details>
 <summary><samp>I LIKE DATA &amp; AUTOMATION</samp></summary>
@@ -101,7 +101,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THIS WEEK IN NUMBERS</samp></summary>
-<p><b>37 contributions</b> across 4 active days.</p><p>-49 contributions compared with the preceding seven days (86).</p><p>Busiest day: 2026-09-12 (11 contributions).</p><p><sub>2026-09-06 through 2026-09-12 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
+<p><b>39 contributions</b> across 4 active days.</p><p>-47 contributions compared with the preceding seven days (86).</p><p>Busiest day: 2026-09-12 (13 contributions).</p><p><sub>2026-09-06 through 2026-09-12 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
 </details>
 <details>
 <summary><samp>THE CHESS CORNER · 16 CHALLENGES</samp></summary>
@@ -313,7 +313,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THE BUILD LOG · LATEST CHANGE IN EACH PROJECT</samp></summary>
-<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-12</td><td>outlook-electron</td><td>Publish modernized Outlook Electron client with macOS build setup</td></tr><tr><td>2026-09-12</td><td>nitro-notes</td><td>Publish Nitro Notes desktop notes and tasks app</td></tr><tr><td>2026-09-12</td><td>grok-electron</td><td>Document downloadable macOS releases</td></tr><tr><td>2026-09-12</td><td>chatgpt-web</td><td>Initial release of ChatGPT Web for macOS</td></tr><tr><td>2026-09-12</td><td>avoid.love-v3</td><td>correct project identity to avoid.love v3</td></tr><tr><td>2026-09-12</td><td>avoid.love-v2</td><td>docs: introduce avoid.love v2 and document local development</td></tr><tr><td>2026-09-12</td><td>avoid.love-v1</td><td>docs: clarify v1 archive context</td></tr><tr><td>2026-09-12</td><td>avoid.love</td><td>Give the first Us photograph more scroll time</td></tr><tr><td>2026-09-11</td><td>FunChessEngine</td><td>Publish cross-platform tagged releases</td></tr><tr><td>2026-08-31</td><td>TowerLogic</td><td>Fix stuck on Menu Issue</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
+<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-12</td><td>outlook-electron</td><td>Publish modernized Outlook Electron client with macOS build setup</td></tr><tr><td>2026-09-12</td><td>nitro-notes</td><td>Publish Nitro Notes desktop notes and tasks app</td></tr><tr><td>2026-09-12</td><td>grok-electron</td><td>Document downloadable macOS releases</td></tr><tr><td>2026-09-12</td><td>chatgpt-web</td><td>Initial release of ChatGPT Web for macOS</td></tr><tr><td>2026-09-12</td><td>avoid.love-v3</td><td>correct project identity to avoid.love v3</td></tr><tr><td>2026-09-12</td><td>avoid.love-v2</td><td>docs: introduce avoid.love v2 and document local development</td></tr><tr><td>2026-09-12</td><td>avoid.love-v1</td><td>docs: clarify v1 archive context</td></tr><tr><td>2026-09-12</td><td>avoid.love</td><td>Give the first Us photograph more scroll time</td></tr><tr><td>2026-09-12</td><td>TowerLogic</td><td>Use Pillow-compatible ttkbootstrap version for release builds</td></tr><tr><td>2026-09-11</td><td>FunChessEngine</td><td>Publish cross-platform tagged releases</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
 </details>
 <details>
 <summary><samp>THREE THINGS THE DEMOS DO NOT TELL YOU</samp></summary>
@@ -377,15 +377,15 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>PYTHON · 6 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>5.2%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>4.2%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>41.8%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>2.6%</td><td>2026-09-12</td></tr><tr><td>PianoMirRustPublic</td><td>2.6%</td><td>2026-08-30</td></tr><tr><td>TowerLogic</td><td>100.0%</td><td>2026-08-31</td></tr></table>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>5.2%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>4.2%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>41.8%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>2.6%</td><td>2026-09-12</td></tr><tr><td>PianoMirRustPublic</td><td>2.6%</td><td>2026-09-12</td></tr><tr><td>TowerLogic</td><td>100.0%</td><td>2026-09-12</td></tr></table>
 </details>
 <details>
 <summary><samp>RUST · 1 PROJECT</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>PianoMirRustPublic</td><td>97.4%</td><td>2026-08-30</td></tr></table>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>PianoMirRustPublic</td><td>97.4%</td><td>2026-09-12</td></tr></table>
 </details>
 <details>
 <summary><samp>SHELL · 2 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>0.1%</td><td>2026-09-11</td></tr><tr><td>TowerLogic</td><td>0.0%</td><td>2026-08-31</td></tr></table>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>FunChessEngine</td><td>0.1%</td><td>2026-09-11</td></tr><tr><td>TowerLogic</td><td>0.0%</td><td>2026-09-12</td></tr></table>
 </details>
 <details>
 <summary><samp>SWIFT · 2 PROJECTS</samp></summary>
@@ -400,8 +400,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>THE YEAR, MONTH BY MONTH</samp></summary>
 <p>Open a month to see its activity and three busiest dates. Boundary months cover only the dates included in the rolling 365-day snapshot; today may be incomplete.</p>
 <details>
-<summary><samp>SEPTEMBER 2026 · 88 CONTRIBUTIONS</samp></summary>
-<p>7 active days across 12 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-03</td><td>26</td></tr><tr><td>2026-09-01</td><td>18</td></tr><tr><td>2026-09-12</td><td>11</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-12 UTC.</sub></p>
+<summary><samp>SEPTEMBER 2026 · 90 CONTRIBUTIONS</samp></summary>
+<p>7 active days across 12 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-03</td><td>26</td></tr><tr><td>2026-09-01</td><td>18</td></tr><tr><td>2026-09-12</td><td>13</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-12 UTC.</sub></p>
 </details>
 <details>
 <summary><samp>AUGUST 2026 · 75 CONTRIBUTIONS</samp></summary>
@@ -566,14 +566,14 @@ and tools for the web. This page follows the work as it changes.</p>
 <a href="https://github.com/EthanChenHyland/FunChessEngine" title="Open FunChessEngine">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/work-FunChessEngine-dark.svg">
-  <img src="generated/work-FunChessEngine.svg" width="620" alt="FunChessEngine: Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend. — open repository">
+  <img src="generated/work-FunChessEngine.svg" width="620" alt="FunChessEngine: Original Python chess engine and fully local ChessBase-style desktop workstation for play, analysis, PGN libraries, studies, training, tournaments, and engine development. — open repository">
 </picture>
 </a>
 
 <details>
 <summary><samp>EXPLORE FunChessEngine</samp></summary>
 <div align="left">
-<p>Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend.</p><p><b>Languages:</b> JavaScript · Python · HTML · CSS · Makefile · Shell</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/FunChessEngine/commit/7e994e4a7f44126cf2161a69d5b859772c02159b">Publish cross-platform tagged releases</a><br><sub>2026-09-11 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/FunChessEngine/releases/tag/v1.1.0">v1.1.0</a> · 2026-09-11</p><p><samp><a href="https://github.com/EthanChenHyland/FunChessEngine">Code</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/issues">Issues</a></samp></p>
+<p>Original Python chess engine and fully local ChessBase-style desktop workstation for play, analysis, PGN libraries, studies, training, tournaments, and engine development.</p><p><b>Languages:</b> JavaScript · Python · HTML · CSS · Makefile · Shell</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/FunChessEngine/commit/7e994e4a7f44126cf2161a69d5b859772c02159b">Publish cross-platform tagged releases</a><br><sub>2026-09-11 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/FunChessEngine/releases/tag/v1.1.0">v1.1.0</a> · 2026-09-11</p><p><samp><a href="https://github.com/EthanChenHyland/FunChessEngine">Code</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/FunChessEngine/issues">Issues</a></samp></p>
 </div>
 </details>
 
@@ -587,7 +587,7 @@ and tools for the web. This page follows the work as it changes.</p>
 <details>
 <summary><samp>EXPLORE TowerLogic</samp></summary>
 <div align="left">
-<p>Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic.</p><p><b>Languages:</b> Python · Shell</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/TowerLogic/commit/33ed84c8ba47a0a407af763c917128cfbc4a8e29">Fix stuck on Menu Issue</a><br><sub>2026-08-31 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/TowerLogic">Code</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/issues">Issues</a></samp></p>
+<p>Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic.</p><p><b>Languages:</b> Python · Shell</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/TowerLogic/commit/666c34c1c3becb48a0f75159b4e9895d3571b084">Use Pillow-compatible ttkbootstrap version for release builds</a><br><sub>2026-09-12 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/TowerLogic/releases/tag/v0.1.0">v0.1.0</a> · 2026-09-12</p><p><samp><a href="https://github.com/EthanChenHyland/TowerLogic">Code</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/TowerLogic/issues">Issues</a></samp></p>
 </div>
 </details>
 
@@ -615,7 +615,7 @@ and tools for the web. This page follows the work as it changes.</p>
 <details>
 <summary><samp>EXPLORE PianoMirRustPublic</samp></summary>
 <div align="left">
-<p>Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo.</p><p><b>Languages:</b> Rust · Python</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/PianoMirRustPublic/commit/a4cedc91875f4ccb697f366cea6e1c4664ec36d1">Correct typo in README.md</a><br><sub>2026-08-30 UTC</sub></p><p><samp><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">Code</a> · <a href="https://github.com/EthanChenHyland/PianoMirRustPublic/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/PianoMirRustPublic/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/PianoMirRustPublic/issues">Issues</a></samp></p>
+<p>Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo.</p><p><b>Languages:</b> Rust · Python</p><p><b>Latest default-branch commit:</b><br><a href="https://github.com/EthanChenHyland/PianoMirRustPublic/commit/a4cedc91875f4ccb697f366cea6e1c4664ec36d1">Correct typo in README.md</a><br><sub>2026-08-30 UTC</sub></p><p><b>Latest release:</b> <a href="https://github.com/EthanChenHyland/PianoMirRustPublic/releases/tag/v0.1.0">v0.1.0</a> · 2026-09-12</p><p><samp><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">Code</a> · <a href="https://github.com/EthanChenHyland/PianoMirRustPublic/commits/main">Commits</a> · <a href="https://github.com/EthanChenHyland/PianoMirRustPublic/releases">Releases</a> · <a href="https://github.com/EthanChenHyland/PianoMirRustPublic/issues">Issues</a></samp></p>
 </div>
 </details>
 <!-- recent-links:end -->
@@ -694,9 +694,9 @@ and tools for the web. This page follows the work as it changes.</p>
 <tr><td><a href="https://github.com/EthanChenHyland/kitcoscraper">kitcoscraper</a></td><td>JavaScript</td><td>2026-09-11</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/nitro-notes">nitro-notes</a></td><td>JavaScript · HTML · Python</td><td>2026-09-12</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/outlook-electron">outlook-electron</a></td><td>JavaScript</td><td>2026-09-12</td><td>Open</td></tr>
-<tr><td><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">PianoMirRustPublic</a></td><td>Rust · Python</td><td>2026-08-30</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">PianoMirRustPublic</a></td><td>Rust · Python</td><td>2026-09-12</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/the-great-prompt-off">the-great-prompt-off</a></td><td>TypeScript · PLpgSQL · JavaScript · CSS</td><td>2026-08-30</td><td>Open</td></tr>
-<tr><td><a href="https://github.com/EthanChenHyland/TowerLogic">TowerLogic</a></td><td>Python · Shell</td><td>2026-08-31</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/TowerLogic">TowerLogic</a></td><td>Python · Shell</td><td>2026-09-12</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/wifi-concierge-site">wifi-concierge-site</a></td><td>HTML</td><td>2026-08-30</td><td>Open</td></tr>
 </table>
 </details>
@@ -735,18 +735,18 @@ and tools for the web. This page follows the work as it changes.</p>
 <div align="left">
 
 <!-- activity-text:start -->
-277 contributions across 25 active days. Best Sunday–Saturday week: 86 contributions. 2025-09-13 through 2026-09-12, UTC.
+279 contributions across 25 active days. Best Sunday–Saturday week: 86 contributions. 2025-09-13 through 2026-09-12, UTC.
 
 Current: 2 days (2026-09-11 / 2026-09-12). Longest within the last 365 days: 6 days (2026-08-29 / 2026-09-03).
 
-Last 7 UTC days: 37 contributions; previous 7 days: 86; last 30 days: 163 contributions over 15 active days. Includes today, which is unfinished.
+Last 7 UTC days: 39 contributions; previous 7 days: 86; last 30 days: 165 contributions over 15 active days. Includes today, which is unfinished.
 
-contributions: 277, next checkpoint 300; active days: 25, next checkpoint 50; languages: 10, next checkpoint 15. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
+contributions: 279, next checkpoint 300; active days: 25, next checkpoint 50; languages: 10, next checkpoint 15. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
 
 **Languages**
 
 - HTML: 3,853,377 bytes (45.8%), 4 repositories
-- Python: 1,410,528 bytes (16.8%), 6 repositories
+- Python: 1,416,016 bytes (16.8%), 6 repositories
 - Rust: 1,124,399 bytes (13.4%), 1 repositories
 - JavaScript: 832,619 bytes (9.9%), 11 repositories
 - TypeScript: 831,630 bytes (9.9%), 4 repositories
@@ -758,13 +758,13 @@ contributions: 277, next checkpoint 300; active days: 25, next checkpoint 50; la
 
 **Featured work**
 
-**FunChessEngine** (JavaScript), pushed 2026-09-11. Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend.
+**FunChessEngine** (JavaScript), pushed 2026-09-11. Original Python chess engine and fully local ChessBase-style desktop workstation for play, analysis, PGN libraries, studies, training, tournaments, and engine development.
 
-**TowerLogic** (Python), pushed 2026-08-31. Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic.
+**TowerLogic** (Python), pushed 2026-09-12. Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic.
 
 **the-great-prompt-off** (TypeScript), pushed 2026-08-30. Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges.
 
-**PianoMirRustPublic** (Rust), pushed 2026-08-30. Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo.
+**PianoMirRustPublic** (Rust), pushed 2026-09-12. Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo.
 <!-- activity-text:end -->
 
 [Daily contribution data](generated/activity.json)
