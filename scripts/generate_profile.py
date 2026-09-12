@@ -276,7 +276,7 @@ def render(data, out):
         summaries.append(f'{repo["name"]} ({repo["primary"]}), pushed {repo["pushed"]}. {desc}')
         card = f'<g transform="translate(0,{-28-i*114})">{body[card_start:]}</g>'
         card += text(620,90,'OPEN REPOSITORY →',9,'muted','end')
-        write_pair(out,f'work-{i+1}',repo['name'],summaries[-1],116,card)
+        write_pair(out,f'work-{repo["name"]}',repo['name'],summaries[-1],116,card)
     if not recent:
         body += text(0,55,'No public projects to show yet.',12,'muted')
     write_pair(out,'recent','Featured work',' '.join(summaries) or 'No public projects.',max(100, 34+114*len(recent)),body)
@@ -298,7 +298,7 @@ def update_readme(path, summary, streak, langs, recent, repos, pulse, checkpoint
     content = path.read_text()
     language_list = '\n'.join('- '+item for item in langs.split('; '))
     recent_text = '\n\n'.join(f'**{r["name"]}** ({r["primary"]}), pushed {r["pushed"]}. {repository_description(r)}' for r in recent)
-    links = '\n\n'.join(f'<a href="{esc(r["url"])}" title="Open {esc(r["name"])}">\n'+picture(f'work-{i+1}',f'{r["name"]}: {repository_description(r)} — open repository')+'\n</a>\n\n'+project_notes(r,repository_description(r)) for i,r in enumerate(recent))
+    links = '\n\n'.join(f'<a href="{esc(r["url"])}" title="Open {esc(r["name"])}">\n'+picture(f'work-{r["name"]}',f'{r["name"]}: {repository_description(r)} — open repository')+'\n</a>\n\n'+project_notes(r,repository_description(r)) for i,r in enumerate(recent))
     for name, replacement in (('profile-extras',extras_html), ('discovery',discovery_html), ('comparison',comparison(repos)), ('recent-links', links), ('project-index',project_index(repos)), ('activity-text', f'{summary}\n\n{streak}\n\n{pulse}\n\n{checkpoints}\n\n**Languages**\n\n{language_list}\n\n**Featured work**\n\n{recent_text}')):
         pattern = rf'(<!-- {name}:start -->).*?(<!-- {name}:end -->)'
         content, count = re.subn(pattern, lambda m: m[1]+'\n'+replacement+'\n'+m[2], content, flags=re.S)

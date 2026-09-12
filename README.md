@@ -565,8 +565,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <!-- recent-links:start -->
 <a href="https://github.com/EthanChenHyland/FunChessEngine" title="Open FunChessEngine">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="generated/work-1-dark.svg">
-  <img src="generated/work-1.svg" width="620" alt="FunChessEngine: Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend. — open repository">
+  <source media="(prefers-color-scheme: dark)" srcset="generated/work-FunChessEngine-dark.svg">
+  <img src="generated/work-FunChessEngine.svg" width="620" alt="FunChessEngine: Classical chess engine and local analysis workstation, with an Electron desktop app and Python backend. — open repository">
 </picture>
 </a>
 
@@ -579,8 +579,8 @@ and tools for the web. This page follows the work as it changes.</p>
 
 <a href="https://github.com/EthanChenHyland/TowerLogic" title="Open TowerLogic">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="generated/work-2-dark.svg">
-  <img src="generated/work-2.svg" width="620" alt="TowerLogic: Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic. — open repository">
+  <source media="(prefers-color-scheme: dark)" srcset="generated/work-TowerLogic-dark.svg">
+  <img src="generated/work-TowerLogic.svg" width="620" alt="TowerLogic: Computer vision and machine learning system for Clash Royale using PyTorch, YOLOv8, OpenCV, emulator control, and policy-based automated decision logic. — open repository">
 </picture>
 </a>
 
@@ -593,8 +593,8 @@ and tools for the web. This page follows the work as it changes.</p>
 
 <a href="https://github.com/EthanChenHyland/the-great-prompt-off" title="Open the-great-prompt-off">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="generated/work-3-dark.svg">
-  <img src="generated/work-3.svg" width="620" alt="the-great-prompt-off: Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges. — open repository">
+  <source media="(prefers-color-scheme: dark)" srcset="generated/work-the-great-prompt-off-dark.svg">
+  <img src="generated/work-the-great-prompt-off.svg" width="620" alt="the-great-prompt-off: Full-stack AI prompt-evaluation platform built with Next.js, TypeScript, Supabase/Postgres, and OpenRouter for live structured-extraction challenges. — open repository">
 </picture>
 </a>
 
@@ -607,8 +607,8 @@ and tools for the web. This page follows the work as it changes.</p>
 
 <a href="https://github.com/EthanChenHyland/PianoMirRustPublic" title="Open PianoMirRustPublic">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="generated/work-4-dark.svg">
-  <img src="generated/work-4.svg" width="620" alt="PianoMirRustPublic: Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo. — open repository">
+  <source media="(prefers-color-scheme: dark)" srcset="generated/work-PianoMirRustPublic-dark.svg">
+  <img src="generated/work-PianoMirRustPublic.svg" width="620" alt="PianoMirRustPublic: Rust/Python music information retrieval system for aligning recorded performances with PDMX scores and evaluating note accuracy, chroma, timing, and tempo. — open repository">
 </picture>
 </a>
 
