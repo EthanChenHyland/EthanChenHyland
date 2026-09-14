@@ -142,4 +142,4 @@ get a static view. Project replay provenance is documented in `assets/demos/READ
 
 ## Featured work
 
-`profile.json` → `featured_repositories` sets the four featured projects and their display order. New repositories still appear in the full browser and statistics, but never displace these selections. Missing or private repositories are omitted. Hourly refreshes update their metadata. GitHub native profile pins are configured separately with “Customize your pins.”
+`profile.json` → `featured_repositories` sets the four featured projects and their display order. New repositories still appear in the full browser and statistics, but never displace these selections. Missing or private repositories are omitted. Daily refreshes update their metadata. GitHub native profile pins are configured separately with “Customize your pins.”
