@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-15",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-09-15"
-    },
     {
       "count": 0,
       "date": "2025-09-16"
@@ -1458,8 +1454,12 @@
       "date": "2026-09-13"
     },
     {
-      "count": 0,
+      "count": 9,
       "date": "2026-09-14"
+    },
+    {
+      "count": 0,
+      "date": "2026-09-15"
     }
   ],
   "login": "EthanChenHyland",
@@ -1577,6 +1577,32 @@
         "url": "https://github.com/EthanChenHyland/chatgpt-web/releases/tag/v1.0.0"
       },
       "url": "https://github.com/EthanChenHyland/chatgpt-web"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "Open-source macOS AI overlay with screen assistance, local or cloud transcription, and bring-your-own-key AI providers.",
+      "issues_enabled": true,
+      "languages": {
+        "CSS": 50934,
+        "HTML": 34047,
+        "JavaScript": 473898
+      },
+      "latest_commit": {
+        "date": "2026-09-15",
+        "headline": "Release Clarity 0.2.4 with capture and window interaction fixes",
+        "url": "https://github.com/EthanChenHyland/clarity/commit/01dabd628e95a4cb55e0da55405289f8113d0f36"
+      },
+      "name": "clarity",
+      "primary": "JavaScript",
+      "pushed": "2026-09-15",
+      "pushed_at": "2026-09-15T03:47:14Z",
+      "release": {
+        "date": "2026-09-15",
+        "tag": "v0.2.4",
+        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.4"
+      },
+      "url": "https://github.com/EthanChenHyland/clarity"
     },
     {
       "archived": false,
