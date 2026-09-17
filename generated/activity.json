@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-09-16",
+  "as_of": "2026-09-17",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-09-17"
-    },
     {
       "count": 0,
       "date": "2025-09-18"
@@ -1458,8 +1454,12 @@
       "date": "2026-09-15"
     },
     {
-      "count": 0,
+      "count": 2,
       "date": "2026-09-16"
+    },
+    {
+      "count": 1,
+      "date": "2026-09-17"
     }
   ],
   "login": "EthanChenHyland",
@@ -1585,22 +1585,22 @@
       "issues_enabled": true,
       "languages": {
         "CSS": 51600,
-        "HTML": 34163,
-        "JavaScript": 486311
+        "HTML": 34218,
+        "JavaScript": 490997
       },
       "latest_commit": {
         "date": "2026-09-16",
-        "headline": "Release 0.2.8 with Kimi fast default",
-        "url": "https://github.com/EthanChenHyland/clarity/commit/a8e0823035dc813fd2d0df3cb7f329a10c41aa03"
+        "headline": "Release 0.2.10 with echo correction and audio recovery",
+        "url": "https://github.com/EthanChenHyland/clarity/commit/15723cb08a49e911aa500ba59883337aacdbcc56"
       },
       "name": "clarity",
       "primary": "JavaScript",
       "pushed": "2026-09-16",
-      "pushed_at": "2026-09-16T04:18:05Z",
+      "pushed_at": "2026-09-16T16:18:40Z",
       "release": {
         "date": "2026-09-16",
-        "tag": "v0.2.8",
-        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.8"
+        "tag": "v0.2.10",
+        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.10"
       },
       "url": "https://github.com/EthanChenHyland/clarity"
     },
