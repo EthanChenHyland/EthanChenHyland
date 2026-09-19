@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-09-18",
+  "as_of": "2026-09-19",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-09-19"
-    },
     {
       "count": 0,
       "date": "2025-09-20"
@@ -1454,12 +1450,16 @@
       "date": "2026-09-16"
     },
     {
-      "count": 2,
+      "count": 125,
       "date": "2026-09-17"
     },
     {
-      "count": 0,
+      "count": 41,
       "date": "2026-09-18"
+    },
+    {
+      "count": 6,
+      "date": "2026-09-19"
     }
   ],
   "login": "EthanChenHyland",
@@ -1603,6 +1603,30 @@
         "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.10"
       },
       "url": "https://github.com/EthanChenHyland/clarity"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "Change++ Fall 2026 coding challenge (hidden)",
+      "issues_enabled": true,
+      "languages": {
+        "CSS": 99262,
+        "Dockerfile": 907,
+        "HTML": 717,
+        "JavaScript": 1136,
+        "TypeScript": 469977
+      },
+      "latest_commit": {
+        "date": "2026-09-19",
+        "headline": "restore public reviewer demo login",
+        "url": "https://github.com/EthanChenHyland/Fall2026-CodingChallenge/commit/eb887ccbeefc8c006b889b8580be736388e42c4d"
+      },
+      "name": "Fall2026-CodingChallenge",
+      "primary": "TypeScript",
+      "pushed": "2026-09-19",
+      "pushed_at": "2026-09-19T05:31:35Z",
+      "release": null,
+      "url": "https://github.com/EthanChenHyland/Fall2026-CodingChallenge"
     },
     {
       "archived": false,
