@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-09-20",
+  "as_of": "2026-09-21",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-09-21"
-    },
     {
       "count": 0,
       "date": "2025-09-22"
@@ -1458,8 +1454,12 @@
       "date": "2026-09-19"
     },
     {
-      "count": 0,
+      "count": 1,
       "date": "2026-09-20"
+    },
+    {
+      "count": 0,
+      "date": "2026-09-21"
     }
   ],
   "login": "EthanChenHyland",
@@ -1584,23 +1584,23 @@
       "description": "Open-source macOS AI overlay with screen assistance, local or cloud transcription, and bring-your-own-key AI providers.",
       "issues_enabled": true,
       "languages": {
-        "CSS": 51600,
+        "CSS": 51640,
         "HTML": 34218,
-        "JavaScript": 490997
+        "JavaScript": 492944
       },
       "latest_commit": {
-        "date": "2026-09-16",
-        "headline": "Release 0.2.10 with echo correction and audio recovery",
-        "url": "https://github.com/EthanChenHyland/clarity/commit/15723cb08a49e911aa500ba59883337aacdbcc56"
+        "date": "2026-09-21",
+        "headline": "Release 0.2.11 with explicit Drag pill window movement",
+        "url": "https://github.com/EthanChenHyland/clarity/commit/f3440fb92bdf7c7fb76f0c63099971d16faf3464"
       },
       "name": "clarity",
       "primary": "JavaScript",
-      "pushed": "2026-09-16",
-      "pushed_at": "2026-09-16T16:18:40Z",
+      "pushed": "2026-09-21",
+      "pushed_at": "2026-09-21T02:26:17Z",
       "release": {
-        "date": "2026-09-16",
-        "tag": "v0.2.10",
-        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.10"
+        "date": "2026-09-21",
+        "tag": "v0.2.11",
+        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.11"
       },
       "url": "https://github.com/EthanChenHyland/clarity"
     },
