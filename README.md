@@ -31,9 +31,9 @@ and tools for the web. This page follows the work as it changes.</p>
 <!-- discovery:start -->
 <details>
 <summary><samp>THE FROG PICKED A PROJECT FOR YOU</samp></summary>
-<p><b><a href="https://github.com/EthanChenHyland/Fall2026-CodingChallenge">Fall2026-CodingChallenge</a></b></p>
-<p>Change++ Fall 2026 coding challenge (hidden)</p>
-<p><sub>A rotating daily spotlight · 2026-09-21 UTC</sub></p>
+<p><b><a href="https://github.com/EthanChenHyland/FunChessEngine">FunChessEngine</a></b></p>
+<p>Original Python chess engine and fully local ChessBase-style desktop workstation for play, analysis, PGN libraries, studies, training, tournaments, and engine development.</p>
+<p><sub>A rotating daily spotlight · 2026-09-22 UTC</sub></p>
 </details>
 <!-- discovery:end -->
 
@@ -50,15 +50,15 @@ and tools for the web. This page follows the work as it changes.</p>
 <a name="puzzle"></a>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/puzzle-dark.svg">
-  <img src="generated/puzzle.svg" width="620" alt="Black king on a5; White king on c5; White queen on e5. White to move, mate in one.">
+  <img src="generated/puzzle.svg" width="620" alt="Black king on a1; White king on c1; White queen on d1. White to move, mate in one.">
 </picture>
 <details>
 <summary><samp>NEED A HINT?</samp></summary>
-<p>The queen delivers mate on rank <b>1</b>. Look for a square that checks the king and removes its escape squares.</p>
+<p>The queen delivers mate on rank <b>4</b>. Look for a square that checks the king and removes its escape squares.</p>
 </details>
 <details>
 <summary><samp>REVEAL THE MOVE</samp></summary>
-<p><b>Qa1#</b> — move the queen from <b>e5</b> to <b>a1</b>. The black king is in check with no legal escape.</p>
+<p><b>Qa4#</b> — move the queen from <b>d1</b> to <b>a4</b>. The black king is in check with no legal escape.</p>
 <p><sub>One of 16 verified practice positions, rotating daily. # means checkmate.</sub></p>
 </details>
 <a name="more-fun-stuff"></a>
@@ -66,8 +66,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>MORE FUN STUFF</samp></summary>
 
 <details>
-<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 388 CONTRIBUTIONS</samp></summary>
-<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-21</td><td>0</td></tr><tr><td>2026-09-20</td><td>1</td></tr><tr><td>2026-09-19</td><td>44</td></tr><tr><td>2026-09-18</td><td>211</td></tr><tr><td>2026-09-17</td><td>125</td></tr><tr><td>2026-09-16</td><td>2</td></tr><tr><td>2026-09-15</td><td>5</td></tr></tbody></table>
+<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 383 CONTRIBUTIONS</samp></summary>
+<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-22</td><td>0</td></tr><tr><td>2026-09-21</td><td>0</td></tr><tr><td>2026-09-20</td><td>1</td></tr><tr><td>2026-09-19</td><td>44</td></tr><tr><td>2026-09-18</td><td>211</td></tr><tr><td>2026-09-17</td><td>125</td></tr><tr><td>2026-09-16</td><td>2</td></tr></tbody></table>
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
 </details>
 <a name="field-guide"></a>
@@ -101,7 +101,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THIS WEEK IN NUMBERS</samp></summary>
-<p><b>388 contributions</b> across 6 active days.</p><p>+339 contributions compared with the preceding seven days (49).</p><p>Busiest day: 2026-09-18 (211 contributions).</p><p><sub>2026-09-15 through 2026-09-21 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
+<p><b>383 contributions</b> across 5 active days.</p><p>+339 contributions compared with the preceding seven days (44).</p><p>Busiest day: 2026-09-18 (211 contributions).</p><p><sub>2026-09-16 through 2026-09-22 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
 </details>
 <details>
 <summary><samp>THE CHESS CORNER · 16 CHALLENGES</samp></summary>
@@ -413,7 +413,7 @@ and tools for the web. This page follows the work as it changes.</p>
 <p>Open a month to see its activity and three busiest dates. Boundary months cover only the dates included in the rolling 365-day snapshot; today may be incomplete.</p>
 <details>
 <summary><samp>SEPTEMBER 2026 · 488 CONTRIBUTIONS</samp></summary>
-<p>15 active days across 21 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-18</td><td>211</td></tr><tr><td>2026-09-17</td><td>125</td></tr><tr><td>2026-09-19</td><td>44</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-21 UTC.</sub></p>
+<p>15 active days across 22 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-18</td><td>211</td></tr><tr><td>2026-09-17</td><td>125</td></tr><tr><td>2026-09-19</td><td>44</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-22 UTC.</sub></p>
 </details>
 <details>
 <summary><samp>AUGUST 2026 · 75 CONTRIBUTIONS</samp></summary>
@@ -461,7 +461,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>SEPTEMBER 2025 · 0 CONTRIBUTIONS</samp></summary>
-<p>0 active days across 9 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-09-22 through 2025-09-30 UTC.</sub></p>
+<p>0 active days across 8 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-09-23 through 2025-09-30 UTC.</sub></p>
 </details>
 </details>
 <details>
@@ -753,11 +753,11 @@ and tools for the web. This page follows the work as it changes.</p>
 <div align="left">
 
 <!-- activity-text:start -->
-677 contributions across 33 active days. Best Sunday–Saturday week: 397 contributions. 2025-09-22 through 2026-09-21, UTC.
+677 contributions across 33 active days. Best Sunday–Saturday week: 397 contributions. 2025-09-23 through 2026-09-22, UTC.
 
-Current: 10 days (2026-09-11 / 2026-09-20). Longest within the last 365 days: 10 days (2026-09-11 / 2026-09-20).
+Current: 0 days (No active run). Longest within the last 365 days: 10 days (2026-09-11 / 2026-09-20).
 
-Last 7 UTC days: 388 contributions; previous 7 days: 49; last 30 days: 538 contributions over 20 active days. Includes today, which is unfinished.
+Last 7 UTC days: 383 contributions; previous 7 days: 44; last 30 days: 536 contributions over 19 active days. Includes today, which is unfinished.
 
 contributions: 677, next checkpoint 700; active days: 33, next checkpoint 50; languages: 13, next checkpoint 15. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
 
