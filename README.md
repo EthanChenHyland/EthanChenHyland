@@ -31,9 +31,9 @@ and tools for the web. This page follows the work as it changes.</p>
 <!-- discovery:start -->
 <details>
 <summary><samp>THE FROG PICKED A PROJECT FOR YOU</samp></summary>
-<p><b><a href="https://github.com/EthanChenHyland/FunChessEngine">FunChessEngine</a></b></p>
-<p>Original Python chess engine and fully local ChessBase-style desktop workstation for play, analysis, PGN libraries, studies, training, tournaments, and engine development.</p>
-<p><sub>A rotating daily spotlight · 2026-09-22 UTC</sub></p>
+<p><b><a href="https://github.com/EthanChenHyland/kitcoscraper">kitcoscraper</a></b></p>
+<p>Node.js/Puppeteer scraper developed for Carat Coin to automate recurring Kitco precious-metals price collection and CSV-based reporting.</p>
+<p><sub>A rotating daily spotlight · 2026-09-23 UTC</sub></p>
 </details>
 <!-- discovery:end -->
 
@@ -50,15 +50,15 @@ and tools for the web. This page follows the work as it changes.</p>
 <a name="puzzle"></a>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/puzzle-dark.svg">
-  <img src="generated/puzzle.svg" width="620" alt="Black king on a1; White king on c1; White queen on d1. White to move, mate in one.">
+  <img src="generated/puzzle.svg" width="620" alt="White king on c6; Black king on a5; White queen on b1. White to move, mate in one.">
 </picture>
 <details>
 <summary><samp>NEED A HINT?</samp></summary>
-<p>The queen delivers mate on rank <b>4</b>. Look for a square that checks the king and removes its escape squares.</p>
+<p>The queen delivers mate on rank <b>5</b>. Look for a square that checks the king and removes its escape squares.</p>
 </details>
 <details>
 <summary><samp>REVEAL THE MOVE</samp></summary>
-<p><b>Qa4#</b> — move the queen from <b>d1</b> to <b>a4</b>. The black king is in check with no legal escape.</p>
+<p><b>Qb5#</b> — move the queen from <b>b1</b> to <b>b5</b>. The black king is in check with no legal escape.</p>
 <p><sub>One of 16 verified practice positions, rotating daily. # means checkmate.</sub></p>
 </details>
 <a name="more-fun-stuff"></a>
@@ -66,8 +66,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>MORE FUN STUFF</samp></summary>
 
 <details>
-<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 383 CONTRIBUTIONS</samp></summary>
-<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-22</td><td>0</td></tr><tr><td>2026-09-21</td><td>0</td></tr><tr><td>2026-09-20</td><td>1</td></tr><tr><td>2026-09-19</td><td>44</td></tr><tr><td>2026-09-18</td><td>211</td></tr><tr><td>2026-09-17</td><td>125</td></tr><tr><td>2026-09-16</td><td>2</td></tr></tbody></table>
+<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 440 CONTRIBUTIONS</samp></summary>
+<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-09-23</td><td>0</td></tr><tr><td>2026-09-22</td><td>59</td></tr><tr><td>2026-09-21</td><td>0</td></tr><tr><td>2026-09-20</td><td>1</td></tr><tr><td>2026-09-19</td><td>44</td></tr><tr><td>2026-09-18</td><td>211</td></tr><tr><td>2026-09-17</td><td>125</td></tr></tbody></table>
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
 </details>
 <a name="field-guide"></a>
@@ -101,7 +101,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THIS WEEK IN NUMBERS</samp></summary>
-<p><b>383 contributions</b> across 5 active days.</p><p>+339 contributions compared with the preceding seven days (44).</p><p>Busiest day: 2026-09-18 (211 contributions).</p><p><sub>2026-09-16 through 2026-09-22 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
+<p><b>440 contributions</b> across 5 active days.</p><p>+401 contributions compared with the preceding seven days (39).</p><p>Busiest day: 2026-09-18 (211 contributions).</p><p><sub>2026-09-17 through 2026-09-23 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
 </details>
 <details>
 <summary><samp>THE CHESS CORNER · 16 CHALLENGES</samp></summary>
@@ -313,7 +313,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THE BUILD LOG · LATEST CHANGE IN EACH PROJECT</samp></summary>
-<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-21</td><td>clarity</td><td>Release 0.2.11 with explicit Drag pill window movement</td></tr><tr><td>2026-09-19</td><td>Fall2026-CodingChallenge</td><td>Complete reviewer documentation and final audit</td></tr><tr><td>2026-09-17</td><td>WinCodex</td><td>Initial WinCodex V1.1 release</td></tr><tr><td>2026-09-12</td><td>outlook-electron</td><td>Publish modernized Outlook Electron client with macOS build setup</td></tr><tr><td>2026-09-12</td><td>nitro-notes</td><td>Publish Nitro Notes desktop notes and tasks app</td></tr><tr><td>2026-09-12</td><td>grok-electron</td><td>Document downloadable macOS releases</td></tr><tr><td>2026-09-12</td><td>chatgpt-web</td><td>Initial release of ChatGPT Web for macOS</td></tr><tr><td>2026-09-12</td><td>avoid.love-v3</td><td>correct project identity to avoid.love v3</td></tr><tr><td>2026-09-12</td><td>avoid.love-v2</td><td>docs: introduce avoid.love v2 and document local development</td></tr><tr><td>2026-09-12</td><td>avoid.love-v1</td><td>docs: clarify v1 archive context</td></tr><tr><td>2026-09-12</td><td>avoid.love</td><td>Give the first Us photograph more scroll time</td></tr><tr><td>2026-09-12</td><td>TowerLogic</td><td>Use Pillow-compatible ttkbootstrap version for release builds</td></tr><tr><td>2026-09-11</td><td>FunChessEngine</td><td>Publish cross-platform tagged releases</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
+<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-09-23</td><td>ethanbchen.com</td><td>Deepen continuous ribbon scene</td></tr><tr><td>2026-09-21</td><td>clarity</td><td>Release 0.2.11 with explicit Drag pill window movement</td></tr><tr><td>2026-09-19</td><td>Fall2026-CodingChallenge</td><td>Complete reviewer documentation and final audit</td></tr><tr><td>2026-09-17</td><td>WinCodex</td><td>Initial WinCodex V1.1 release</td></tr><tr><td>2026-09-12</td><td>outlook-electron</td><td>Publish modernized Outlook Electron client with macOS build setup</td></tr><tr><td>2026-09-12</td><td>nitro-notes</td><td>Publish Nitro Notes desktop notes and tasks app</td></tr><tr><td>2026-09-12</td><td>grok-electron</td><td>Document downloadable macOS releases</td></tr><tr><td>2026-09-12</td><td>chatgpt-web</td><td>Initial release of ChatGPT Web for macOS</td></tr><tr><td>2026-09-12</td><td>avoid.love-v3</td><td>correct project identity to avoid.love v3</td></tr><tr><td>2026-09-12</td><td>avoid.love-v2</td><td>docs: introduce avoid.love v2 and document local development</td></tr><tr><td>2026-09-12</td><td>avoid.love-v1</td><td>docs: clarify v1 archive context</td></tr><tr><td>2026-09-12</td><td>avoid.love</td><td>Give the first Us photograph more scroll time</td></tr><tr><td>2026-09-12</td><td>TowerLogic</td><td>Use Pillow-compatible ttkbootstrap version for release builds</td></tr><tr><td>2026-09-11</td><td>FunChessEngine</td><td>Publish cross-platform tagged releases</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
 </details>
 <details>
 <summary><samp>THREE THINGS THE DEMOS DO NOT TELL YOU</samp></summary>
@@ -372,12 +372,12 @@ and tools for the web. This page follows the work as it changes.</p>
 <table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>Fall2026-CodingChallenge</td><td>0.1%</td><td>2026-09-20</td></tr><tr><td>WinCodex</td><td>0.3%</td><td>2026-09-17</td></tr></table>
 </details>
 <details>
-<summary><samp>HTML · 6 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>7.3%</td><td>2026-09-12</td></tr><tr><td>clarity</td><td>5.9%</td><td>2026-09-21</td></tr><tr><td>Fall2026-CodingChallenge</td><td>0.1%</td><td>2026-09-20</td></tr><tr><td>FunChessEngine</td><td>7.5%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>20.5%</td><td>2026-09-12</td></tr><tr><td>wifi-concierge-site</td><td>100.0%</td><td>2026-08-30</td></tr></table>
+<summary><samp>HTML · 7 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>7.3%</td><td>2026-09-12</td></tr><tr><td>clarity</td><td>5.9%</td><td>2026-09-21</td></tr><tr><td>ethanbchen.com</td><td>19.3%</td><td>2026-09-23</td></tr><tr><td>Fall2026-CodingChallenge</td><td>0.1%</td><td>2026-09-20</td></tr><tr><td>FunChessEngine</td><td>7.5%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>20.5%</td><td>2026-09-12</td></tr><tr><td>wifi-concierge-site</td><td>100.0%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
-<summary><samp>JAVASCRIPT · 13 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>83.0%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v1</td><td>1.4%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v2</td><td>0.2%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>0.2%</td><td>2026-09-12</td></tr><tr><td>chatgpt-web</td><td>79.5%</td><td>2026-09-12</td></tr><tr><td>clarity</td><td>85.2%</td><td>2026-09-21</td></tr><tr><td>Fall2026-CodingChallenge</td><td>0.1%</td><td>2026-09-20</td></tr><tr><td>FunChessEngine</td><td>43.3%</td><td>2026-09-11</td></tr><tr><td>grok-electron</td><td>83.2%</td><td>2026-09-12</td></tr><tr><td>kitcoscraper</td><td>100.0%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>76.9%</td><td>2026-09-12</td></tr><tr><td>outlook-electron</td><td>100.0%</td><td>2026-09-12</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
+<summary><samp>JAVASCRIPT · 14 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>83.0%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v1</td><td>1.4%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v2</td><td>0.2%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>0.2%</td><td>2026-09-12</td></tr><tr><td>chatgpt-web</td><td>79.5%</td><td>2026-09-12</td></tr><tr><td>clarity</td><td>85.2%</td><td>2026-09-21</td></tr><tr><td>ethanbchen.com</td><td>0.3%</td><td>2026-09-23</td></tr><tr><td>Fall2026-CodingChallenge</td><td>0.1%</td><td>2026-09-20</td></tr><tr><td>FunChessEngine</td><td>43.3%</td><td>2026-09-11</td></tr><tr><td>grok-electron</td><td>83.2%</td><td>2026-09-12</td></tr><tr><td>kitcoscraper</td><td>100.0%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>76.9%</td><td>2026-09-12</td></tr><tr><td>outlook-electron</td><td>100.0%</td><td>2026-09-12</td></tr><tr><td>the-great-prompt-off</td><td>0.1%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
 <summary><samp>MAKEFILE · 1 PROJECT</samp></summary>
@@ -388,8 +388,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>the-great-prompt-off</td><td>4.6%</td><td>2026-08-30</td></tr></table>
 </details>
 <details>
-<summary><samp>PYTHON · 7 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>5.2%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>4.2%</td><td>2026-09-12</td></tr><tr><td>FunChessEngine</td><td>41.8%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>2.6%</td><td>2026-09-12</td></tr><tr><td>PianoMirRustPublic</td><td>2.6%</td><td>2026-09-12</td></tr><tr><td>TowerLogic</td><td>100.0%</td><td>2026-09-12</td></tr><tr><td>WinCodex</td><td>35.5%</td><td>2026-09-17</td></tr></table>
+<summary><samp>PYTHON · 8 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love</td><td>5.2%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>4.2%</td><td>2026-09-12</td></tr><tr><td>ethanbchen.com</td><td>1.8%</td><td>2026-09-23</td></tr><tr><td>FunChessEngine</td><td>41.8%</td><td>2026-09-11</td></tr><tr><td>nitro-notes</td><td>2.6%</td><td>2026-09-12</td></tr><tr><td>PianoMirRustPublic</td><td>2.6%</td><td>2026-09-12</td></tr><tr><td>TowerLogic</td><td>100.0%</td><td>2026-09-12</td></tr><tr><td>WinCodex</td><td>35.5%</td><td>2026-09-17</td></tr></table>
 </details>
 <details>
 <summary><samp>RUST · 1 PROJECT</samp></summary>
@@ -404,16 +404,16 @@ and tools for the web. This page follows the work as it changes.</p>
 <table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>chatgpt-web</td><td>20.5%</td><td>2026-09-12</td></tr><tr><td>grok-electron</td><td>16.8%</td><td>2026-09-12</td></tr></table>
 </details>
 <details>
-<summary><samp>TYPESCRIPT · 5 PROJECTS</samp></summary>
-<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love-v1</td><td>98.6%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v2</td><td>26.7%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>39.1%</td><td>2026-09-12</td></tr><tr><td>Fall2026-CodingChallenge</td><td>81.1%</td><td>2026-09-20</td></tr><tr><td>the-great-prompt-off</td><td>95.3%</td><td>2026-08-30</td></tr></table>
+<summary><samp>TYPESCRIPT · 6 PROJECTS</samp></summary>
+<table><tr><th>Project</th><th>Share of language bytes</th><th>Latest push · UTC</th></tr><tr><td>avoid.love-v1</td><td>98.6%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v2</td><td>26.7%</td><td>2026-09-12</td></tr><tr><td>avoid.love-v3</td><td>39.1%</td><td>2026-09-12</td></tr><tr><td>ethanbchen.com</td><td>78.6%</td><td>2026-09-23</td></tr><tr><td>Fall2026-CodingChallenge</td><td>81.1%</td><td>2026-09-20</td></tr><tr><td>the-great-prompt-off</td><td>95.3%</td><td>2026-08-30</td></tr></table>
 </details>
 </details>
 <details>
 <summary><samp>THE YEAR, MONTH BY MONTH</samp></summary>
 <p>Open a month to see its activity and three busiest dates. Boundary months cover only the dates included in the rolling 365-day snapshot; today may be incomplete.</p>
 <details>
-<summary><samp>SEPTEMBER 2026 · 488 CONTRIBUTIONS</samp></summary>
-<p>15 active days across 22 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-18</td><td>211</td></tr><tr><td>2026-09-17</td><td>125</td></tr><tr><td>2026-09-19</td><td>44</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-22 UTC.</sub></p>
+<summary><samp>SEPTEMBER 2026 · 547 CONTRIBUTIONS</samp></summary>
+<p>16 active days across 23 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-09-18</td><td>211</td></tr><tr><td>2026-09-17</td><td>125</td></tr><tr><td>2026-09-22</td><td>59</td></tr></table><p><sub>Coverage: 2026-09-01 through 2026-09-23 UTC.</sub></p>
 </details>
 <details>
 <summary><samp>AUGUST 2026 · 75 CONTRIBUTIONS</samp></summary>
@@ -461,7 +461,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>SEPTEMBER 2025 · 0 CONTRIBUTIONS</samp></summary>
-<p>0 active days across 8 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-09-23 through 2025-09-30 UTC.</sub></p>
+<p>0 active days across 7 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-09-24 through 2025-09-30 UTC.</sub></p>
 </details>
 </details>
 <details>
@@ -634,7 +634,7 @@ and tools for the web. This page follows the work as it changes.</p>
 
 <!-- project-index:start -->
 <details>
-<summary><samp>BROWSE ALL 17 PROJECTS</samp></summary>
+<summary><samp>BROWSE ALL 18 PROJECTS</samp></summary>
 <div align="left">
 <p>Public, non-fork projects, grouped by primary language.</p>
 <ul>
@@ -653,6 +653,7 @@ and tools for the web. This page follows the work as it changes.</p>
 <li><a href="https://github.com/EthanChenHyland/TowerLogic">TowerLogic</a> — Python</li>
 <li><a href="https://github.com/EthanChenHyland/PianoMirRustPublic">PianoMirRustPublic</a> — Rust</li>
 <li><a href="https://github.com/EthanChenHyland/avoid.love-v1">avoid.love-v1</a> — TypeScript</li>
+<li><a href="https://github.com/EthanChenHyland/ethanbchen.com">ethanbchen.com</a> — TypeScript</li>
 <li><a href="https://github.com/EthanChenHyland/Fall2026-CodingChallenge">Fall2026-CodingChallenge</a> — TypeScript</li>
 <li><a href="https://github.com/EthanChenHyland/the-great-prompt-off">the-great-prompt-off</a> — TypeScript</li>
 </ul>
@@ -705,6 +706,7 @@ and tools for the web. This page follows the work as it changes.</p>
 <tr><td><a href="https://github.com/EthanChenHyland/avoid.love-v3">avoid.love-v3</a></td><td>CSS · TypeScript · Python · JavaScript</td><td>2026-09-12</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/chatgpt-web">chatgpt-web</a></td><td>JavaScript · Swift</td><td>2026-09-12</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/clarity">clarity</a></td><td>JavaScript · CSS · HTML</td><td>2026-09-21</td><td>Open</td></tr>
+<tr><td><a href="https://github.com/EthanChenHyland/ethanbchen.com">ethanbchen.com</a></td><td>TypeScript · HTML · Python · JavaScript</td><td>2026-09-23</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/Fall2026-CodingChallenge">Fall2026-CodingChallenge</a></td><td>TypeScript · CSS · JavaScript · HTML · Dockerfile</td><td>2026-09-20</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/FunChessEngine">FunChessEngine</a></td><td>JavaScript · Python · HTML · CSS · Makefile · Shell</td><td>2026-09-11</td><td>Open</td></tr>
 <tr><td><a href="https://github.com/EthanChenHyland/grok-electron">grok-electron</a></td><td>JavaScript · Swift</td><td>2026-09-12</td><td>Open</td></tr>
@@ -753,22 +755,22 @@ and tools for the web. This page follows the work as it changes.</p>
 <div align="left">
 
 <!-- activity-text:start -->
-677 contributions across 33 active days. Best Sunday–Saturday week: 397 contributions. 2025-09-23 through 2026-09-22, UTC.
+736 contributions across 34 active days. Best Sunday–Saturday week: 397 contributions. 2025-09-24 through 2026-09-23, UTC.
 
-Current: 0 days (No active run). Longest within the last 365 days: 10 days (2026-09-11 / 2026-09-20).
+Current: 1 day (2026-09-22 / 2026-09-22). Longest within the last 365 days: 10 days (2026-09-11 / 2026-09-20).
 
-Last 7 UTC days: 383 contributions; previous 7 days: 44; last 30 days: 536 contributions over 19 active days. Includes today, which is unfinished.
+Last 7 UTC days: 440 contributions; previous 7 days: 39; last 30 days: 592 contributions over 19 active days. Includes today, which is unfinished.
 
-contributions: 677, next checkpoint 700; active days: 33, next checkpoint 50; languages: 13, next checkpoint 15. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
+contributions: 736, next checkpoint 800; active days: 34, next checkpoint 50; languages: 13, next checkpoint 15. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
 
 **Languages**
 
-- HTML: 3,888,631 bytes (39.2%), 6 repositories
-- TypeScript: 1,494,591 bytes (15.1%), 5 repositories
-- Python: 1,456,215 bytes (14.7%), 7 repositories
-- JavaScript: 1,326,699 bytes (13.4%), 13 repositories
-- Rust: 1,124,399 bytes (11.3%), 1 repositories
-- CSS: 523,855 bytes (5.3%), 7 repositories
+- HTML: 3,917,302 bytes (38.9%), 7 repositories
+- TypeScript: 1,611,457 bytes (16.0%), 6 repositories
+- Python: 1,458,864 bytes (14.5%), 8 repositories
+- JavaScript: 1,327,109 bytes (13.2%), 14 repositories
+- Rust: 1,124,399 bytes (11.2%), 1 repositories
+- CSS: 523,855 bytes (5.2%), 7 repositories
 - C#: 54,357 bytes (0.5%), 1 repositories
 - PLpgSQL: 33,322 bytes (0.3%), 1 repositories
 - Shell: 18,338 bytes (0.2%), 3 repositories

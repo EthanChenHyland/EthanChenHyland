@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-09-22",
+  "as_of": "2026-09-23",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-09-23"
-    },
     {
       "count": 0,
       "date": "2025-09-24"
@@ -1458,8 +1454,12 @@
       "date": "2026-09-21"
     },
     {
-      "count": 0,
+      "count": 59,
       "date": "2026-09-22"
+    },
+    {
+      "count": 0,
+      "date": "2026-09-23"
     }
   ],
   "login": "EthanChenHyland",
@@ -1603,6 +1603,29 @@
         "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.11"
       },
       "url": "https://github.com/EthanChenHyland/clarity"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "Ethan B. Chen \u2014 Code, experiments, systems. An interactive creative-developer portfolio.",
+      "issues_enabled": true,
+      "languages": {
+        "HTML": 28671,
+        "JavaScript": 410,
+        "Python": 2649,
+        "TypeScript": 116866
+      },
+      "latest_commit": {
+        "date": "2026-09-23",
+        "headline": "Deepen continuous ribbon scene",
+        "url": "https://github.com/EthanChenHyland/ethanbchen.com/commit/f43836bbc8410905bdd26cabe785b6865bdaadb2"
+      },
+      "name": "ethanbchen.com",
+      "primary": "TypeScript",
+      "pushed": "2026-09-23",
+      "pushed_at": "2026-09-23T00:04:47Z",
+      "release": null,
+      "url": "https://github.com/EthanChenHyland/ethanbchen.com"
     },
     {
       "archived": false,
