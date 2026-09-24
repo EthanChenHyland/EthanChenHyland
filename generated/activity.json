@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-09-23",
+  "as_of": "2026-09-24",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-09-24"
-    },
     {
       "count": 0,
       "date": "2025-09-25"
@@ -1074,7 +1070,7 @@
       "date": "2026-06-18"
     },
     {
-      "count": 0,
+      "count": 1,
       "date": "2026-06-19"
     },
     {
@@ -1370,7 +1366,7 @@
       "date": "2026-08-31"
     },
     {
-      "count": 18,
+      "count": 19,
       "date": "2026-09-01"
     },
     {
@@ -1402,7 +1398,7 @@
       "date": "2026-09-08"
     },
     {
-      "count": 7,
+      "count": 8,
       "date": "2026-09-09"
     },
     {
@@ -1410,7 +1406,7 @@
       "date": "2026-09-10"
     },
     {
-      "count": 9,
+      "count": 53,
       "date": "2026-09-11"
     },
     {
@@ -1418,7 +1414,7 @@
       "date": "2026-09-12"
     },
     {
-      "count": 1,
+      "count": 2,
       "date": "2026-09-13"
     },
     {
@@ -1430,7 +1426,7 @@
       "date": "2026-09-15"
     },
     {
-      "count": 2,
+      "count": 3,
       "date": "2026-09-16"
     },
     {
@@ -1446,11 +1442,11 @@
       "date": "2026-09-19"
     },
     {
-      "count": 1,
+      "count": 7,
       "date": "2026-09-20"
     },
     {
-      "count": 0,
+      "count": 3,
       "date": "2026-09-21"
     },
     {
@@ -1458,8 +1454,12 @@
       "date": "2026-09-22"
     },
     {
-      "count": 0,
+      "count": 27,
       "date": "2026-09-23"
+    },
+    {
+      "count": 1,
+      "date": "2026-09-24"
     }
   ],
   "login": "EthanChenHyland",
@@ -1584,23 +1584,23 @@
       "description": "Open-source macOS AI overlay with screen assistance, local or cloud transcription, and bring-your-own-key AI providers.",
       "issues_enabled": true,
       "languages": {
-        "CSS": 51640,
-        "HTML": 34218,
-        "JavaScript": 492944
+        "CSS": 53863,
+        "HTML": 37076,
+        "JavaScript": 569787
       },
       "latest_commit": {
-        "date": "2026-09-21",
-        "headline": "Release 0.2.11 with explicit Drag pill window movement",
-        "url": "https://github.com/EthanChenHyland/clarity/commit/f3440fb92bdf7c7fb76f0c63099971d16faf3464"
+        "date": "2026-09-24",
+        "headline": "Improve real-time performance for 0.2.17",
+        "url": "https://github.com/EthanChenHyland/clarity/commit/15e989ecb5d6f75a86bde513be2fb37d17fc1d0c"
       },
       "name": "clarity",
       "primary": "JavaScript",
-      "pushed": "2026-09-21",
-      "pushed_at": "2026-09-21T02:26:17Z",
+      "pushed": "2026-09-24",
+      "pushed_at": "2026-09-24T04:27:57Z",
       "release": {
-        "date": "2026-09-21",
-        "tag": "v0.2.11",
-        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.11"
+        "date": "2026-09-24",
+        "tag": "v0.2.17",
+        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.17"
       },
       "url": "https://github.com/EthanChenHyland/clarity"
     },
@@ -1610,20 +1610,20 @@
       "description": "Ethan B. Chen \u2014 Code, experiments, systems. An interactive creative-developer portfolio.",
       "issues_enabled": true,
       "languages": {
-        "HTML": 28671,
+        "HTML": 30251,
         "JavaScript": 410,
-        "Python": 2649,
-        "TypeScript": 116866
+        "Python": 6349,
+        "TypeScript": 139435
       },
       "latest_commit": {
-        "date": "2026-09-23",
-        "headline": "Deepen continuous ribbon scene",
-        "url": "https://github.com/EthanChenHyland/ethanbchen.com/commit/f43836bbc8410905bdd26cabe785b6865bdaadb2"
+        "date": "2026-09-24",
+        "headline": "Build bidirectional score-following Minuet player",
+        "url": "https://github.com/EthanChenHyland/ethanbchen.com/commit/053ca13ee2096bd287409646a2b724da13c3b51b"
       },
       "name": "ethanbchen.com",
       "primary": "TypeScript",
-      "pushed": "2026-09-23",
-      "pushed_at": "2026-09-23T00:04:47Z",
+      "pushed": "2026-09-24",
+      "pushed_at": "2026-09-24T01:57:22Z",
       "release": null,
       "url": "https://github.com/EthanChenHyland/ethanbchen.com"
     },
