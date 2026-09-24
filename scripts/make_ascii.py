@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reconstruct the user's source image as a one-shot ASCII SVG, using Pillow.
+"""Reconstruct the user's source image as an animated ASCII SVG, using Pillow.
 
 Example: python scripts/make_ascii.py assets/source/hero.png
 An explicit --crop left,top,right,bottom overrides conservative border trimming.
@@ -74,14 +74,26 @@ def render_ascii(rows,out,alt,theme=None):
     leading = fontsize*1.15
     left = (620-len(rows[0])*fontsize*0.6)/2
     height = round(30+len(rows)*leading)
-    body = '<g class="reconstruct" clip-path="url(#reveal)">'
+    body = '<g class="frog-idle"><g class="reconstruct" clip-path="url(#reveal)">'
     for i,row in enumerate(rows):
         body += text(round(left,3),round(15+(i+1)*leading,3),row.rstrip(),round(fontsize,3),extra='xml:space="preserve"')
-    body += '</g>'
+    body += '</g></g>'
     # The underlying clip is fully open: unsupported SMIL still shows the image.
     defs = (f'<clipPath id="reveal"><rect width="620" height="{height}">'
             f'<animate attributeName="height" from="0" to="{height}" dur="1.6s" begin="0s" repeatCount="1" fill="freeze"/>'
             '</rect></clipPath>')
+    # Transform only the artwork; the SVG viewport and surrounding README stay fixed.
+    defs += (f'<style>.frog-idle{{transform-origin:310px {height-15}px;'
+             'animation:frogIdle 7s ease-in-out 1.6s infinite}'
+             '@keyframes frogIdle{'
+             '0%,35%,65%,100%{transform:translateY(0) scale(1,1)}'
+             '18%{transform:translateY(0) scale(1.003,1.014)}'
+             '44%{transform:translateY(0) scale(1.018,.97)}'
+             '50%{transform:translateY(-7px) scale(.992,1.014)}'
+             '57%{transform:translateY(0) scale(1.012,.98)}}'
+             '@media(prefers-reduced-motion:reduce){'
+             '.frog-idle{animation:none!important;transform:none!important}}'
+             '</style>')
     if theme is None:
         write_pair(out,'ascii','ASCII reconstruction',alt,height,body,defs)
     else:
