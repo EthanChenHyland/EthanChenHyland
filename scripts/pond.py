@@ -1,7 +1,10 @@
 """A contribution-eating ASCII frog, driven by the same validated UTC calendar."""
-import xml.etree.ElementTree as ET
+import json
+from functools import lru_cache
+from PIL import Image
+from ascii_art import prepare
 from datetime import date
-from svg import ROOT, text, write_pair
+from svg import ROOT, text, write_pair, esc
 
 
 def habitat(days):
@@ -10,15 +13,34 @@ def habitat(days):
     return min(12,(active+1)//2),min(20,(week+4)//5)
 
 
+@lru_cache(maxsize=1)
 def frog_artwork():
-    # Inline glyphs share the outer SVG's font and theme. Nested SVG images with
-    # a SMIL reveal can remain clipped when the pond is itself loaded as an img.
-    source = ET.parse(ROOT/'assets/demos/frog.svg').getroot()
-    glyphs = ''.join(text(node.attrib['x'], node.attrib['y'], node.text or '',
-                          node.attrib['font-size'], extra='xml:space="preserve"')
-                     for node in source.findall('.//{http://www.w3.org/2000/svg}text'))
-    scale = 34 / 419
-    return f'<g transform="translate({(62-620*scale)/2:.6f} 0) scale({scale:.9f})">{glyphs}</g>'
+    # Inline poses avoid nested SVG-image rendering failures. Lower-resolution
+    # ASCII keeps the moving limbs legible at the pond's tiny display size.
+    config = json.loads((ROOT/'assets/source/frog-hop.json').read_text())
+    body = ''
+    with Image.open(ROOT/'assets/source'/config['sheet']) as sheet:
+        for i, frame in enumerate(config['frames']):
+            rows = prepare(sheet, frame['crop'], 60, .95, frame['matte'], .7)
+            dx, dy = frame['offset']
+            body += f'<g class="pond-pose pond-pose-{i}" transform="translate({dx*.1:.2f} {dy*.1:.2f})"><text font-size="1.667" class="ink" xml:space="preserve">'
+            for y, row in enumerate(rows):
+                if row.strip():
+                    body += f'<tspan x="0" y="{(y+1)*1.917:.3f}">{esc(row.rstrip())}</tspan>'
+            body += '</text></g>'
+    return body
+
+
+def pose_styles(hop_duration, moving=True):
+    styles = '.pond-pose{visibility:hidden}.pond-pose-0{visibility:visible}'
+    if moving:
+        starts = [0, 15, 30, 48, 70, 86, 100]
+        for i in range(6):
+            start, end = starts[i:i+2]
+            keys = '0%{visibility:hidden}' if start else ''
+            keys += f'{start}%{{visibility:visible}}{end}%{{visibility:hidden}}'
+            styles += f'.pond-pose-{i}{{animation:limb{i} {hop_duration:.9f}s steps(1,end) infinite}}@keyframes limb{i}{{{keys}}}'
+    return styles + '@media(prefers-reduced-motion:reduce){.pond-pose{animation:none!important;visibility:hidden!important}.pond-pose-0{visibility:visible!important}}'
 
 
 def draw_pond(days,out):
@@ -42,6 +64,7 @@ def draw_pond(days,out):
     for f in range(flies):
         body+=f'<circle cx="{35+(f*137)%550}" cy="{44+(f*47)%160}" r="1" class="ink firefly" style="animation:twinkle {3+f%3}s ease-in-out {f*.2}s infinite"/>'
     frog=frog_artwork()
+    rules+=pose_styles(duration/(len(active)+2),bool(active))
     sequence=[(0,positions[active[0]] if active else (40,130))]+[((j+1)/(len(active)+2)*100,positions[i]) for j,i in enumerate(active)]
     keys=''
     for j,(at,(x,y)) in enumerate(sequence):

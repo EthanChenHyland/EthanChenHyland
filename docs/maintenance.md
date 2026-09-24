@@ -147,3 +147,5 @@ get a static view. Project replay provenance is documented in `assets/demos/READ
 ### Frog animation
 
 The ASCII hero cycles through six anatomical poses on a 1.8-second loop: rest, crouch, takeoff, extension, descent, and landing. Hindlegs and front legs change pose independently of the torso. Reduced-motion preferences show the resting pose. The fixed canvas prevents layout shifts. `scripts/frog_frames.py` converts `assets/source/frog-hop-sheet.png` using the crops and silhouette masks in `assets/source/frog-hop.json`; the existing daily generator regenerates both themes without network calls. The sprite sheet was AI-generated from the original frog reference; it is not footage of the original frog.
+
+The small contribution-pond frog uses the same six poses as inline, lower-resolution ASCII. Its leg cycle lasts exactly one travel hop. Empty activity and reduced-motion mode retain a visible resting pose; no nested SVG image is used.
