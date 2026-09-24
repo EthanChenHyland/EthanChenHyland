@@ -3,7 +3,7 @@
 <!-- hero:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/ascii-dark.svg">
-  <img src="generated/ascii.svg" width="540" alt="A frog facing right, reconstructed from the supplied photograph in monochrome ASCII. A large round eye, arched back, folded legs, and long toes define its silhouette.">
+  <img src="generated/ascii.svg" width="540" alt="An ASCII frog hopping in a loop: hindlegs crouch, extend at takeoff, and fold back as the front feet reach down to land.">
 </picture>
 
 <!-- hero:end -->

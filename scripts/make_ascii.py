@@ -3,7 +3,7 @@
 
 Example: python scripts/make_ascii.py assets/source/hero.png
 An explicit --crop left,top,right,bottom overrides conservative border trimming.
-The original input is never modified. No substitute image is created.
+The original input is never modified. The configured profile uses generated hop poses.
 """
 import argparse
 import json
@@ -127,16 +127,20 @@ def main():
         parser.error('Use 40–180 columns and gamma 0.2–3')
     if args.crop and len(args.crop) != 4:
         parser.error('Crop needs four comma-separated coordinates')
-    with Image.open(args.source) as source:
-        for theme in ('light','dark'):
-            rows = prepare(source,args.crop,args.columns,args.gamma,config.get('matte'),config.get('matte_feather',1.1),theme)
-            render_ascii(rows,args.output,args.alt,theme)
+    if (ROOT/'assets/source/frog-hop.json').exists() and args.source.resolve() == (ROOT/'assets/source/hero.png').resolve():
+        from frog_frames import render_hop
+        args.alt = render_hop(prepare,args.output,args.columns,args.gamma)
+    else:
+        with Image.open(args.source) as source:
+            for theme in ('light','dark'):
+                rows = prepare(source,args.crop,args.columns,args.gamma,config.get('matte'),config.get('matte_feather',1.1),theme)
+                render_ascii(rows,args.output,args.alt,theme)
     content,count = re.subn(r'(<!-- hero:start -->).*?(<!-- hero:end -->)',
         lambda m: m[1]+'\n'+picture('ascii',args.alt).replace('width="620"','width="540"')+'\n\n'+m[2],args.readme.read_text(),flags=re.S)
     if count != 1:
         raise ValueError('README must contain one hero marker pair')
     args.readme.write_text(content)
-    print(f'ASCII reconstruction: {len(rows[0])} columns × {len(rows)} rows')
+    print(f'ASCII reconstruction: {args.columns} columns')
 
 
 if __name__ == '__main__':
