@@ -74,26 +74,31 @@ def render_ascii(rows,out,alt,theme=None):
     leading = fontsize*1.15
     left = (620-len(rows[0])*fontsize*0.6)/2
     height = round(30+len(rows)*leading)
-    body = '<g class="frog-idle"><g class="reconstruct" clip-path="url(#reveal)">'
+    body = '<g transform="translate(31 85) scale(.9)"><g class="frog-idle"><g class="reconstruct" clip-path="url(#reveal)">'
     for i,row in enumerate(rows):
         body += text(round(left,3),round(15+(i+1)*leading,3),row.rstrip(),round(fontsize,3),extra='xml:space="preserve"')
-    body += '</g></g>'
+    body += '</g></g></g>'
     # The underlying clip is fully open: unsupported SMIL still shows the image.
     defs = (f'<clipPath id="reveal"><rect width="620" height="{height}">'
             f'<animate attributeName="height" from="0" to="{height}" dur="1.6s" begin="0s" repeatCount="1" fill="freeze"/>'
             '</rect></clipPath>')
     # Transform only the artwork; the SVG viewport and surrounding README stay fixed.
     defs += (f'<style>.frog-idle{{transform-origin:310px {height-15}px;'
-             'animation:frogIdle 7s ease-in-out 1.6s infinite}'
+             'animation:frogIdle 2.8s ease-in-out 0s infinite}'
              '@keyframes frogIdle{'
-             '0%,35%,65%,100%{transform:translateY(0) scale(1,1)}'
-             '18%{transform:translateY(0) scale(1.003,1.014)}'
-             '44%{transform:translateY(0) scale(1.018,.97)}'
-             '50%{transform:translateY(-7px) scale(.992,1.014)}'
-             '57%{transform:translateY(0) scale(1.012,.98)}}'
+             '0%,100%{transform:translate(0,0) rotate(0deg) scale(1,1)}'
+             '10%{transform:translate(0,0) rotate(-3deg) scale(1.07,.84)}'
+             '25%{transform:translate(18px,-60px) rotate(5deg) scale(.94,1.08)}'
+             '38%{transform:translate(24px,0) rotate(2deg) scale(1.09,.82)}'
+             '46%{transform:translate(16px,-12px) rotate(-4deg) scale(.98,1.02)}'
+             '54%{transform:translate(0,0) rotate(3deg) scale(1.04,.94)}'
+             '63%{transform:translate(-10px,0) rotate(-4deg) scale(1.07,.86)}'
+             '77%{transform:translate(-24px,-48px) rotate(-6deg) scale(.94,1.07)}'
+             '90%{transform:translate(-12px,0) rotate(-2deg) scale(1.09,.84)}}'
              '@media(prefers-reduced-motion:reduce){'
              '.frog-idle{animation:none!important;transform:none!important}}'
              '</style>')
+    height += 100  # Headroom for jumps and rotation, without clipping or layout shifts.
     if theme is None:
         write_pair(out,'ascii','ASCII reconstruction',alt,height,body,defs)
     else:
