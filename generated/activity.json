@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-09-27",
+  "as_of": "2026-09-28",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-09-28"
-    },
     {
       "count": 0,
       "date": "2025-09-29"
@@ -1458,8 +1454,12 @@
       "date": "2026-09-26"
     },
     {
-      "count": 0,
+      "count": 1,
       "date": "2026-09-27"
+    },
+    {
+      "count": 0,
+      "date": "2026-09-28"
     }
   ],
   "login": "EthanChenHyland",
@@ -1586,21 +1586,21 @@
       "languages": {
         "CSS": 53863,
         "HTML": 37076,
-        "JavaScript": 569787
+        "JavaScript": 591350
       },
       "latest_commit": {
-        "date": "2026-09-24",
-        "headline": "Improve real-time performance for 0.2.17",
-        "url": "https://github.com/EthanChenHyland/clarity/commit/15e989ecb5d6f75a86bde513be2fb37d17fc1d0c"
+        "date": "2026-09-28",
+        "headline": "Release Clarity 0.2.18",
+        "url": "https://github.com/EthanChenHyland/clarity/commit/363b2594bca3721ff70566415914810ce7b864d5"
       },
       "name": "clarity",
       "primary": "JavaScript",
-      "pushed": "2026-09-24",
-      "pushed_at": "2026-09-24T04:27:57Z",
+      "pushed": "2026-09-28",
+      "pushed_at": "2026-09-28T04:15:28Z",
       "release": {
-        "date": "2026-09-24",
-        "tag": "v0.2.17",
-        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.17"
+        "date": "2026-09-28",
+        "tag": "v0.2.18",
+        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.18"
       },
       "url": "https://github.com/EthanChenHyland/clarity"
     },
