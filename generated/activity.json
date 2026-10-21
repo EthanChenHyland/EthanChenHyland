@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-10-20",
+  "as_of": "2026-10-21",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-10-21"
-    },
     {
       "count": 0,
       "date": "2025-10-22"
@@ -1460,6 +1456,10 @@
     {
       "count": 0,
       "date": "2026-10-20"
+    },
+    {
+      "count": 3,
+      "date": "2026-10-21"
     }
   ],
   "login": "EthanChenHyland",
@@ -1589,18 +1589,18 @@
         "JavaScript": 596160
       },
       "latest_commit": {
-        "date": "2026-10-16",
-        "headline": "Improve streaming transcription and live answer timing for 0.2.19",
-        "url": "https://github.com/EthanChenHyland/clarity/commit/aab2d4cebfc5959c7863f284440460048aeba4dc"
+        "date": "2026-10-21",
+        "headline": "docs: prepare Clarity v0.2.19 release",
+        "url": "https://github.com/EthanChenHyland/clarity/commit/ded696881ae24727305b0ba37b981cdc38c89fa7"
       },
       "name": "clarity",
       "primary": "JavaScript",
-      "pushed": "2026-10-16",
-      "pushed_at": "2026-10-16T07:24:16Z",
+      "pushed": "2026-10-21",
+      "pushed_at": "2026-10-21T07:45:23Z",
       "release": {
-        "date": "2026-09-28",
-        "tag": "v0.2.18",
-        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.18"
+        "date": "2026-10-21",
+        "tag": "v0.2.19",
+        "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.19"
       },
       "url": "https://github.com/EthanChenHyland/clarity"
     },
