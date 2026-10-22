@@ -31,9 +31,9 @@ and tools for the web. This page follows the work as it changes.</p>
 <!-- discovery:start -->
 <details>
 <summary><samp>THE FROG PICKED A PROJECT FOR YOU</samp></summary>
-<p><b><a href="https://github.com/EthanChenHyland/avoid.love-v2">avoid.love-v2</a></b></p>
-<p>Version 2 of the avoid.love website — an interactive attachment screening experience built with Next.js, React, and GSAP.</p>
-<p><sub>A rotating daily spotlight · 2026-10-21 UTC</sub></p>
+<p><b><a href="https://github.com/EthanChenHyland/avoid.love-v3">avoid.love-v3</a></b></p>
+<p>V3 of avoid.love — an interactive browser-native love story about falling in love, trying to avoid it, and failing anyway.</p>
+<p><sub>A rotating daily spotlight · 2026-10-22 UTC</sub></p>
 </details>
 <!-- discovery:end -->
 
@@ -50,7 +50,7 @@ and tools for the web. This page follows the work as it changes.</p>
 <a name="puzzle"></a>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="generated/puzzle-dark.svg">
-  <img src="generated/puzzle.svg" width="620" alt="Black king on a8; White king on b6; White queen on b3. White to move, mate in one.">
+  <img src="generated/puzzle.svg" width="620" alt="Black king on b8; White king on a6; White queen on h4. White to move, mate in one.">
 </picture>
 <details>
 <summary><samp>NEED A HINT?</samp></summary>
@@ -58,7 +58,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>REVEAL THE MOVE</samp></summary>
-<p><b>Qg8#</b> — move the queen from <b>b3</b> to <b>g8</b>. The black king is in check with no legal escape.</p>
+<p><b>Qd8#</b> — move the queen from <b>h4</b> to <b>d8</b>. The black king is in check with no legal escape.</p>
 <p><sub>One of 16 verified practice positions, rotating daily. # means checkmate.</sub></p>
 </details>
 <a name="more-fun-stuff"></a>
@@ -66,8 +66,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>MORE FUN STUFF</samp></summary>
 
 <details>
-<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 18 CONTRIBUTIONS</samp></summary>
-<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-10-21</td><td>3</td></tr><tr><td>2026-10-20</td><td>0</td></tr><tr><td>2026-10-19</td><td>0</td></tr><tr><td>2026-10-18</td><td>0</td></tr><tr><td>2026-10-17</td><td>0</td></tr><tr><td>2026-10-16</td><td>15</td></tr><tr><td>2026-10-15</td><td>0</td></tr></tbody></table>
+<summary><samp>OPEN THE 7-DAY ACTIVITY DIARY · 22 CONTRIBUTIONS</samp></summary>
+<table><thead><tr><th>Date (UTC)</th><th>Contributions</th></tr></thead><tbody><tr><td>2026-10-22</td><td>0</td></tr><tr><td>2026-10-21</td><td>7</td></tr><tr><td>2026-10-20</td><td>0</td></tr><tr><td>2026-10-19</td><td>0</td></tr><tr><td>2026-10-18</td><td>0</td></tr><tr><td>2026-10-17</td><td>0</td></tr><tr><td>2026-10-16</td><td>15</td></tr></tbody></table>
 <p><sub>GitHub contribution-calendar counts, updated with the profile. The current UTC day may be incomplete.</sub></p>
 </details>
 <a name="field-guide"></a>
@@ -101,7 +101,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THIS WEEK IN NUMBERS</samp></summary>
-<p><b>18 contributions</b> across 2 active days.</p><p>+1 contributions compared with the preceding seven days (17).</p><p>Busiest day: 2026-10-16 (15 contributions).</p><p><sub>2026-10-15 through 2026-10-21 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
+<p><b>22 contributions</b> across 2 active days.</p><p>+5 contributions compared with the preceding seven days (17).</p><p>Busiest day: 2026-10-16 (15 contributions).</p><p><sub>2026-10-16 through 2026-10-22 UTC. The current day may be incomplete. Activity counts describe frequency, not code quality.</sub></p>
 </details>
 <details>
 <summary><samp>THE CHESS CORNER · 16 CHALLENGES</samp></summary>
@@ -313,7 +313,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>THE BUILD LOG · LATEST CHANGE IN EACH PROJECT</samp></summary>
-<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-10-21</td><td>clarity</td><td>docs: prepare Clarity v0.2.19 release</td></tr><tr><td>2026-09-24</td><td>ethanbchen.com</td><td>Add interactive score details and scroll-traced timeline</td></tr><tr><td>2026-09-19</td><td>Fall2026-CodingChallenge</td><td>Complete reviewer documentation and final audit</td></tr><tr><td>2026-09-17</td><td>WinCodex</td><td>Initial WinCodex V1.1 release</td></tr><tr><td>2026-09-12</td><td>outlook-electron</td><td>Publish modernized Outlook Electron client with macOS build setup</td></tr><tr><td>2026-09-12</td><td>nitro-notes</td><td>Publish Nitro Notes desktop notes and tasks app</td></tr><tr><td>2026-09-12</td><td>grok-electron</td><td>Document downloadable macOS releases</td></tr><tr><td>2026-09-12</td><td>chatgpt-web</td><td>Initial release of ChatGPT Web for macOS</td></tr><tr><td>2026-09-12</td><td>avoid.love-v3</td><td>correct project identity to avoid.love v3</td></tr><tr><td>2026-09-12</td><td>avoid.love-v2</td><td>docs: introduce avoid.love v2 and document local development</td></tr><tr><td>2026-09-12</td><td>avoid.love-v1</td><td>docs: clarify v1 archive context</td></tr><tr><td>2026-09-12</td><td>avoid.love</td><td>Give the first Us photograph more scroll time</td></tr><tr><td>2026-09-12</td><td>TowerLogic</td><td>Use Pillow-compatible ttkbootstrap version for release builds</td></tr><tr><td>2026-09-11</td><td>FunChessEngine</td><td>Publish cross-platform tagged releases</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
+<p>An automatically refreshed snapshot of each project’s latest default-branch commit, newest dates first.</p><table><tr><th>UTC date</th><th>Project</th><th>Latest change</th></tr><tr><td>2026-10-21</td><td>clarity</td><td>release: publish macOS archives without Developer ID signing</td></tr><tr><td>2026-09-24</td><td>ethanbchen.com</td><td>Add interactive score details and scroll-traced timeline</td></tr><tr><td>2026-09-19</td><td>Fall2026-CodingChallenge</td><td>Complete reviewer documentation and final audit</td></tr><tr><td>2026-09-17</td><td>WinCodex</td><td>Initial WinCodex V1.1 release</td></tr><tr><td>2026-09-12</td><td>outlook-electron</td><td>Publish modernized Outlook Electron client with macOS build setup</td></tr><tr><td>2026-09-12</td><td>nitro-notes</td><td>Publish Nitro Notes desktop notes and tasks app</td></tr><tr><td>2026-09-12</td><td>grok-electron</td><td>Document downloadable macOS releases</td></tr><tr><td>2026-09-12</td><td>chatgpt-web</td><td>Initial release of ChatGPT Web for macOS</td></tr><tr><td>2026-09-12</td><td>avoid.love-v3</td><td>correct project identity to avoid.love v3</td></tr><tr><td>2026-09-12</td><td>avoid.love-v2</td><td>docs: introduce avoid.love v2 and document local development</td></tr><tr><td>2026-09-12</td><td>avoid.love-v1</td><td>docs: clarify v1 archive context</td></tr><tr><td>2026-09-12</td><td>avoid.love</td><td>Give the first Us photograph more scroll time</td></tr><tr><td>2026-09-12</td><td>TowerLogic</td><td>Use Pillow-compatible ttkbootstrap version for release builds</td></tr><tr><td>2026-09-11</td><td>FunChessEngine</td><td>Publish cross-platform tagged releases</td></tr><tr><td>2026-08-30</td><td>wifi-concierge-site</td><td>Remove image section from README</td></tr><tr><td>2026-08-30</td><td>the-great-prompt-off</td><td>Comprehensive passthrough of README and MIT license</td></tr><tr><td>2026-08-30</td><td>kitcoscraper</td><td>Revise README for clarity and detail</td></tr><tr><td>2026-08-30</td><td>PianoMirRustPublic</td><td>Correct typo in README.md</td></tr></table>
 </details>
 <details>
 <summary><samp>THREE THINGS THE DEMOS DO NOT TELL YOU</samp></summary>
@@ -412,8 +412,8 @@ and tools for the web. This page follows the work as it changes.</p>
 <summary><samp>THE YEAR, MONTH BY MONTH</samp></summary>
 <p>Open a month to see its activity and three busiest dates. Boundary months cover only the dates included in the rolling 365-day snapshot; today may be incomplete.</p>
 <details>
-<summary><samp>OCTOBER 2026 · 53 CONTRIBUTIONS</samp></summary>
-<p>9 active days across 21 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-10-13</td><td>17</td></tr><tr><td>2026-10-16</td><td>15</td></tr><tr><td>2026-10-03</td><td>5</td></tr></table><p><sub>Coverage: 2026-10-01 through 2026-10-21 UTC.</sub></p>
+<summary><samp>OCTOBER 2026 · 57 CONTRIBUTIONS</samp></summary>
+<p>9 active days across 22 days in the snapshot.</p><table><tr><th>Most active dates</th><th>Contributions</th></tr><tr><td>2026-10-13</td><td>17</td></tr><tr><td>2026-10-16</td><td>15</td></tr><tr><td>2026-10-21</td><td>7</td></tr></table><p><sub>Coverage: 2026-10-01 through 2026-10-22 UTC.</sub></p>
 </details>
 <details>
 <summary><samp>SEPTEMBER 2026 · 686 CONTRIBUTIONS</samp></summary>
@@ -461,7 +461,7 @@ and tools for the web. This page follows the work as it changes.</p>
 </details>
 <details>
 <summary><samp>OCTOBER 2025 · 0 CONTRIBUTIONS</samp></summary>
-<p>0 active days across 10 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-10-22 through 2025-10-31 UTC.</sub></p>
+<p>0 active days across 9 days in the snapshot.</p><p>No contributions recorded in this part of the calendar.</p><p><sub>Coverage: 2025-10-23 through 2025-10-31 UTC.</sub></p>
 </details>
 </details>
 <details>
@@ -755,20 +755,20 @@ and tools for the web. This page follows the work as it changes.</p>
 <div align="left">
 
 <!-- activity-text:start -->
-914 contributions across 50 active days. Best Sunday–Saturday week: 399 contributions. 2025-10-22 through 2026-10-21, UTC.
+918 contributions across 50 active days. Best Sunday–Saturday week: 399 contributions. 2025-10-23 through 2026-10-22, UTC.
 
 Current: 1 day (2026-10-21 / 2026-10-21). Longest within the last 365 days: 14 days (2026-09-11 / 2026-09-24).
 
-Last 7 UTC days: 18 contributions; previous 7 days: 17; last 30 days: 184 contributions over 16 active days. Includes today, which is unfinished.
+Last 7 UTC days: 22 contributions; previous 7 days: 17; last 30 days: 129 contributions over 15 active days. Includes today, which is unfinished.
 
-contributions: 914, next checkpoint 1000; active days: 50, next checkpoint 75; languages: 13, next checkpoint 15. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
+contributions: 918, next checkpoint 1000; active days: 50, next checkpoint 75; languages: 13, next checkpoint 15. Activity uses the rolling 365-day window; language count uses current public code. These are automatic numeric checkpoints, not GitHub awards.
 
 **Languages**
 
 - HTML: 3,922,164 bytes (38.4%), 7 repositories
 - TypeScript: 1,637,430 bytes (16.0%), 6 repositories
 - Python: 1,462,564 bytes (14.3%), 8 repositories
-- JavaScript: 1,430,325 bytes (14.0%), 14 repositories
+- JavaScript: 1,430,564 bytes (14.0%), 14 repositories
 - Rust: 1,124,399 bytes (11.0%), 1 repositories
 - CSS: 526,078 bytes (5.1%), 7 repositories
 - C#: 54,357 bytes (0.5%), 1 repositories

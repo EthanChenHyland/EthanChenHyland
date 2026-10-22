@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-22",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-10-22"
-    },
     {
       "count": 0,
       "date": "2025-10-23"
@@ -1458,8 +1454,12 @@
       "date": "2026-10-20"
     },
     {
-      "count": 3,
+      "count": 7,
       "date": "2026-10-21"
+    },
+    {
+      "count": 0,
+      "date": "2026-10-22"
     }
   ],
   "login": "EthanChenHyland",
@@ -1586,17 +1586,17 @@
       "languages": {
         "CSS": 53863,
         "HTML": 37076,
-        "JavaScript": 596160
+        "JavaScript": 596399
       },
       "latest_commit": {
         "date": "2026-10-21",
-        "headline": "docs: prepare Clarity v0.2.19 release",
-        "url": "https://github.com/EthanChenHyland/clarity/commit/ded696881ae24727305b0ba37b981cdc38c89fa7"
+        "headline": "release: publish macOS archives without Developer ID signing",
+        "url": "https://github.com/EthanChenHyland/clarity/commit/c817b57da990e14fd07e04c24b61d33ef4655cec"
       },
       "name": "clarity",
       "primary": "JavaScript",
       "pushed": "2026-10-21",
-      "pushed_at": "2026-10-21T07:45:23Z",
+      "pushed_at": "2026-10-21T21:30:02Z",
       "release": {
         "date": "2026-10-21",
         "tag": "v0.2.19",
