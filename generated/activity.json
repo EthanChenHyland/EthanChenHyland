@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-11-14"
-    },
     {
       "count": 0,
       "date": "2025-11-15"
@@ -1454,12 +1450,16 @@
       "date": "2026-11-11"
     },
     {
-      "count": 63,
+      "count": 64,
       "date": "2026-11-12"
     },
     {
-      "count": 1,
+      "count": 52,
       "date": "2026-11-13"
+    },
+    {
+      "count": 0,
+      "date": "2026-11-14"
     }
   ],
   "login": "EthanChenHyland",
@@ -1610,24 +1610,23 @@
       "description": "Local Apple-Silicon workstation for large MoE coding agents: Scope, Swift 1.5 and Cyber at 128K, one runtime, real telemetry",
       "issues_enabled": true,
       "languages": {
-        "C": 17334,
-        "CSS": 14958,
-        "HTML": 2056,
-        "JavaScript": 120774,
-        "Python": 533496,
-        "Shell": 3726,
+        "CSS": 24610,
+        "HTML": 2720,
+        "JavaScript": 170765,
+        "Python": 603374,
+        "Shell": 5614,
         "Swift": 13328,
         "TypeScript": 116388
       },
       "latest_commit": {
         "date": "2026-11-13",
-        "headline": "docs: record the lifecycle release gate",
-        "url": "https://github.com/EthanChenHyland/DwarfStar/commit/97298a5bd256169da1a83c131e53272724e2cf04"
+        "headline": "Merge pull request #1: converge DwarfStar on one Splash runtime, cons\u2026",
+        "url": "https://github.com/EthanChenHyland/DwarfStar/commit/57627e0cac02e05678e9273f93389c704b25abf8"
       },
       "name": "DwarfStar",
       "primary": "Python",
-      "pushed": "2026-11-13",
-      "pushed_at": "2026-11-13T16:04:19Z",
+      "pushed": "2026-11-14",
+      "pushed_at": "2026-11-14T00:38:28Z",
       "release": null,
       "url": "https://github.com/EthanChenHyland/DwarfStar"
     },
@@ -1649,8 +1648,8 @@
       },
       "name": "ethanbchen.com",
       "primary": "TypeScript",
-      "pushed": "2026-11-06",
-      "pushed_at": "2026-11-06T09:46:29Z",
+      "pushed": "2026-11-13",
+      "pushed_at": "2026-11-13T22:31:06Z",
       "release": null,
       "url": "https://github.com/EthanChenHyland/ethanbchen.com"
     },
