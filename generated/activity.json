@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-11-15"
-    },
     {
       "count": 0,
       "date": "2025-11-16"
@@ -1406,11 +1402,11 @@
       "date": "2026-10-31"
     },
     {
-      "count": 4,
+      "count": 11,
       "date": "2026-11-01"
     },
     {
-      "count": 1,
+      "count": 8,
       "date": "2026-11-02"
     },
     {
@@ -1426,7 +1422,7 @@
       "date": "2026-11-05"
     },
     {
-      "count": 0,
+      "count": 1,
       "date": "2026-11-06"
     },
     {
@@ -1454,12 +1450,16 @@
       "date": "2026-11-12"
     },
     {
-      "count": 52,
+      "count": 56,
       "date": "2026-11-13"
     },
     {
-      "count": 0,
+      "count": 48,
       "date": "2026-11-14"
+    },
+    {
+      "count": 3,
+      "date": "2026-11-15"
     }
   ],
   "login": "EthanChenHyland",
@@ -1603,6 +1603,28 @@
         "url": "https://github.com/EthanChenHyland/clarity/releases/tag/v0.2.19"
       },
       "url": "https://github.com/EthanChenHyland/clarity"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "Coherence: a quantum idle-factory RPG whose worlds grow from qubits measured on qBraid. By Ethan B. Chen.",
+      "issues_enabled": true,
+      "languages": {
+        "HTML": 15011,
+        "JavaScript": 503094,
+        "Python": 27803
+      },
+      "latest_commit": {
+        "date": "2026-11-15",
+        "headline": "Coherence: a quantum idle-factory RPG built on qBraid",
+        "url": "https://github.com/EthanChenHyland/coherence/commit/1e6bcfd4bba5f55c7d31dbb2e8a640169ded0f93"
+      },
+      "name": "coherence",
+      "primary": "JavaScript",
+      "pushed": "2026-11-15",
+      "pushed_at": "2026-11-15T09:48:32Z",
+      "release": null,
+      "url": "https://github.com/EthanChenHyland/coherence"
     },
     {
       "archived": false,
