@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-11-16"
-    },
     {
       "count": 0,
       "date": "2025-11-17"
@@ -1450,16 +1446,20 @@
       "date": "2026-11-12"
     },
     {
-      "count": 56,
+      "count": 80,
       "date": "2026-11-13"
     },
     {
-      "count": 48,
+      "count": 94,
       "date": "2026-11-14"
     },
     {
-      "count": 3,
+      "count": 24,
       "date": "2026-11-15"
+    },
+    {
+      "count": 0,
+      "date": "2026-11-16"
     }
   ],
   "login": "EthanChenHyland",
@@ -1610,19 +1610,19 @@
       "description": "Coherence: a quantum idle-factory RPG whose worlds grow from qubits measured on qBraid. By Ethan B. Chen.",
       "issues_enabled": true,
       "languages": {
-        "HTML": 15011,
-        "JavaScript": 503094,
+        "HTML": 15383,
+        "JavaScript": 510613,
         "Python": 27803
       },
       "latest_commit": {
         "date": "2026-11-15",
-        "headline": "Coherence: a quantum idle-factory RPG built on qBraid",
-        "url": "https://github.com/EthanChenHyland/coherence/commit/1e6bcfd4bba5f55c7d31dbb2e8a640169ded0f93"
+        "headline": "Add an in-game Guide page, opened with ?",
+        "url": "https://github.com/EthanChenHyland/coherence/commit/3791afe631cff14bd7ff57411840389e88e66fd7"
       },
       "name": "coherence",
       "primary": "JavaScript",
       "pushed": "2026-11-15",
-      "pushed_at": "2026-11-15T09:48:32Z",
+      "pushed_at": "2026-11-15T16:53:12Z",
       "release": null,
       "url": "https://github.com/EthanChenHyland/coherence"
     },
@@ -1632,24 +1632,28 @@
       "description": "Local Apple-Silicon workstation for large MoE coding agents: Scope, Swift 1.5 and Cyber at 128K, one runtime, real telemetry",
       "issues_enabled": true,
       "languages": {
-        "CSS": 24610,
-        "HTML": 2720,
-        "JavaScript": 170765,
-        "Python": 603374,
-        "Shell": 5614,
-        "Swift": 13328,
+        "CSS": 28039,
+        "HTML": 3259,
+        "JavaScript": 203988,
+        "Python": 755444,
+        "Shell": 7152,
+        "Swift": 16464,
         "TypeScript": 116388
       },
       "latest_commit": {
-        "date": "2026-11-13",
-        "headline": "Merge pull request #1: converge DwarfStar on one Splash runtime, cons\u2026",
-        "url": "https://github.com/EthanChenHyland/DwarfStar/commit/57627e0cac02e05678e9273f93389c704b25abf8"
+        "date": "2026-11-16",
+        "headline": "Merge pull request #5: fix dwarfstar seal summary",
+        "url": "https://github.com/EthanChenHyland/DwarfStar/commit/fdd417bb35aa9fb22d46fed0a7cf359ce84770c0"
       },
       "name": "DwarfStar",
       "primary": "Python",
-      "pushed": "2026-11-14",
-      "pushed_at": "2026-11-14T00:38:28Z",
-      "release": null,
+      "pushed": "2026-11-16",
+      "pushed_at": "2026-11-16T00:12:32Z",
+      "release": {
+        "date": "2026-11-16",
+        "tag": "v1.0.0",
+        "url": "https://github.com/EthanChenHyland/DwarfStar/releases/tag/v1.0.0"
+      },
       "url": "https://github.com/EthanChenHyland/DwarfStar"
     },
     {
