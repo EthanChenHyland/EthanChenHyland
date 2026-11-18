@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-11-18"
-    },
     {
       "count": 0,
       "date": "2025-11-19"
@@ -1458,8 +1454,12 @@
       "date": "2026-11-16"
     },
     {
-      "count": 1,
+      "count": 11,
       "date": "2026-11-17"
+    },
+    {
+      "count": 18,
+      "date": "2026-11-18"
     }
   ],
   "login": "EthanChenHyland",
@@ -1632,27 +1632,27 @@
       "description": "Local Apple-Silicon workstation for large MoE coding agents: Scope, Swift 1.5 and Cyber at 128K, one runtime, real telemetry",
       "issues_enabled": true,
       "languages": {
-        "CSS": 28039,
+        "CSS": 27497,
         "HTML": 3259,
-        "JavaScript": 203988,
-        "Python": 755444,
-        "Shell": 7152,
+        "JavaScript": 233585,
+        "Python": 776956,
+        "Shell": 8158,
         "Swift": 16464,
         "TypeScript": 116388
       },
       "latest_commit": {
-        "date": "2026-11-16",
-        "headline": "Merge pull request #5: fix dwarfstar seal summary",
-        "url": "https://github.com/EthanChenHyland/DwarfStar/commit/fdd417bb35aa9fb22d46fed0a7cf359ce84770c0"
+        "date": "2026-11-18",
+        "headline": "Merge pull request #9 from EthanChenHyland/release/1.1.1",
+        "url": "https://github.com/EthanChenHyland/DwarfStar/commit/7645db7d36692ff119c4e077fab3e3f8944735ba"
       },
       "name": "DwarfStar",
       "primary": "Python",
-      "pushed": "2026-11-17",
-      "pushed_at": "2026-11-17T15:25:52Z",
+      "pushed": "2026-11-18",
+      "pushed_at": "2026-11-18T07:57:24Z",
       "release": {
-        "date": "2026-11-16",
-        "tag": "v1.0.0",
-        "url": "https://github.com/EthanChenHyland/DwarfStar/releases/tag/v1.0.0"
+        "date": "2026-11-18",
+        "tag": "v1.1.1",
+        "url": "https://github.com/EthanChenHyland/DwarfStar/releases/tag/v1.1.1"
       },
       "url": "https://github.com/EthanChenHyland/DwarfStar"
     },
