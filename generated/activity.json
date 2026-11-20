@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-11-20"
-    },
     {
       "count": 0,
       "date": "2025-11-21"
@@ -1290,79 +1286,79 @@
       "date": "2026-10-07"
     },
     {
-      "count": 0,
+      "count": 3,
       "date": "2026-10-08"
     },
     {
-      "count": 1,
+      "count": 3,
       "date": "2026-10-09"
     },
     {
-      "count": 0,
+      "count": 8,
       "date": "2026-10-10"
     },
     {
-      "count": 0,
+      "count": 14,
       "date": "2026-10-11"
     },
     {
-      "count": 0,
+      "count": 3,
       "date": "2026-10-12"
     },
     {
-      "count": 17,
+      "count": 21,
       "date": "2026-10-13"
     },
     {
-      "count": 0,
+      "count": 1,
       "date": "2026-10-14"
     },
     {
-      "count": 0,
+      "count": 3,
       "date": "2026-10-15"
     },
     {
-      "count": 15,
+      "count": 17,
       "date": "2026-10-16"
     },
     {
-      "count": 0,
+      "count": 3,
       "date": "2026-10-17"
     },
     {
-      "count": 0,
+      "count": 8,
       "date": "2026-10-18"
     },
     {
-      "count": 5,
+      "count": 19,
       "date": "2026-10-19"
     },
     {
-      "count": 1,
+      "count": 8,
       "date": "2026-10-20"
     },
     {
-      "count": 22,
+      "count": 25,
       "date": "2026-10-21"
     },
     {
-      "count": 0,
+      "count": 4,
       "date": "2026-10-22"
     },
     {
-      "count": 1,
+      "count": 6,
       "date": "2026-10-23"
     },
     {
-      "count": 0,
+      "count": 4,
       "date": "2026-10-24"
     },
     {
-      "count": 9,
+      "count": 15,
       "date": "2026-10-25"
     },
     {
-      "count": 1,
+      "count": 3,
       "date": "2026-10-26"
     },
     {
@@ -1370,11 +1366,11 @@
       "date": "2026-10-27"
     },
     {
-      "count": 0,
+      "count": 7,
       "date": "2026-10-28"
     },
     {
-      "count": 3,
+      "count": 4,
       "date": "2026-10-29"
     },
     {
@@ -1386,7 +1382,7 @@
       "date": "2026-10-31"
     },
     {
-      "count": 11,
+      "count": 12,
       "date": "2026-11-01"
     },
     {
@@ -1394,19 +1390,19 @@
       "date": "2026-11-02"
     },
     {
-      "count": 0,
+      "count": 10,
       "date": "2026-11-03"
     },
     {
-      "count": 0,
+      "count": 8,
       "date": "2026-11-04"
     },
     {
-      "count": 0,
+      "count": 7,
       "date": "2026-11-05"
     },
     {
-      "count": 1,
+      "count": 12,
       "date": "2026-11-06"
     },
     {
@@ -1430,11 +1426,11 @@
       "date": "2026-11-11"
     },
     {
-      "count": 64,
+      "count": 68,
       "date": "2026-11-12"
     },
     {
-      "count": 80,
+      "count": 84,
       "date": "2026-11-13"
     },
     {
@@ -1454,12 +1450,16 @@
       "date": "2026-11-17"
     },
     {
-      "count": 18,
+      "count": 22,
       "date": "2026-11-18"
     },
     {
-      "count": 0,
+      "count": 2,
       "date": "2026-11-19"
+    },
+    {
+      "count": 3,
+      "date": "2026-11-20"
     }
   ],
   "login": "EthanChenHyland",
@@ -1731,6 +1731,31 @@
         "url": "https://github.com/EthanChenHyland/FunChessEngine/releases/tag/v1.1.0"
       },
       "url": "https://github.com/EthanChenHyland/FunChessEngine"
+    },
+    {
+      "archived": false,
+      "branch": "main",
+      "description": "",
+      "issues_enabled": true,
+      "languages": {
+        "CSS": 37187,
+        "HTML": 1414,
+        "Java": 215831,
+        "JavaScript": 924295,
+        "Python": 19666,
+        "TypeScript": 3857202
+      },
+      "latest_commit": {
+        "date": "2026-11-20",
+        "headline": "Merge pull request #1 from EthanChenHyland/reference-exact-rebuild",
+        "url": "https://github.com/EthanChenHyland/GGJavaEZ/commit/99ac4343ba322c98973cb47b7ebbac912ffa8f68"
+      },
+      "name": "GGJavaEZ",
+      "primary": "TypeScript",
+      "pushed": "2026-11-20",
+      "pushed_at": "2026-11-20T07:33:58Z",
+      "release": null,
+      "url": "https://github.com/EthanChenHyland/GGJavaEZ"
     },
     {
       "archived": false,
