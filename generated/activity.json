@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-11-21"
-    },
     {
       "count": 0,
       "date": "2025-11-22"
@@ -1458,8 +1454,12 @@
       "date": "2026-11-19"
     },
     {
-      "count": 3,
+      "count": 6,
       "date": "2026-11-20"
+    },
+    {
+      "count": 0,
+      "date": "2026-11-21"
     }
   ],
   "login": "EthanChenHyland",
@@ -1743,17 +1743,17 @@
         "Java": 215831,
         "JavaScript": 924295,
         "Python": 19666,
-        "TypeScript": 3857202
+        "TypeScript": 3873519
       },
       "latest_commit": {
         "date": "2026-11-20",
-        "headline": "Merge pull request #1 from EthanChenHyland/reference-exact-rebuild",
-        "url": "https://github.com/EthanChenHyland/GGJavaEZ/commit/99ac4343ba322c98973cb47b7ebbac912ffa8f68"
+        "headline": "Merge pull request #2 from EthanChenHyland/reference-exact-rebuild",
+        "url": "https://github.com/EthanChenHyland/GGJavaEZ/commit/cd4bd85d4f1221b2cecb6babdd6227ccfe058e24"
       },
       "name": "GGJavaEZ",
       "primary": "TypeScript",
-      "pushed": "2026-11-20",
-      "pushed_at": "2026-11-20T07:33:58Z",
+      "pushed": "2026-11-21",
+      "pushed_at": "2026-11-21T14:13:05Z",
       "release": null,
       "url": "https://github.com/EthanChenHyland/GGJavaEZ"
     },
