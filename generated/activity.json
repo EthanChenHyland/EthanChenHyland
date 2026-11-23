@@ -1,10 +1,6 @@
 {
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "days": [
-    {
-      "count": 0,
-      "date": "2025-11-23"
-    },
     {
       "count": 0,
       "date": "2025-11-24"
@@ -1460,6 +1456,10 @@
     {
       "count": 0,
       "date": "2026-11-22"
+    },
+    {
+      "count": 0,
+      "date": "2026-11-23"
     }
   ],
   "login": "EthanChenHyland",
@@ -1752,8 +1752,8 @@
       },
       "name": "GGJavaEZ",
       "primary": "TypeScript",
-      "pushed": "2026-11-21",
-      "pushed_at": "2026-11-21T20:15:26Z",
+      "pushed": "2026-11-23",
+      "pushed_at": "2026-11-23T00:19:17Z",
       "release": null,
       "url": "https://github.com/EthanChenHyland/GGJavaEZ"
     },
